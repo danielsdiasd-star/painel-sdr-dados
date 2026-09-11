@@ -1,0 +1,107 @@
+{
+  "lossAnalysis": {
+    "generatedAt": "2026-09-11T15:24:13Z",
+    "totalAnalisado": 8,
+    "byPerson": [
+      {
+        "name": "João Vitor",
+        "pipeline": "Comercial - Global Pro Pika",
+        "totalClassificado": 7,
+        "totalPerdidoNoFunil": 56,
+        "semTranscricao": 49,
+        "porMotivo": [
+          {
+            "motivo": "ICP",
+            "qtd": 5
+          },
+          {
+            "motivo": "Não tem prioridade",
+            "qtd": 1
+          },
+          {
+            "motivo": "Não tem Agenda",
+            "qtd": 1
+          }
+        ]
+      },
+      {
+        "name": "Kaio Ikeda",
+        "pipeline": "Comercial - PÓS SANGUINÁRIA",
+        "totalClassificado": 1,
+        "totalPerdidoNoFunil": 7,
+        "semTranscricao": 6,
+        "porMotivo": [
+          {
+            "motivo": "ICP",
+            "qtd": 1
+          }
+        ]
+      }
+    ],
+    "samples": [
+      {
+        "leadName": "Pedro",
+        "attendantName": "João Vitor",
+        "role": "sdr",
+        "motivoIA": "ICP",
+        "evidencia": "A pessoa não conseguiu entender a proposta e parece não ter relação com a tecnologia."
+      },
+      {
+        "leadName": "Aieychan",
+        "attendantName": "João Vitor",
+        "role": "sdr",
+        "motivoIA": "ICP",
+        "evidencia": "A ligação não apresenta informações que comprovem o interesse ou perfil adequado do lead."
+      },
+      {
+        "leadName": "Jessica",
+        "attendantName": "João Vitor",
+        "role": "sdr",
+        "motivoIA": "ICP",
+        "evidencia": "A pessoa mencionou que trabalha como júnior, o que corresponde ao perfil do ICP."
+      },
+      {
+        "leadName": "Lucas",
+        "attendantName": "João Vitor",
+        "role": "sdr",
+        "motivoIA": "Não tem Agenda",
+        "evidencia": "A ligação indica que a pessoa está impossibilitada de participar devido à confusão."
+      },
+      {
+        "leadName": "Felipe",
+        "attendantName": "Kaio Ikeda",
+        "role": "sdr",
+        "motivoIA": "ICP",
+        "evidencia": "Eu tô vendo aqui que hoje em dia você tá como um júnior, é isso mesmo?"
+      }
+    ],
+    "taxonomiaSdr": [
+      {
+        "nome": "ICP",
+        "definicao": "Quem é Júnior, ou quem trabalha com uma tecnologia antiga, ou quem não é desenvolvedor."
+      },
+      {
+        "nome": "Não tem Agenda",
+        "definicao": "A pessoa que está completamente impossibilitada de participar do programa."
+      },
+      {
+        "nome": "Financeiro",
+        "definicao": "Quem não tem grana pra investir."
+      },
+      {
+        "nome": "Não tem prioridade",
+        "definicao": "É o ICP, tem grana, mas não tem prioridade/urgência para fechar agora."
+      }
+    ],
+    "taxonomiaCloser": [
+      {
+        "nome": "Mentiu na pré-venda",
+        "definicao": "O lead passou informações falsas na etapa de pré-venda (com o SDR) que só se revelaram falsas na reunião com o Closer."
+      },
+      {
+        "nome": "Não é o decisor",
+        "definicao": "A pessoa na reunião não tem autonomia/poder de decisão para fechar a compra sozinha."
+      }
+    ]
+  }
+}
