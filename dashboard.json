@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T21:20:21.231116Z",
+  "generatedAt": "2026-09-11T21:26:09.685586Z",
   "openTotal": 4621,
   "yesterdayTotal": 312,
   "byPipeline": {
@@ -152,7 +152,7 @@
       "totalAberto": 1468,
       "yesterdayEntradas": 90,
       "tempoMedioNaEtapaDias": 1.7,
-      "paradosMais3Dias": 93,
+      "paradosMais3Dias": 117,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 53,
       "porEtapa": [
@@ -188,7 +188,7 @@
       "totalAberto": 1384,
       "yesterdayEntradas": 94,
       "tempoMedioNaEtapaDias": 2.1,
-      "paradosMais3Dias": 119,
+      "paradosMais3Dias": 125,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 26,
       "porEtapa": [
