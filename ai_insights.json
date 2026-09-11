@@ -1,22 +1,22 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-11T20:10:52Z",
+    "generatedAt": "2026-09-11T22:51:43Z",
     "items": [
       {
-        "titulo": "Atenção para leads parados há mais de 3 dias.",
-        "detalhe": "Foram registrados 71 leads parados há mais de 3 dias com João Vitor, 105 com Gabriel Silva e 96 com Maicon Oliveira, totalizando 272 leads. Este número subiu em relação ao histórico recém-analisado (253).",
+        "titulo": "Aumentar follow-up em leads parados",
+        "detalhe": "Total de 403 leads parados há mais de 3 dias, um aumento de 54% em relação à última leitura. Priorizar leads com 'paradosMais3Dias'.",
+        "severidade": "alta",
+        "atendente": "Gabriel Silva"
+      },
+      {
+        "titulo": "Atenção ao aumento em 'em perdido mas ainda aberto'",
+        "detalhe": "Total de 161 leads marcados como 'em perdido mas ainda aberto', um crescimento de 34% nas últimas três leituras. Risco de perda real.",
         "severidade": "alta",
         "atendente": "João Vitor"
       },
       {
-        "titulo": "Cuidado com leads perdidos não confirmados.",
-        "detalhe": "Total de 50 leads perdidos não confirmados com João Vitor e 25 com Gabriel Silva, totalizando 75. Este número de leads perdidos não confirmados está aumentando.",
-        "severidade": "media",
-        "atendente": "João Vitor"
-      },
-      {
-        "titulo": "Leads com boas entradas no PÓS SANGUINÁRIA, massifique de acordo.",
-        "detalhe": "Foram 34 entradas recentes com Gabriel Santos e 2 com João Lima, o que está indo na direção certa.",
+        "titulo": "Leads da PÓS SANGUINÁRIA sob controle",
+        "detalhe": "Leads abertos totalizam 58, mas sem preocupações relativas a furos ou parados. Em estabilidade.",
         "severidade": "baixa",
         "atendente": null
       }
