@@ -1,24 +1,24 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-11T15:13:16Z",
+    "generatedAt": "2026-09-11T20:10:52Z",
     "items": [
       {
-        "titulo": "Aumentar foco nos leads parados",
-        "detalhe": "76 leads parados mais de 3 dias com João Vitor, 81 com Gabriel Silva e 89 com Maicon Oliveira, totalizando 246. Aumentar acompanhamento é urgente.",
+        "titulo": "Atenção para leads parados há mais de 3 dias.",
+        "detalhe": "Foram registrados 71 leads parados há mais de 3 dias com João Vitor, 105 com Gabriel Silva e 96 com Maicon Oliveira, totalizando 272 leads. Este número subiu em relação ao histórico recém-analisado (253).",
         "severidade": "alta",
         "atendente": "João Vitor"
       },
       {
-        "titulo": "Leads com status perdido ainda abertos",
-        "detalhe": "João Vitor tem 48 e Gabriel Silva tem 23 levando a 71 leads classificados como perdidos ainda em andamento.",
+        "titulo": "Cuidado com leads perdidos não confirmados.",
+        "detalhe": "Total de 50 leads perdidos não confirmados com João Vitor e 25 com Gabriel Silva, totalizando 75. Este número de leads perdidos não confirmados está aumentando.",
         "severidade": "media",
-        "atendente": "Gabriel Silva"
+        "atendente": "João Vitor"
       },
       {
-        "titulo": "Avaliar pipeline PÓS SANGUINÁRIA",
-        "detalhe": "Total de 54 leads abertos, com um levantamento de 25 em status perdido e com apenas 11 dias um lead na mesma condição sem acompanhamento.",
+        "titulo": "Leads com boas entradas no PÓS SANGUINÁRIA, massifique de acordo.",
+        "detalhe": "Foram 34 entradas recentes com Gabriel Santos e 2 com João Lima, o que está indo na direção certa.",
         "severidade": "baixa",
-        "atendente": "Gabriel Santos"
+        "atendente": null
       }
     ]
   }
