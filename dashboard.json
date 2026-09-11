@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-09-11T21:58:08.336652Z",
+  "generatedAt": "2026-09-11T23:28:51.820597Z",
   "openTotal": 4621,
   "yesterdayTotal": 311,
   "byPipeline": {
     "Comercial - Global Pro Pika": {
-      "openTotal": 4185,
+      "openTotal": 4184,
       "yesterdayEntradas": 275,
       "zombieGanhoOuPerdido": 91,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 91
     },
     "Comercial - PÓS SANGUINÁRIA": {
-      "openTotal": 58,
+      "openTotal": 60,
       "yesterdayEntradas": 36,
-      "zombieGanhoOuPerdido": 31,
+      "zombieGanhoOuPerdido": 32,
       "emGanhoMasAindaAberto": 0,
-      "emPerdidoMasAindaAberto": 31
+      "emPerdidoMasAindaAberto": 32
     }
   },
   "pipelineStages": {
@@ -50,54 +50,54 @@
       "etapas": [
         {
           "etapa": "Novo Cliente Webnário",
-          "qtdNaEtapa": 162,
-          "qtdNestaOuAFrente": 1301,
-          "conversaoParaProximaEtapaPct": 87.5
+          "qtdNaEtapa": 156,
+          "qtdNestaOuAFrente": 1296,
+          "conversaoParaProximaEtapaPct": 88.0
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtdNaEtapa": 420,
-          "qtdNestaOuAFrente": 1139,
-          "conversaoParaProximaEtapaPct": 63.1
+          "qtdNaEtapa": 426,
+          "qtdNestaOuAFrente": 1140,
+          "conversaoParaProximaEtapaPct": 62.6
         },
         {
           "etapa": "APLICAÇÕES (Respondi)",
-          "qtdNaEtapa": 0,
-          "qtdNestaOuAFrente": 719,
-          "conversaoParaProximaEtapaPct": 100.0
+          "qtdNaEtapa": 1,
+          "qtdNestaOuAFrente": 714,
+          "conversaoParaProximaEtapaPct": 99.9
         },
         {
           "etapa": "Em Cadência",
-          "qtdNaEtapa": 701,
-          "qtdNestaOuAFrente": 719,
-          "conversaoParaProximaEtapaPct": 2.5
+          "qtdNaEtapa": 699,
+          "qtdNestaOuAFrente": 713,
+          "conversaoParaProximaEtapaPct": 2.0
         },
         {
           "etapa": "Atendeu - Qualificado",
           "qtdNaEtapa": 7,
-          "qtdNestaOuAFrente": 18,
-          "conversaoParaProximaEtapaPct": 61.1
-        },
-        {
-          "etapa": "Reunião Marcada",
-          "qtdNaEtapa": 9,
-          "qtdNestaOuAFrente": 11,
-          "conversaoParaProximaEtapaPct": 18.2
-        },
-        {
-          "etapa": "Reunião Realizada",
-          "qtdNaEtapa": 1,
-          "qtdNestaOuAFrente": 2,
+          "qtdNestaOuAFrente": 14,
           "conversaoParaProximaEtapaPct": 50.0
         },
         {
+          "etapa": "Reunião Marcada",
+          "qtdNaEtapa": 5,
+          "qtdNestaOuAFrente": 7,
+          "conversaoParaProximaEtapaPct": 28.6
+        },
+        {
+          "etapa": "Reunião Realizada",
+          "qtdNaEtapa": 2,
+          "qtdNestaOuAFrente": 2,
+          "conversaoParaProximaEtapaPct": 0.0
+        },
+        {
           "etapa": "GANHO",
-          "qtdNaEtapa": 1,
-          "qtdNestaOuAFrente": 1,
+          "qtdNaEtapa": 0,
+          "qtdNestaOuAFrente": 0,
           "conversaoParaProximaEtapaPct": null
         }
       ],
-      "conversaoTotalPct": 0.1,
+      "conversaoTotalPct": 0.0,
       "metodologia": "snapshot",
       "nota": "\"Novo Lead (Antes 09/09)\" fica fora do funil: e o balde de leads legados da migracao, nao fluxo atual. \"PERDIDO SDR\"/\"PERDIDO CLOSER\" sao saidas, \"No-show / Reagendamento\" e lateral."
     },
@@ -105,15 +105,15 @@
       "etapas": [
         {
           "etapa": "Novo Lead",
-          "qtdNaEtapa": 0,
-          "qtdNestaOuAFrente": 26,
-          "conversaoParaProximaEtapaPct": 100.0
+          "qtdNaEtapa": 2,
+          "qtdNestaOuAFrente": 27,
+          "conversaoParaProximaEtapaPct": 92.6
         },
         {
           "etapa": "Em Cadência",
-          "qtdNaEtapa": 22,
-          "qtdNestaOuAFrente": 26,
-          "conversaoParaProximaEtapaPct": 15.4
+          "qtdNaEtapa": 21,
+          "qtdNestaOuAFrente": 25,
+          "conversaoParaProximaEtapaPct": 16.0
         },
         {
           "etapa": "Atendeu - Qualificado",
@@ -149,10 +149,10 @@
     {
       "name": "João Vitor",
       "pipeline": "Comercial - Global Pro Pika",
-      "totalAberto": 1467,
+      "totalAberto": 1466,
       "yesterdayEntradas": 89,
-      "tempoMedioNaEtapaDias": 1.7,
-      "paradosMais3Dias": 119,
+      "tempoMedioNaEtapaDias": 1.8,
+      "paradosMais3Dias": 164,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 53,
       "porEtapa": [
@@ -162,19 +162,19 @@
         },
         {
           "etapa": "Em Cadência",
-          "qtd": 478
+          "qtd": 477
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtd": 134
-        },
-        {
-          "etapa": "Novo Cliente Webnário",
-          "qtd": 53
+          "qtd": 137
         },
         {
           "etapa": "PERDIDO SDR",
           "qtd": 53
+        },
+        {
+          "etapa": "Novo Cliente Webnário",
+          "qtd": 50
         },
         {
           "etapa": "Atendeu - Qualificado",
@@ -185,10 +185,10 @@
     {
       "name": "Gabriel Silva",
       "pipeline": "Comercial - Global Pro Pika",
-      "totalAberto": 1384,
+      "totalAberto": 1385,
       "yesterdayEntradas": 94,
       "tempoMedioNaEtapaDias": 2.1,
-      "paradosMais3Dias": 133,
+      "paradosMais3Dias": 145,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 26,
       "porEtapa": [
@@ -198,7 +198,7 @@
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtd": 143
+          "qtd": 144
         },
         {
           "etapa": "Em Cadência",
@@ -206,7 +206,7 @@
         },
         {
           "etapa": "Novo Cliente Webnário",
-          "qtd": 55
+          "qtd": 54
         },
         {
           "etapa": "PERDIDO SDR",
@@ -219,16 +219,20 @@
         {
           "etapa": "PERDIDO CLOSER",
           "qtd": 2
+        },
+        {
+          "etapa": "APLICAÇÕES (Respondi)",
+          "qtd": 1
         }
       ]
     },
     {
       "name": "Maicon Oliveira",
       "pipeline": "Comercial - Global Pro Pika",
-      "totalAberto": 1334,
+      "totalAberto": 1333,
       "yesterdayEntradas": 92,
-      "tempoMedioNaEtapaDias": 2.1,
-      "paradosMais3Dias": 99,
+      "tempoMedioNaEtapaDias": 2.2,
+      "paradosMais3Dias": 101,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 12,
       "porEtapa": [
@@ -238,22 +242,22 @@
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtd": 143
+          "qtd": 145
         },
         {
           "etapa": "Em Cadência",
-          "qtd": 71
+          "qtd": 70
         },
         {
           "etapa": "Novo Cliente Webnário",
-          "qtd": 54
+          "qtd": 52
         },
         {
           "etapa": "PERDIDO SDR",
           "qtd": 12
         },
         {
-          "etapa": "Reunião Marcada",
+          "etapa": "No-show / Reagendamento",
           "qtd": 4
         },
         {
@@ -261,7 +265,7 @@
           "qtd": 2
         },
         {
-          "etapa": "No-show / Reagendamento",
+          "etapa": "Reunião Realizada",
           "qtd": 1
         }
       ]
@@ -274,15 +278,15 @@
       "tempoMedioNaEtapaDias": 0.5,
       "paradosMais3Dias": 1,
       "emGanhoMasAindaAberto": 0,
-      "emPerdidoMasAindaAberto": 29,
+      "emPerdidoMasAindaAberto": 30,
       "porEtapa": [
         {
           "etapa": "PERDIDO SDR",
-          "qtd": 27
+          "qtd": 28
         },
         {
           "etapa": "Em Cadência",
-          "qtd": 18
+          "qtd": 17
         },
         {
           "etapa": "Reunião Marcada",
@@ -314,7 +318,7 @@
       "pipeline": "Comercial - PÓS SANGUINÁRIA",
       "totalAberto": 1,
       "yesterdayEntradas": 0,
-      "tempoMedioNaEtapaDias": 1.1,
+      "tempoMedioNaEtapaDias": 1.2,
       "paradosMais3Dias": 0,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 0,
@@ -328,9 +332,9 @@
     {
       "name": "João Lima",
       "pipeline": "Comercial - PÓS SANGUINÁRIA",
-      "totalAberto": 6,
+      "totalAberto": 8,
       "yesterdayEntradas": 2,
-      "tempoMedioNaEtapaDias": 3.0,
+      "tempoMedioNaEtapaDias": 2.3,
       "paradosMais3Dias": 4,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 2,
@@ -338,6 +342,10 @@
         {
           "etapa": "Em Cadência",
           "qtd": 3
+        },
+        {
+          "etapa": "Novo Lead",
+          "qtd": 2
         },
         {
           "etapa": "PERDIDO SDR",
@@ -362,13 +370,13 @@
     }
   ],
   "vendasFechadas": {
-    "qtdTotal": 9,
-    "valorTotal": 61886.23,
+    "qtdTotal": 10,
+    "valorTotal": 70559.23000000001,
     "semAtendente": 3,
     "porPipeline": {
       "Comercial - Global Pro Pika": {
-        "qtd": 5,
-        "valorTotal": 32944.19,
+        "qtd": 6,
+        "valorTotal": 41617.19,
         "qtdOntem": 1,
         "valorOntem": 8000
       },
@@ -391,6 +399,12 @@
         "pipeline": "Comercial - Global Pro Pika",
         "qtd": 2,
         "valorTotal": 12000
+      },
+      {
+        "name": "Bruna Lenotti",
+        "pipeline": "Comercial - Global Pro Pika",
+        "qtd": 1,
+        "valorTotal": 8673
       },
       {
         "name": "João Lima",
@@ -454,6 +468,13 @@
         "attendantName": "Leonardo Ruthes",
         "total": 7997,
         "statusChangedAt": "2026-09-08T03:00:00.000Z"
+      },
+      {
+        "leadName": "Thiago",
+        "pipeline": "Comercial - Global Pro Pika",
+        "attendantName": "Bruna Lenotti",
+        "total": 8673,
+        "statusChangedAt": "2026-09-07T03:00:00.000Z"
       },
       {
         "leadName": "Marcelo Medeiros",
