@@ -1,22 +1,22 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-12T01:59:22Z",
+    "generatedAt": "2026-09-12T07:25:29Z",
     "items": [
       {
-        "titulo": "Aumento nos negócios parados do funil Global Pro Pika",
-        "detalhe": "Os negócios parados por mais de 3 dias aumentaram de 119 para 165, o que mostra um mau sinal de acompanhamento.",
+        "titulo": "Aumento de leads parados em aberto no Global Pro Pika",
+        "detalhe": "Os leads parados há mais de 3 dias subiram para 165, um aumento em relação aos 76 do dia anterior, indicando uma tendência negativa. Urgente atender esses casos.",
         "severidade": "alta",
-        "atendente": "João Vitor"
+        "atendente": null
       },
       {
-        "titulo": "Aumento nos negócios perdidos abertos",
-        "detalhe": "A quantidade de negócios 'em Perdido Mas Ainda Aberto' subiu de 26 para 30 para Gabriel Santos, indicando risco de perda maior.",
-        "severidade": "alta",
-        "atendente": "Gabriel Santos"
+        "titulo": "Leads perdidos ainda abertos no Global Pro Pika",
+        "detalhe": "Existem 53 leads marcados como perdidos mas ainda abertos, o que representa um risco caso sejam esquecidos, pois não houve mudanças recentes para encaminhamento.",
+        "severidade": "media",
+        "atendente": null
       },
       {
-        "titulo": "Funil PÓS SANGUINÁRIA está estável",
-        "detalhe": "Não há aumento significativo nos números do funil PÓS SANGUINÁRIA, nem preocupações atuais.",
+        "titulo": "Leads estáveis no pós-graduação",
+        "detalhe": "Os números no pipeline de PÓS SANGUINÁRIA estão sob controle, com 51 leads ativos e nenhuma preocupação imediata.",
         "severidade": "baixa",
         "atendente": null
       }
