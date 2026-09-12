@@ -1,24 +1,24 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-12T12:29:11Z",
+    "generatedAt": "2026-09-12T17:30:53Z",
     "items": [
       {
-        "titulo": "Problema crescente no pipeline Global Pro Pika",
-        "detalhe": "O total aberto aumentou de 1465 para 1466 em 3h, com 165 leads parados há mais de 3 dias, o que é uma tendência negativa de 3 leituras seguidas.",
+        "titulo": "Aumento de Leads Parados",
+        "detalhe": "165 leads em 'paradosMais3Dias' no funil Global Pro Pika, um aumento em relação aos 119 do último histórico.",
         "severidade": "alta",
         "atendente": "João Vitor"
       },
       {
-        "titulo": "Aumentar acompanhamento dos leads parados no pipeline Global Pro Pika",
-        "detalhe": "Dos 4 atendentes, 2 têm leads parados há mais de 3 dias, totalizando 165 + 154, representando um total preocupante de 319 leads.",
-        "severidade": "alta",
-        "atendente": "Gabriel Silva"
+        "titulo": "Total de Leads Abertos",
+        "detalhe": "Total de 1466 leads abertos no funil Global Pro Pika, com tendência de crescimento nos últimos registros, onde o total era 1465 anteriormente.",
+        "severidade": "media",
+        "atendente": "João Vitor"
       },
       {
-        "titulo": "Gabriel Santos - pipeline PÓS SANGUINÁRIA",
-        "detalhe": "51 leads abertos, com 30 em status perdido mas ainda aberto, necessidade de urgente revisão.",
-        "severidade": "media",
-        "atendente": "Gabriel Santos"
+        "titulo": "Leads Últimos 3 Dias",
+        "detalhe": "Considere que 'emPerdidoMasAindaAberto' mantém 53 casos ao longo das últimas 3 leituras, sem redução aparente.",
+        "severidade": "baixa",
+        "atendente": "João Vitor"
       }
     ]
   }
