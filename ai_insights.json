@@ -1,24 +1,24 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-12T07:25:29Z",
+    "generatedAt": "2026-09-12T12:29:11Z",
     "items": [
       {
-        "titulo": "Aumento de leads parados em aberto no Global Pro Pika",
-        "detalhe": "Os leads parados há mais de 3 dias subiram para 165, um aumento em relação aos 76 do dia anterior, indicando uma tendência negativa. Urgente atender esses casos.",
+        "titulo": "Problema crescente no pipeline Global Pro Pika",
+        "detalhe": "O total aberto aumentou de 1465 para 1466 em 3h, com 165 leads parados há mais de 3 dias, o que é uma tendência negativa de 3 leituras seguidas.",
         "severidade": "alta",
-        "atendente": null
+        "atendente": "João Vitor"
       },
       {
-        "titulo": "Leads perdidos ainda abertos no Global Pro Pika",
-        "detalhe": "Existem 53 leads marcados como perdidos mas ainda abertos, o que representa um risco caso sejam esquecidos, pois não houve mudanças recentes para encaminhamento.",
+        "titulo": "Aumentar acompanhamento dos leads parados no pipeline Global Pro Pika",
+        "detalhe": "Dos 4 atendentes, 2 têm leads parados há mais de 3 dias, totalizando 165 + 154, representando um total preocupante de 319 leads.",
+        "severidade": "alta",
+        "atendente": "Gabriel Silva"
+      },
+      {
+        "titulo": "Gabriel Santos - pipeline PÓS SANGUINÁRIA",
+        "detalhe": "51 leads abertos, com 30 em status perdido mas ainda aberto, necessidade de urgente revisão.",
         "severidade": "media",
-        "atendente": null
-      },
-      {
-        "titulo": "Leads estáveis no pós-graduação",
-        "detalhe": "Os números no pipeline de PÓS SANGUINÁRIA estão sob controle, com 51 leads ativos e nenhuma preocupação imediata.",
-        "severidade": "baixa",
-        "atendente": null
+        "atendente": "Gabriel Santos"
       }
     ]
   }
