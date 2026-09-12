@@ -1,24 +1,24 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-12T19:49:20Z",
+    "generatedAt": "2026-09-12T22:42:11Z",
     "items": [
       {
-        "titulo": "Aumento de leads abertos sem movimentação",
-        "detalhe": "Total de leads parados por mais de 3 dias subiu para 165 para João Vitor e 154 para Gabriel Silva, ambos sem avanço, indicando um problema crescente na operação.",
+        "titulo": "Atenção com leads parados na etapa há mais de 3 dias",
+        "detalhe": "Total de 165 leads parados no João Vitor, 154 no Gabriel Silva e 107 no Maicon Oliveira. Manter essa quantidade crescente pode resultar em perda.",
         "severidade": "alta",
-        "atendente": "João Vitor, Gabriel Silva"
+        "atendente": "João Vitor"
       },
       {
-        "titulo": "Perdas acumuladas em negócios perdidos (em processo)",
-        "detalhe": "Os leads 'emPerdidoMasAindaAberto' com status de perdido acumulam 53 para João Vitor e 26 para Gabriel Silva, necessitando follow-up para evitar perda definitiva.",
+        "titulo": "Aumenta o número de leads perdidos sem confirmação",
+        "detalhe": "A quantidade de 'em Perdido mas Ainda Aberto' subiu para 53 no João Vitor e 26 no Gabriel Silva. Avaliar estratégias de follow-up.",
         "severidade": "alta",
-        "atendente": "João Vitor, Gabriel Silva"
+        "atendente": "João Vitor"
       },
       {
-        "titulo": "Entradas do dia estão abaixo do esperado mas sem problemas críticos",
-        "detalhe": "Entradas do dia variam entre 7 a 31, mas não demonstram uma tendência preocupante para fechamento.",
+        "titulo": "Nada realmente preocupante nas receitas atuais",
+        "detalhe": "",
         "severidade": "baixa",
-        "atendente": "null"
+        "atendente": null
       }
     ]
   }
