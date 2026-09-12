@@ -1,24 +1,24 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-12T17:30:53Z",
+    "generatedAt": "2026-09-12T19:49:20Z",
     "items": [
       {
-        "titulo": "Aumento de Leads Parados",
-        "detalhe": "165 leads em 'paradosMais3Dias' no funil Global Pro Pika, um aumento em relação aos 119 do último histórico.",
+        "titulo": "Aumento de leads abertos sem movimentação",
+        "detalhe": "Total de leads parados por mais de 3 dias subiu para 165 para João Vitor e 154 para Gabriel Silva, ambos sem avanço, indicando um problema crescente na operação.",
         "severidade": "alta",
-        "atendente": "João Vitor"
+        "atendente": "João Vitor, Gabriel Silva"
       },
       {
-        "titulo": "Total de Leads Abertos",
-        "detalhe": "Total de 1466 leads abertos no funil Global Pro Pika, com tendência de crescimento nos últimos registros, onde o total era 1465 anteriormente.",
-        "severidade": "media",
-        "atendente": "João Vitor"
+        "titulo": "Perdas acumuladas em negócios perdidos (em processo)",
+        "detalhe": "Os leads 'emPerdidoMasAindaAberto' com status de perdido acumulam 53 para João Vitor e 26 para Gabriel Silva, necessitando follow-up para evitar perda definitiva.",
+        "severidade": "alta",
+        "atendente": "João Vitor, Gabriel Silva"
       },
       {
-        "titulo": "Leads Últimos 3 Dias",
-        "detalhe": "Considere que 'emPerdidoMasAindaAberto' mantém 53 casos ao longo das últimas 3 leituras, sem redução aparente.",
+        "titulo": "Entradas do dia estão abaixo do esperado mas sem problemas críticos",
+        "detalhe": "Entradas do dia variam entre 7 a 31, mas não demonstram uma tendência preocupante para fechamento.",
         "severidade": "baixa",
-        "atendente": "João Vitor"
+        "atendente": "null"
       }
     ]
   }
