@@ -1,22 +1,22 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-11T22:51:43Z",
+    "generatedAt": "2026-09-12T01:59:22Z",
     "items": [
       {
-        "titulo": "Aumentar follow-up em leads parados",
-        "detalhe": "Total de 403 leads parados há mais de 3 dias, um aumento de 54% em relação à última leitura. Priorizar leads com 'paradosMais3Dias'.",
-        "severidade": "alta",
-        "atendente": "Gabriel Silva"
-      },
-      {
-        "titulo": "Atenção ao aumento em 'em perdido mas ainda aberto'",
-        "detalhe": "Total de 161 leads marcados como 'em perdido mas ainda aberto', um crescimento de 34% nas últimas três leituras. Risco de perda real.",
+        "titulo": "Aumento nos negócios parados do funil Global Pro Pika",
+        "detalhe": "Os negócios parados por mais de 3 dias aumentaram de 119 para 165, o que mostra um mau sinal de acompanhamento.",
         "severidade": "alta",
         "atendente": "João Vitor"
       },
       {
-        "titulo": "Leads da PÓS SANGUINÁRIA sob controle",
-        "detalhe": "Leads abertos totalizam 58, mas sem preocupações relativas a furos ou parados. Em estabilidade.",
+        "titulo": "Aumento nos negócios perdidos abertos",
+        "detalhe": "A quantidade de negócios 'em Perdido Mas Ainda Aberto' subiu de 26 para 30 para Gabriel Santos, indicando risco de perda maior.",
+        "severidade": "alta",
+        "atendente": "Gabriel Santos"
+      },
+      {
+        "titulo": "Funil PÓS SANGUINÁRIA está estável",
+        "detalhe": "Não há aumento significativo nos números do funil PÓS SANGUINÁRIA, nem preocupações atuais.",
         "severidade": "baixa",
         "atendente": null
       }
