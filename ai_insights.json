@@ -1,24 +1,24 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-13T19:58:06Z",
+    "generatedAt": "2026-09-13T22:43:34Z",
     "items": [
       {
-        "titulo": "Aumentar foco em leads parados",
-        "detalhe": "165 leads parados há mais de 3 dias no pipeline Global Pro Pika, um aumento de 9% em relação à última leitura (151).",
+        "titulo": "Número alto de leads parados",
+        "detalhe": "Total de 165 leads parados por mais de 3 dias para João Vitor, 154 para Gabriel Silva e 107 para Maicon Oliveira (tendência estável).",
         "severidade": "alta",
-        "atendente": null
+        "atendente": "null"
       },
       {
-        "titulo": "Atenção ao status de leads perdido",
-        "detalhe": "53 leads marcados como perdidos e ainda abertos, com 26 deles no pipeline do Gabriel Silva, demandando follow-up urgente.",
+        "titulo": "Leads perdidos ainda abertos",
+        "detalhe": "Total de 53 leads perdidos ainda abertos para João Vitor e 26 para Gabriel Silva, com necessidade de follow-up para evitar perdas.",
         "severidade": "alta",
-        "atendente": "Gabriel Silva"
+        "atendente": "null"
       },
       {
-        "titulo": "Baixa preocupação geral",
-        "detalhe": "Número total de leads abertos está estável (4.816), indicação de fluxo contínuo, sem variações alarmantes.",
+        "titulo": "Sinal positivo no pipeline de PÓS SANGUINÁRIA",
+        "detalhe": "No entanto, apenas 1 lead aberto e 7 entradas no dia de ontem, sem preocupações imediatas.",
         "severidade": "baixa",
-        "atendente": null
+        "atendente": "null"
       }
     ]
   }
