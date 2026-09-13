@@ -1,24 +1,24 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-13T13:31:01Z",
+    "generatedAt": "2026-09-13T17:46:24Z",
     "items": [
       {
-        "titulo": "Aumento nos Leads Abertos",
-        "detalhe": "Total de leads abertos chegou a 4.194, um aumento em relação aos 4.191 de ontem, além de uma tendência de aumento nos últimos 3 dias.",
+        "titulo": "Aumento em negócios parados mais de 3 dias",
+        "detalhe": "Total de 428 negócios parados por mais de 3 dias, um aumento em relação ao valor de 421 na última leitura, indicando possível acumulação de leads esquecidos.",
         "severidade": "alta",
-        "atendente": null
+        "atendente": "null"
       },
       {
-        "titulo": "Leads Parados por Mais de 3 Dias",
-        "detalhe": "Total de 428 leads parados por mais de 3 dias, representando um nível crítico de inatividade nos funis.",
-        "severidade": "alta",
-        "atendente": null
-      },
-      {
-        "titulo": "Acompanhamento dos Leads em Perdido",
-        "detalhe": "Total de 46 leads ainda em status 'perdido' mas abertos, requer atenção para evitar que se tornem vendas efetivamente perdidas.",
+        "titulo": "Perdas não confirmadas",
+        "detalhe": "Há 55 negócios em status de 'perdido mas ainda aberto' entre os atendentes, sinalizando a necessidade de follow-up.",
         "severidade": "media",
-        "atendente": null
+        "atendente": "null"
+      },
+      {
+        "titulo": "Estabilidade geral nas entradas",
+        "detalhe": "Média de entradas diárias mantém-se estável ao redor de 27 para os principais atendentes.",
+        "severidade": "baixa",
+        "atendente": "null"
       }
     ]
   }
