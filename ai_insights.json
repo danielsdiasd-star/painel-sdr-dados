@@ -1,24 +1,24 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-13T17:46:24Z",
+    "generatedAt": "2026-09-13T19:58:06Z",
     "items": [
       {
-        "titulo": "Aumento em negócios parados mais de 3 dias",
-        "detalhe": "Total de 428 negócios parados por mais de 3 dias, um aumento em relação ao valor de 421 na última leitura, indicando possível acumulação de leads esquecidos.",
+        "titulo": "Aumentar foco em leads parados",
+        "detalhe": "165 leads parados há mais de 3 dias no pipeline Global Pro Pika, um aumento de 9% em relação à última leitura (151).",
         "severidade": "alta",
-        "atendente": "null"
+        "atendente": null
       },
       {
-        "titulo": "Perdas não confirmadas",
-        "detalhe": "Há 55 negócios em status de 'perdido mas ainda aberto' entre os atendentes, sinalizando a necessidade de follow-up.",
-        "severidade": "media",
-        "atendente": "null"
+        "titulo": "Atenção ao status de leads perdido",
+        "detalhe": "53 leads marcados como perdidos e ainda abertos, com 26 deles no pipeline do Gabriel Silva, demandando follow-up urgente.",
+        "severidade": "alta",
+        "atendente": "Gabriel Silva"
       },
       {
-        "titulo": "Estabilidade geral nas entradas",
-        "detalhe": "Média de entradas diárias mantém-se estável ao redor de 27 para os principais atendentes.",
+        "titulo": "Baixa preocupação geral",
+        "detalhe": "Número total de leads abertos está estável (4.816), indicação de fluxo contínuo, sem variações alarmantes.",
         "severidade": "baixa",
-        "atendente": "null"
+        "atendente": null
       }
     ]
   }
