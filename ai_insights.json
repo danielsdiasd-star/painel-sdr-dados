@@ -1,23 +1,23 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-13T07:43:51Z",
+    "generatedAt": "2026-09-13T13:31:01Z",
     "items": [
       {
-        "titulo": "Aumento de Leads Parados",
-        "detalhe": "O total de leads parados por mais de 3 dias subiu para 165 no funil Global Pro Pika, indicando uma preocupação crescente com leads esquecidos, sendo 3 leituras seguidas com aumento.",
+        "titulo": "Aumento nos Leads Abertos",
+        "detalhe": "Total de leads abertos chegou a 4.194, um aumento em relação aos 4.191 de ontem, além de uma tendência de aumento nos últimos 3 dias.",
         "severidade": "alta",
-        "atendente": "João Vitor"
+        "atendente": null
       },
       {
-        "titulo": "Leads Perdidos Ainda Abertos",
-        "detalhe": "O número de negócios em 'perdido mas ainda aberto' continua em 53 no funil Global Pro Pika e 30 no funil PÓS SANGUINÁRIA, representando risco se não forem gerenciados rapidamente.",
+        "titulo": "Leads Parados por Mais de 3 Dias",
+        "detalhe": "Total de 428 leads parados por mais de 3 dias, representando um nível crítico de inatividade nos funis.",
         "severidade": "alta",
-        "atendente": "João Vitor"
+        "atendente": null
       },
       {
-        "titulo": "Performance de Entradas Mantém-se Estável",
-        "detalhe": "As entradas de leads nos últimos dias tiveram leve oscilação, com um total de 28 entradas ontologicamente, o que sugere uma manutenção estável de atração de leads.",
-        "severidade": "baixa",
+        "titulo": "Acompanhamento dos Leads em Perdido",
+        "detalhe": "Total de 46 leads ainda em status 'perdido' mas abertos, requer atenção para evitar que se tornem vendas efetivamente perdidas.",
+        "severidade": "media",
         "atendente": null
       }
     ]
