@@ -1,24 +1,24 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-12T22:42:11Z",
+    "generatedAt": "2026-09-13T01:53:10Z",
     "items": [
       {
-        "titulo": "Atenção com leads parados na etapa há mais de 3 dias",
-        "detalhe": "Total de 165 leads parados no João Vitor, 154 no Gabriel Silva e 107 no Maicon Oliveira. Manter essa quantidade crescente pode resultar em perda.",
+        "titulo": "Aumento significativo de leads parados",
+        "detalhe": "Os leads parados há mais de 3 dias estão em alta, com 165 na equipe do João Vitor e 154 na do Gabriel Silva.",
         "severidade": "alta",
         "atendente": "João Vitor"
       },
       {
-        "titulo": "Aumenta o número de leads perdidos sem confirmação",
-        "detalhe": "A quantidade de 'em Perdido mas Ainda Aberto' subiu para 53 no João Vitor e 26 no Gabriel Silva. Avaliar estratégias de follow-up.",
-        "severidade": "alta",
+        "titulo": "Estagnação no pipeline Global Pro Pika",
+        "detalhe": "Total de leads abertos se manteve em 1466 com baixa entrada (28), indicando estagnação no pipeline.",
+        "severidade": "media",
         "atendente": "João Vitor"
       },
       {
-        "titulo": "Nada realmente preocupante nas receitas atuais",
-        "detalhe": "",
+        "titulo": "A situação geral do pipeline PÓS SANGUINÁRIA está sob controle",
+        "detalhe": "A quantidade total de leads abertos (51) não apresenta preocupações maiores no momento.",
         "severidade": "baixa",
-        "atendente": null
+        "atendente": "null"
       }
     ]
   }
