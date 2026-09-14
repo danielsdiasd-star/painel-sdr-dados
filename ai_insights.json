@@ -1,24 +1,24 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-14T15:22:16Z",
+    "generatedAt": "2026-09-14T21:08:32Z",
     "items": [
       {
-        "titulo": "Parados por mais de 3 dias",
-        "detalhe": "Total de 1119 leads parados há mais de 3 dias no pipeline Global Pro Pika, 26% a mais do que na última leitura (885). Necessário urgência em follow-up.",
+        "titulo": "Aumento no número de leads parados",
+        "detalhe": "O total de leads parados por mais de 3 dias subiu de 165 para 1119 em João Vitor e de 154 para 1211 em Gabriel Silva, mostrando uma tendência alarmante de 578% em João Vitor e 687% em Gabriel Silva nas últimas 24 horas.",
         "severidade": "alta",
-        "atendente": "João Vitor"
+        "atendente": "João Vitor, Gabriel Silva"
       },
       {
-        "titulo": "Aumento de leads perdidos",
-        "detalhe": "64 leads perdidos no pipeline Global Pro Pika, subiu de 53 no último histórico. Necessário identificar e limpar a lista de forma efetiva.",
+        "titulo": "Altas taxas de lead perdido sem confirmação",
+        "detalhe": "O número de leads que ainda estão marcados como 'em Perdido' mas não confirmados aumentou significativamente: de 53 para 64 em João Vitor e de 26 a 25 em Gabriel Silva, exigindo imediata atenção.",
         "severidade": "alta",
-        "atendente": "João Vitor"
+        "atendente": "João Vitor, Gabriel Silva"
       },
       {
-        "titulo": "Situação geral",
-        "detalhe": "Todos os outros indicadores estão estáveis ou fora de situações críticas.",
+        "titulo": "Leads em 'ganho' ainda não confirmados se mantêm zero",
+        "detalhe": "Continua com zero o número de leads classificados como 'em Ganho mas ainda aberto', mostrando estagnação no fechamento de negócios.",
         "severidade": "baixa",
-        "atendente": null
+        "atendente": "João Vitor, Gabriel Silva"
       }
     ]
   }
