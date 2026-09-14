@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T19:48:39.600072Z",
+  "generatedAt": "2026-09-14T19:55:58.095055Z",
   "openTotal": 4992,
   "yesterdayTotal": 143,
   "byPipeline": {
@@ -51,32 +51,32 @@
         {
           "etapa": "Novo Cliente Webnário",
           "qtdNaEtapa": 210,
-          "qtdNestaOuAFrente": 1665,
-          "conversaoParaProximaEtapaPct": 87.4
+          "qtdNestaOuAFrente": 1699,
+          "conversaoParaProximaEtapaPct": 87.6
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
           "qtdNaEtapa": 673,
-          "qtdNestaOuAFrente": 1455,
-          "conversaoParaProximaEtapaPct": 53.7
+          "qtdNestaOuAFrente": 1489,
+          "conversaoParaProximaEtapaPct": 54.8
         },
         {
           "etapa": "APLICAÇÕES (Respondi)",
           "qtdNaEtapa": 0,
-          "qtdNestaOuAFrente": 782,
+          "qtdNestaOuAFrente": 816,
           "conversaoParaProximaEtapaPct": 100.0
         },
         {
           "etapa": "Em Cadência",
-          "qtdNaEtapa": 769,
-          "qtdNestaOuAFrente": 782,
+          "qtdNaEtapa": 802,
+          "qtdNestaOuAFrente": 816,
           "conversaoParaProximaEtapaPct": 1.7
         },
         {
           "etapa": "Atendeu - Qualificado",
-          "qtdNaEtapa": 5,
-          "qtdNestaOuAFrente": 13,
-          "conversaoParaProximaEtapaPct": 61.5
+          "qtdNaEtapa": 6,
+          "qtdNestaOuAFrente": 14,
+          "conversaoParaProximaEtapaPct": 57.1
         },
         {
           "etapa": "Reunião Marcada",
@@ -105,15 +105,15 @@
       "etapas": [
         {
           "etapa": "Novo Lead",
-          "qtdNaEtapa": 1,
+          "qtdNaEtapa": 0,
           "qtdNestaOuAFrente": 37,
-          "conversaoParaProximaEtapaPct": 97.3
+          "conversaoParaProximaEtapaPct": 100.0
         },
         {
           "etapa": "Em Cadência",
-          "qtdNaEtapa": 32,
-          "qtdNestaOuAFrente": 36,
-          "conversaoParaProximaEtapaPct": 11.1
+          "qtdNaEtapa": 33,
+          "qtdNestaOuAFrente": 37,
+          "conversaoParaProximaEtapaPct": 10.8
         },
         {
           "etapa": "Atendeu - Qualificado",
@@ -152,17 +152,17 @@
       "totalAberto": 1579,
       "yesterdayEntradas": 43,
       "tempoMedioNaEtapaDias": 4.3,
-      "paradosMais3Dias": 1339,
+      "paradosMais3Dias": 1348,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 66,
       "porEtapa": [
         {
           "etapa": "Novo Lead (Antes 09/09)",
-          "qtd": 726
+          "qtd": 722
         },
         {
           "etapa": "Em Cadência",
-          "qtd": 522
+          "qtd": 526
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
@@ -187,14 +187,14 @@
       "pipeline": "Comercial - Global Pro Pika",
       "totalAberto": 1503,
       "yesterdayEntradas": 49,
-      "tempoMedioNaEtapaDias": 4.7,
-      "paradosMais3Dias": 1297,
+      "tempoMedioNaEtapaDias": 4.6,
+      "paradosMais3Dias": 1266,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 29,
       "porEtapa": [
         {
           "etapa": "Novo Lead (Antes 09/09)",
-          "qtd": 1024
+          "qtd": 993
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
@@ -202,7 +202,7 @@
         },
         {
           "etapa": "Em Cadência",
-          "qtd": 142
+          "qtd": 172
         },
         {
           "etapa": "Novo Cliente Webnário",
@@ -214,7 +214,7 @@
         },
         {
           "etapa": "Atendeu - Qualificado",
-          "qtd": 3
+          "qtd": 4
         },
         {
           "etapa": "PERDIDO CLOSER",
@@ -227,7 +227,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "totalAberto": 1450,
       "yesterdayEntradas": 48,
-      "tempoMedioNaEtapaDias": 4.7,
+      "tempoMedioNaEtapaDias": 4.8,
       "paradosMais3Dias": 1240,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 13,
@@ -273,7 +273,7 @@
     {
       "name": "Gabriel Santos",
       "pipeline": "Comercial - PÓS SANGUINÁRIA",
-      "totalAberto": 71,
+      "totalAberto": 72,
       "yesterdayEntradas": 3,
       "tempoMedioNaEtapaDias": 2.5,
       "paradosMais3Dias": 46,
@@ -286,7 +286,7 @@
         },
         {
           "etapa": "Em Cadência",
-          "qtd": 30
+          "qtd": 31
         },
         {
           "etapa": "Reunião Marcada",
@@ -332,9 +332,9 @@
     {
       "name": "João Lima",
       "pipeline": "Comercial - PÓS SANGUINÁRIA",
-      "totalAberto": 8,
+      "totalAberto": 7,
       "yesterdayEntradas": 0,
-      "tempoMedioNaEtapaDias": 2.2,
+      "tempoMedioNaEtapaDias": 2.5,
       "paradosMais3Dias": 2,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 6,
@@ -342,10 +342,6 @@
         {
           "etapa": "PERDIDO SDR",
           "qtd": 5
-        },
-        {
-          "etapa": "Novo Lead",
-          "qtd": 1
         },
         {
           "etapa": "Reunião Marcada",
