@@ -1,24 +1,24 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-14T08:13:58Z",
+    "generatedAt": "2026-09-14T15:22:16Z",
     "items": [
       {
-        "titulo": "Aumento de Leads Parados",
-        "detalhe": "Total de leads parados por mais de 3 dias acumulou 165 no João Vitor e 154 no Gabriel Silva. Esses números estão crescendo, reforçando o risco de leads esquecidos.",
+        "titulo": "Parados por mais de 3 dias",
+        "detalhe": "Total de 1119 leads parados há mais de 3 dias no pipeline Global Pro Pika, 26% a mais do que na última leitura (885). Necessário urgência em follow-up.",
         "severidade": "alta",
         "atendente": "João Vitor"
       },
       {
-        "titulo": "Negócios em Risco: Perdidos",
-        "detalhe": "Total de emPerdidoMasAindaAberto subiu para 26 com Gabriel Silva e 30 com Gabriel Santos. Sinal de preocupação com follow-up.",
+        "titulo": "Aumento de leads perdidos",
+        "detalhe": "64 leads perdidos no pipeline Global Pro Pika, subiu de 53 no último histórico. Necessário identificar e limpar a lista de forma efetiva.",
         "severidade": "alta",
-        "atendente": "Gabriel Silva"
+        "atendente": "João Vitor"
       },
       {
-        "titulo": "Condições Gerais PODEM ser monitoradas",
-        "detalhe": "Atualmente, não há dados críticos fora do esperado, mas atenção nos leads parados e perdidos é essencial.",
+        "titulo": "Situação geral",
+        "detalhe": "Todos os outros indicadores estão estáveis ou fora de situações críticas.",
         "severidade": "baixa",
-        "atendente": "null"
+        "atendente": null
       }
     ]
   }
