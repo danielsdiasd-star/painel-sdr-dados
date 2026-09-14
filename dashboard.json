@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-14T22:10:26.678390Z",
-  "openTotal": 5005,
-  "yesterdayTotal": 143,
+  "generatedAt": "2026-09-14T22:43:19.684069Z",
+  "openTotal": 4986,
+  "yesterdayTotal": 139,
   "byPipeline": {
     "Comercial - Global Pro Pika": {
-      "openTotal": 4548,
-      "yesterdayEntradas": 140,
-      "zombieGanhoOuPerdido": 114,
+      "openTotal": 4529,
+      "yesterdayEntradas": 136,
+      "zombieGanhoOuPerdido": 94,
       "emGanhoMasAindaAberto": 0,
-      "emPerdidoMasAindaAberto": 114
+      "emPerdidoMasAindaAberto": 94
     },
     "Comercial - PÓS SANGUINÁRIA": {
       "openTotal": 76,
@@ -50,26 +50,26 @@
       "etapas": [
         {
           "etapa": "Novo Cliente Webnário",
-          "qtdNaEtapa": 216,
-          "qtdNestaOuAFrente": 1927,
-          "conversaoParaProximaEtapaPct": 88.8
+          "qtdNaEtapa": 206,
+          "qtdNestaOuAFrente": 1903,
+          "conversaoParaProximaEtapaPct": 89.2
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtdNaEtapa": 683,
-          "qtdNestaOuAFrente": 1711,
-          "conversaoParaProximaEtapaPct": 60.1
+          "qtdNaEtapa": 676,
+          "qtdNestaOuAFrente": 1697,
+          "conversaoParaProximaEtapaPct": 60.2
         },
         {
           "etapa": "APLICAÇÕES (Respondi)",
           "qtdNaEtapa": 0,
-          "qtdNestaOuAFrente": 1028,
+          "qtdNestaOuAFrente": 1021,
           "conversaoParaProximaEtapaPct": 100.0
         },
         {
           "etapa": "Em Cadência",
-          "qtdNaEtapa": 999,
-          "qtdNestaOuAFrente": 1028,
+          "qtdNaEtapa": 992,
+          "qtdNestaOuAFrente": 1021,
           "conversaoParaProximaEtapaPct": 2.8
         },
         {
@@ -149,12 +149,12 @@
     {
       "name": "João Vitor",
       "pipeline": "Comercial - Global Pro Pika",
-      "totalAberto": 1584,
-      "yesterdayEntradas": 43,
+      "totalAberto": 1563,
+      "yesterdayEntradas": 39,
       "tempoMedioNaEtapaDias": 4.3,
-      "paradosMais3Dias": 1335,
+      "paradosMais3Dias": 1325,
       "emGanhoMasAindaAberto": 0,
-      "emPerdidoMasAindaAberto": 70,
+      "emPerdidoMasAindaAberto": 47,
       "porEtapa": [
         {
           "etapa": "Novo Lead (Antes 09/09)",
@@ -162,7 +162,7 @@
         },
         {
           "etapa": "Em Cadência",
-          "qtd": 556
+          "qtd": 553
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
@@ -170,11 +170,15 @@
         },
         {
           "etapa": "Novo Cliente Webnário",
-          "qtd": 71
+          "qtd": 68
         },
         {
           "etapa": "PERDIDO SDR",
-          "qtd": 70
+          "qtd": 47
+        },
+        {
+          "etapa": "Acessou o Hotwebinar",
+          "qtd": 8
         },
         {
           "etapa": "Atendeu - Qualificado",
@@ -185,7 +189,7 @@
     {
       "name": "Gabriel Silva",
       "pipeline": "Comercial - Global Pro Pika",
-      "totalAberto": 1508,
+      "totalAberto": 1509,
       "yesterdayEntradas": 49,
       "tempoMedioNaEtapaDias": 4.0,
       "paradosMais3Dias": 1118,
@@ -198,15 +202,15 @@
         },
         {
           "etapa": "Em Cadência",
-          "qtd": 324
+          "qtd": 323
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtd": 235
+          "qtd": 231
         },
         {
           "etapa": "Novo Cliente Webnário",
-          "qtd": 72
+          "qtd": 68
         },
         {
           "etapa": "PERDIDO SDR",
@@ -217,6 +221,10 @@
           "qtd": 11
         },
         {
+          "etapa": "Acessou o Hotwebinar",
+          "qtd": 10
+        },
+        {
           "etapa": "PERDIDO CLOSER",
           "qtd": 2
         }
@@ -225,12 +233,12 @@
     {
       "name": "Maicon Oliveira",
       "pipeline": "Comercial - Global Pro Pika",
-      "totalAberto": 1456,
+      "totalAberto": 1457,
       "yesterdayEntradas": 48,
       "tempoMedioNaEtapaDias": 4.8,
-      "paradosMais3Dias": 1267,
+      "paradosMais3Dias": 1265,
       "emGanhoMasAindaAberto": 0,
-      "emPerdidoMasAindaAberto": 13,
+      "emPerdidoMasAindaAberto": 16,
       "porEtapa": [
         {
           "etapa": "Novo Lead (Antes 09/09)",
@@ -238,19 +246,23 @@
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtd": 248
+          "qtd": 245
         },
         {
           "etapa": "Em Cadência",
-          "qtd": 74
+          "qtd": 71
         },
         {
           "etapa": "Novo Cliente Webnário",
-          "qtd": 73
+          "qtd": 70
         },
         {
           "etapa": "PERDIDO SDR",
-          "qtd": 13
+          "qtd": 16
+        },
+        {
+          "etapa": "Acessou o Hotwebinar",
+          "qtd": 7
         },
         {
           "etapa": "No-show / Reagendamento",
@@ -275,8 +287,8 @@
       "pipeline": "Comercial - PÓS SANGUINÁRIA",
       "totalAberto": 69,
       "yesterdayEntradas": 3,
-      "tempoMedioNaEtapaDias": 2.6,
-      "paradosMais3Dias": 47,
+      "tempoMedioNaEtapaDias": 2.7,
+      "paradosMais3Dias": 48,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 32,
       "porEtapa": [
@@ -314,7 +326,7 @@
       "pipeline": "Comercial - PÓS SANGUINÁRIA",
       "totalAberto": 1,
       "yesterdayEntradas": 0,
-      "tempoMedioNaEtapaDias": 4.1,
+      "tempoMedioNaEtapaDias": 4.2,
       "paradosMais3Dias": 1,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 0,
@@ -514,7 +526,7 @@
   ],
   "sdrConversion": {
     "data": "2026-09-14",
-    "generatedAt": "2026-09-14T22:15:04.192163Z",
+    "generatedAt": "2026-09-14T22:48:21.618149Z",
     "porSdr": [
       {
         "name": "João Vitor",
@@ -589,6 +601,7 @@
         "taxaQualificacaoPct": null
       }
     ],
+    "ontem": null,
     "nota": "Ligacoes de hoje (fuso Brasilia) via D1 fsc-3c-calls. \"Atendida\" = conversa real (>=15s falando), mesma regra que move o negocio pra Atendeu-Qualificado. \"Qualificados\" conta so a 1a movimentacao automatica por negocio (nao repete se ligar de novo pro mesmo lead)."
   }
 }
