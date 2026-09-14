@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-14T22:43:19.684069Z",
-  "openTotal": 4986,
+  "generatedAt": "2026-09-14T23:03:55.921739Z",
+  "openTotal": 4988,
   "yesterdayTotal": 139,
   "byPipeline": {
     "Comercial - Global Pro Pika": {
-      "openTotal": 4529,
+      "openTotal": 4531,
       "yesterdayEntradas": 136,
-      "zombieGanhoOuPerdido": 94,
+      "zombieGanhoOuPerdido": 97,
       "emGanhoMasAindaAberto": 0,
-      "emPerdidoMasAindaAberto": 94
+      "emPerdidoMasAindaAberto": 97
     },
     "Comercial - PÓS SANGUINÁRIA": {
       "openTotal": 76,
@@ -50,26 +50,26 @@
       "etapas": [
         {
           "etapa": "Novo Cliente Webnário",
-          "qtdNaEtapa": 206,
-          "qtdNestaOuAFrente": 1903,
-          "conversaoParaProximaEtapaPct": 89.2
+          "qtdNaEtapa": 207,
+          "qtdNestaOuAFrente": 1898,
+          "conversaoParaProximaEtapaPct": 89.1
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtdNaEtapa": 676,
-          "qtdNestaOuAFrente": 1697,
-          "conversaoParaProximaEtapaPct": 60.2
+          "qtdNaEtapa": 672,
+          "qtdNestaOuAFrente": 1691,
+          "conversaoParaProximaEtapaPct": 60.3
         },
         {
           "etapa": "APLICAÇÕES (Respondi)",
           "qtdNaEtapa": 0,
-          "qtdNestaOuAFrente": 1021,
+          "qtdNestaOuAFrente": 1019,
           "conversaoParaProximaEtapaPct": 100.0
         },
         {
           "etapa": "Em Cadência",
-          "qtdNaEtapa": 992,
-          "qtdNestaOuAFrente": 1021,
+          "qtdNaEtapa": 990,
+          "qtdNestaOuAFrente": 1019,
           "conversaoParaProximaEtapaPct": 2.8
         },
         {
@@ -162,36 +162,40 @@
         },
         {
           "etapa": "Em Cadência",
-          "qtd": 553
+          "qtd": 552
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtd": 200
+          "qtd": 199
         },
         {
           "etapa": "Novo Cliente Webnário",
-          "qtd": 68
+          "qtd": 69
         },
         {
           "etapa": "PERDIDO SDR",
           "qtd": 47
         },
         {
-          "etapa": "Acessou o Hotwebinar",
-          "qtd": 8
+          "etapa": "Permaneceu 30 minutos",
+          "qtd": 7
         },
         {
           "etapa": "Atendeu - Qualificado",
           "qtd": 6
+        },
+        {
+          "etapa": "Acessou o Hotwebinar",
+          "qtd": 2
         }
       ]
     },
     {
       "name": "Gabriel Silva",
       "pipeline": "Comercial - Global Pro Pika",
-      "totalAberto": 1509,
+      "totalAberto": 1510,
       "yesterdayEntradas": 49,
-      "tempoMedioNaEtapaDias": 4.0,
+      "tempoMedioNaEtapaDias": 4.1,
       "paradosMais3Dias": 1118,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 31,
@@ -202,7 +206,7 @@
         },
         {
           "etapa": "Em Cadência",
-          "qtd": 323
+          "qtd": 322
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
@@ -221,8 +225,12 @@
           "qtd": 11
         },
         {
+          "etapa": "Permaneceu 30 minutos",
+          "qtd": 8
+        },
+        {
           "etapa": "Acessou o Hotwebinar",
-          "qtd": 10
+          "qtd": 4
         },
         {
           "etapa": "PERDIDO CLOSER",
@@ -233,12 +241,12 @@
     {
       "name": "Maicon Oliveira",
       "pipeline": "Comercial - Global Pro Pika",
-      "totalAberto": 1457,
+      "totalAberto": 1458,
       "yesterdayEntradas": 48,
       "tempoMedioNaEtapaDias": 4.8,
       "paradosMais3Dias": 1265,
       "emGanhoMasAindaAberto": 0,
-      "emPerdidoMasAindaAberto": 16,
+      "emPerdidoMasAindaAberto": 19,
       "porEtapa": [
         {
           "etapa": "Novo Lead (Antes 09/09)",
@@ -246,7 +254,7 @@
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtd": 245
+          "qtd": 242
         },
         {
           "etapa": "Em Cadência",
@@ -258,11 +266,15 @@
         },
         {
           "etapa": "PERDIDO SDR",
-          "qtd": 16
+          "qtd": 19
         },
         {
           "etapa": "Acessou o Hotwebinar",
-          "qtd": 7
+          "qtd": 4
+        },
+        {
+          "etapa": "Permaneceu 30 minutos",
+          "qtd": 4
         },
         {
           "etapa": "No-show / Reagendamento",
@@ -526,7 +538,7 @@
   ],
   "sdrConversion": {
     "data": "2026-09-14",
-    "generatedAt": "2026-09-14T22:48:21.618149Z",
+    "generatedAt": "2026-09-14T23:07:49.513539Z",
     "porSdr": [
       {
         "name": "João Vitor",
