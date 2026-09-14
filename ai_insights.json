@@ -1,24 +1,24 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-14T02:10:44Z",
+    "generatedAt": "2026-09-14T08:13:58Z",
     "items": [
       {
-        "titulo": "Aumentar a atenção para negociações paradas.",
-        "detalhe": "Total de negociações paradas mais de 3 dias aumentou para 421 (João Vitor: 165, Gabriel Silva: 154, Maicon Oliveira: 107). Isso é uma tendência crescente, requerendo ação urgente.",
+        "titulo": "Aumento de Leads Parados",
+        "detalhe": "Total de leads parados por mais de 3 dias acumulou 165 no João Vitor e 154 no Gabriel Silva. Esses números estão crescendo, reforçando o risco de leads esquecidos.",
         "severidade": "alta",
-        "atendente": null
+        "atendente": "João Vitor"
       },
       {
-        "titulo": "Foco na perda de vendas abertas.",
-        "detalhe": "56 negociações estão em status 'em perdido mas ainda aberto', com 30 destes na pipeline PÓS SANGUINÁRIA, situação que pode gerar perdas significativas.",
+        "titulo": "Negócios em Risco: Perdidos",
+        "detalhe": "Total de emPerdidoMasAindaAberto subiu para 26 com Gabriel Silva e 30 com Gabriel Santos. Sinal de preocupação com follow-up.",
         "severidade": "alta",
-        "atendente": null
+        "atendente": "Gabriel Silva"
       },
       {
-        "titulo": "Ninguém preocupado com o total de negócios.",
-        "detalhe": "Total de negócios abertos é 3.239, estável e não apresenta necessidade imediata de intervenção.",
+        "titulo": "Condições Gerais PODEM ser monitoradas",
+        "detalhe": "Atualmente, não há dados críticos fora do esperado, mas atenção nos leads parados e perdidos é essencial.",
         "severidade": "baixa",
-        "atendente": null
+        "atendente": "null"
       }
     ]
   }
