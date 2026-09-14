@@ -112,6 +112,20 @@
     "classifiedAt": "2026-09-11T15:20:09Z"
   },
   {
+    "businessId": "c0dd95f7-cfdf-4bbc-8c77-8b1f46ccb730",
+    "leadId": "015778bd-a81b-445c-b8bd-82dbe318416c",
+    "leadName": "Marcio",
+    "attendantName": "João Vitor",
+    "pipeline": "Comercial - Global Pro Pika",
+    "stage": "PERDIDO SDR",
+    "role": "sdr",
+    "motivoOficial": null,
+    "motivoIA": "ICP",
+    "confianca": "alta",
+    "evidencia": "Márcio está usando um Nintendinho, indicando que não é um desenvolvedor moderno.",
+    "classifiedAt": "2026-09-14T15:52:50Z"
+  },
+  {
     "businessId": "eb49d2ba-b8bf-4d5a-a579-e987924f48a7",
     "leadId": "00389f1f-0e39-4c18-ba54-dc40bdb4d1c6",
     "leadName": "Lucas",
@@ -138,6 +152,34 @@
     "confianca": "baixa",
     "evidencia": "A transcrição é muito curta e não fornece informações relevantes sobre a qualificação do lead.",
     "classifiedAt": "2026-09-11T15:20:17Z"
+  },
+  {
+    "businessId": "b8e928e1-461f-452f-9d97-11537bf4c2ab",
+    "leadId": "297e4210-6a53-4496-89fe-745569bc7b81",
+    "leadName": "Luis",
+    "attendantName": "Gabriel Silva",
+    "pipeline": "Comercial - Global Pro Pika",
+    "stage": "PERDIDO SDR",
+    "role": "sdr",
+    "motivoOficial": null,
+    "motivoIA": "ICP",
+    "confianca": "alta",
+    "evidencia": "Luiz tem um gap de carreira longo e trabalhou com tecnologia antiga, como .NET em VB.",
+    "classifiedAt": "2026-09-14T15:53:54Z"
+  },
+  {
+    "businessId": "6350336a-72ef-43a0-aef7-738b953e4bf9",
+    "leadId": "079e7b3a-3b76-4629-bb61-efc726e9cb38",
+    "leadName": "João Pedro",
+    "attendantName": "Gabriel Silva",
+    "pipeline": "Comercial - Global Pro Pika",
+    "stage": "PERDIDO SDR",
+    "role": "sdr",
+    "motivoOficial": null,
+    "motivoIA": "Não tem Agenda",
+    "confianca": "alta",
+    "evidencia": "A ligação não contém informações que indiquem interesse ou disponibilidade para o programa.",
+    "classifiedAt": "2026-09-14T15:54:04Z"
   },
   {
     "businessId": "10e69f76-d264-46d8-ac72-ebac511c91ae",

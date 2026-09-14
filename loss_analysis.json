@@ -1,18 +1,18 @@
 {
   "lossAnalysis": {
-    "generatedAt": "2026-09-12T12:55:00Z",
-    "totalAnalisado": 15,
+    "generatedAt": "2026-09-14T15:57:35Z",
+    "totalAnalisado": 18,
     "byPerson": [
       {
         "name": "João Vitor",
         "pipeline": "Comercial - Global Pro Pika",
-        "totalClassificado": 10,
-        "totalPerdidoNoFunil": 61,
-        "semTranscricao": 51,
+        "totalClassificado": 11,
+        "totalPerdidoNoFunil": 73,
+        "semTranscricao": 62,
         "porMotivo": [
           {
             "motivo": "ICP",
-            "qtd": 7
+            "qtd": 8
           },
           {
             "motivo": "Não tem prioridade",
@@ -27,17 +27,17 @@
       {
         "name": "Gabriel Silva",
         "pipeline": "Comercial - Global Pro Pika",
-        "totalClassificado": 3,
-        "totalPerdidoNoFunil": 28,
+        "totalClassificado": 5,
+        "totalPerdidoNoFunil": 30,
         "semTranscricao": 25,
         "porMotivo": [
           {
             "motivo": "Não tem Agenda",
-            "qtd": 2
+            "qtd": 3
           },
           {
             "motivo": "ICP",
-            "qtd": 1
+            "qtd": 2
           }
         ]
       },
@@ -45,8 +45,8 @@
         "name": "Maicon Oliveira",
         "pipeline": "Comercial - Global Pro Pika",
         "totalClassificado": 1,
-        "totalPerdidoNoFunil": 15,
-        "semTranscricao": 14,
+        "totalPerdidoNoFunil": 16,
+        "semTranscricao": 15,
         "porMotivo": [
           {
             "motivo": "Não tem prioridade",
@@ -58,8 +58,8 @@
         "name": "Kaio Ikeda",
         "pipeline": "Comercial - PÓS SANGUINÁRIA",
         "totalClassificado": 1,
-        "totalPerdidoNoFunil": 8,
-        "semTranscricao": 7,
+        "totalPerdidoNoFunil": 10,
+        "semTranscricao": 9,
         "porMotivo": [
           {
             "motivo": "ICP",
@@ -70,25 +70,25 @@
     ],
     "samples": [
       {
-        "leadName": "Guilherme",
-        "attendantName": "João Vitor",
-        "role": "sdr",
-        "motivoIA": "ICP",
-        "evidencia": "Guilherme mencionou ser Júnior, o que não se encaixa no perfil que buscamos."
-      },
-      {
-        "leadName": "Jessica",
-        "attendantName": "João Vitor",
-        "role": "sdr",
-        "motivoIA": "ICP",
-        "evidencia": "A pessoa mencionou que trabalha como júnior, o que corresponde ao perfil do ICP."
-      },
-      {
         "leadName": "Lucas",
         "attendantName": "João Vitor",
         "role": "sdr",
         "motivoIA": "Não tem Agenda",
         "evidencia": "A ligação indica que a pessoa está impossibilitada de participar devido à confusão."
+      },
+      {
+        "leadName": "Luis",
+        "attendantName": "Gabriel Silva",
+        "role": "sdr",
+        "motivoIA": "ICP",
+        "evidencia": "Luiz tem um gap de carreira longo e trabalhou com tecnologia antiga, como .NET em VB."
+      },
+      {
+        "leadName": "João Pedro",
+        "attendantName": "Gabriel Silva",
+        "role": "sdr",
+        "motivoIA": "Não tem Agenda",
+        "evidencia": "A ligação não contém informações que indiquem interesse ou disponibilidade para o programa."
       },
       {
         "leadName": "YANKA",
