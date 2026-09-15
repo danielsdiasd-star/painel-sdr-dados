@@ -1,24 +1,24 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-14T21:08:32Z",
+    "generatedAt": "2026-09-15T02:17:07Z",
     "items": [
       {
-        "titulo": "Aumento no número de leads parados",
-        "detalhe": "O total de leads parados por mais de 3 dias subiu de 165 para 1119 em João Vitor e de 154 para 1211 em Gabriel Silva, mostrando uma tendência alarmante de 578% em João Vitor e 687% em Gabriel Silva nas últimas 24 horas.",
+        "titulo": "Aumentou o total de negócios abertos no funil 'Global Pro Pika'",
+        "detalhe": "Total subiu de 1563 para 1580, com 1332 parados mais de 3 dias, o que indica falta de movimentação significativa.",
         "severidade": "alta",
-        "atendente": "João Vitor, Gabriel Silva"
+        "atendente": "João Vitor"
       },
       {
-        "titulo": "Altas taxas de lead perdido sem confirmação",
-        "detalhe": "O número de leads que ainda estão marcados como 'em Perdido' mas não confirmados aumentou significativamente: de 53 para 64 em João Vitor e de 26 a 25 em Gabriel Silva, exigindo imediata atenção.",
+        "titulo": "Altas taxas de leads parados no funil 'Global Pro Pika'",
+        "detalhe": "1325 de 1563 estão parados mais de 3 dias (84% do total).",
         "severidade": "alta",
-        "atendente": "João Vitor, Gabriel Silva"
+        "atendente": "Maicon Oliveira"
       },
       {
-        "titulo": "Leads em 'ganho' ainda não confirmados se mantêm zero",
-        "detalhe": "Continua com zero o número de leads classificados como 'em Ganho mas ainda aberto', mostrando estagnação no fechamento de negócios.",
-        "severidade": "baixa",
-        "atendente": "João Vitor, Gabriel Silva"
+        "titulo": "Problemas em fechamento de negócios potencialmente perdidos",
+        "detalhe": "64 negócios com status 'perdido' no funil 'Global Pro Pika', arriscados à perda definitiva.",
+        "severidade": "media",
+        "atendente": "João Vitor"
       }
     ]
   }
