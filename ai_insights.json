@@ -1,24 +1,24 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-15T08:06:55Z",
+    "generatedAt": "2026-09-15T13:57:00Z",
     "items": [
       {
-        "titulo": "Aumento de Leads Parados",
-        "detalhe": "Número de leads parados mais de 3 dias subiu para 1343 (João Vitor), 1144 (Gabriel Silva) e 1285 (Maicon Oliveira), totalizando 3772 leads parados com histórico crescente.",
+        "titulo": "Aumento de Leads Parados em Global Pro Pika",
+        "detalhe": "Total de leads parados mais de 3 dias subiu para 1344, uma tendência crescente nas últimas 4 leituras (1119, 1325, 1343, 1344).",
         "severidade": "alta",
-        "atendente": null
+        "atendente": "João Vitor"
       },
       {
-        "titulo": "Total de Leads Abertos",
-        "detalhe": "Total de leads abertos alcançou 1584 (João Vitor), 1533 (Gabriel Silva) e 1481 (Maicon Oliveira) - totalizando 4698, indicativo de necessidade urgente de atenção ao fluxo.",
+        "titulo": "Altas Taxas de Perda e Leads em Processo em Global Pro Pika",
+        "detalhe": "Leads com status 'perdido' e em processo aumentaram, somando 47 na última leitura com 68 leads perdidos em total.",
         "severidade": "alta",
-        "atendente": null
+        "atendente": "João Vitor"
       },
       {
-        "titulo": "Performace em Vendas",
-        "detalhe": "Média do tempo na etapa está em aumento, com Maicon apresentando 5.0 dias, o que é preocupante, mas não crítico.",
-        "severidade": "media",
-        "atendente": "Maicon Oliveira"
+        "titulo": "Situação sob controle no funil PÓS SANGUINÁRIA",
+        "detalhe": "Total de leads abertos se mantém baixo (apenas 69), sem tendências preocupantes.",
+        "severidade": "baixa",
+        "atendente": "Gabriel Santos"
       }
     ]
   }
