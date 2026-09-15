@@ -1,0 +1,505 @@
+<title>Lupa FSC</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f4f5f3;
+    --surface: #ffffff;
+    --surface-2: #eceeea;
+    --ink: #191b18;
+    --ink-dim: #5b5f58;
+    --ink-faint: #8b8f86;
+    --border: #e1e3dd;
+    --accent: #2f6f5e;
+    --accent-ink: #ffffff;
+    --accent-soft: #e3efe9;
+    --warn: #9a6a1e;
+    --warn-soft: #faefd9;
+    --danger: #a1403a;
+    --danger-soft: #f6e4e2;
+    --won: #2f7a4f;
+    --won-soft: #e1f0e5;
+    --shadow: 0 1px 2px rgba(20, 24, 18, 0.04), 0 8px 24px -12px rgba(20, 24, 18, 0.18);
+    --font-display: "Manrope", "Segoe UI", sans-serif;
+    --font-body: "Inter", "Segoe UI", sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #14160f;
+      --surface: #1c1f17;
+      --surface-2: #262a1e;
+      --ink: #f1f2ec;
+      --ink-dim: #b3b6a9;
+      --ink-faint: #797d70;
+      --border: #33362a;
+      --accent: #5fae95;
+      --accent-ink: #0c1610;
+      --accent-soft: #223129;
+      --warn: #e2b262;
+      --warn-soft: #332a17;
+      --danger: #e0918c;
+      --danger-soft: #35211f;
+      --won: #7bc79a;
+      --won-soft: #1c2e21;
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 12px 28px -14px rgba(0, 0, 0, 0.6);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #14160f;
+    --surface: #1c1f17;
+    --surface-2: #262a1e;
+    --ink: #f1f2ec;
+    --ink-dim: #b3b6a9;
+    --ink-faint: #797d70;
+    --border: #33362a;
+    --accent: #5fae95;
+    --accent-ink: #0c1610;
+    --accent-soft: #223129;
+    --warn: #e2b262;
+    --warn-soft: #332a17;
+    --danger: #e0918c;
+    --danger-soft: #35211f;
+    --won: #7bc79a;
+    --won-soft: #1c2e21;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 12px 28px -14px rgba(0, 0, 0, 0.6);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 28px 20px 64px;
+  }
+
+  header.top {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 22px;
+  }
+  .brand {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .brand h1 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.5rem;
+    letter-spacing: -0.01em;
+    margin: 0;
+    text-wrap: balance;
+  }
+  .brand .tag {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: var(--accent-soft);
+    padding: 3px 8px;
+    border-radius: 999px;
+  }
+  .freshness {
+    font-size: 0.78rem;
+    color: var(--ink-faint);
+    text-align: right;
+  }
+  .freshness strong { color: var(--ink-dim); font-weight: 600; }
+
+  .search-shell {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: linear-gradient(var(--bg) 65%, transparent);
+    padding-bottom: 10px;
+    margin-bottom: 6px;
+  }
+  .search-box {
+    position: relative;
+    background: var(--surface);
+    border: 1.5px solid var(--border);
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 16px;
+    transition: border-color 0.15s ease;
+  }
+  .search-box:focus-within {
+    border-color: var(--accent);
+  }
+  .search-box svg { flex: none; color: var(--ink-faint); }
+  .search-box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 1.05rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .search-box input::placeholder { color: var(--ink-faint); }
+  .clear-btn {
+    border: none;
+    background: var(--surface-2);
+    color: var(--ink-dim);
+    width: 26px;
+    height: 26px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .clear-btn.show { display: flex; }
+
+  .hint {
+    color: var(--ink-faint);
+    font-size: 0.85rem;
+    padding: 4px 4px 0;
+  }
+
+  .count-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18px 2px 10px;
+    font-size: 0.8rem;
+    color: var(--ink-faint);
+  }
+
+  .results { display: flex; flex-direction: column; gap: 10px; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 14px 16px;
+    box-shadow: var(--shadow);
+  }
+  .card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .card-name {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.05rem;
+    letter-spacing: -0.005em;
+  }
+  .card-value {
+    font-variant-numeric: tabular-nums;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--won);
+    white-space: nowrap;
+  }
+  .card-value.zero { color: var(--ink-faint); font-weight: 500; }
+
+  .contact-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-top: 6px;
+    font-size: 0.9rem;
+    color: var(--ink-dim);
+  }
+  .contact-row a {
+    color: var(--ink-dim);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .contact-row a.wa {
+    color: var(--won);
+    font-weight: 600;
+  }
+  .contact-row a:hover { text-decoration: underline; }
+  .phone-num { font-variant-numeric: tabular-nums; }
+
+  .badge-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+  }
+  .chip {
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 3px 9px;
+    border-radius: 999px;
+    background: var(--surface-2);
+    color: var(--ink-dim);
+    white-space: nowrap;
+  }
+  .chip.attendant { background: var(--accent-soft); color: var(--accent); }
+  .chip.unassigned { background: var(--warn-soft); color: var(--warn); }
+  .chip.won { background: var(--won-soft); color: var(--won); }
+  .chip.lost { background: var(--danger-soft); color: var(--danger); }
+  .chip.age { background: none; color: var(--ink-faint); padding-left: 0; font-weight: 500; }
+  .chip.code { font-variant-numeric: tabular-nums; }
+
+  .card-footer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+  }
+  .copy-name-btn, .open-crm-btn {
+    font-size: 0.78rem;
+    font-weight: 600;
+    font-family: var(--font-body);
+    padding: 6px 12px;
+    border-radius: 9px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--ink-dim);
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+  }
+  .copy-name-btn:hover, .open-crm-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .open-crm-btn { margin-left: auto; color: var(--accent); border-color: var(--accent-soft); background: var(--accent-soft); }
+
+  .empty {
+    text-align: center;
+    padding: 64px 20px;
+    color: var(--ink-faint);
+  }
+  .empty svg { color: var(--ink-faint); opacity: 0.6; margin-bottom: 10px; }
+  .empty .big { font-family: var(--font-display); font-weight: 700; color: var(--ink-dim); font-size: 1.05rem; margin-bottom: 4px; }
+
+  .idle-tip {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    background: var(--surface);
+    border: 1px dashed var(--border);
+    border-radius: 14px;
+    padding: 16px;
+    color: var(--ink-dim);
+    font-size: 0.88rem;
+    margin-top: 4px;
+  }
+  .idle-tip b { color: var(--ink); }
+
+  @media (max-width: 480px) {
+    .brand h1 { font-size: 1.25rem; }
+    .freshness { display: none; }
+  }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <h1>🔍 Lupa FSC</h1>
+      <span class="tag">Clientes</span>
+    </div>
+    <div class="freshness" id="freshness">carregando dados…</div>
+  </header>
+
+  <div class="search-shell">
+    <div class="search-box">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input id="q" type="text" placeholder="Telefone, nome ou email…" autocomplete="off" spellcheck="false" />
+      <button class="clear-btn" id="clearBtn" aria-label="Limpar busca">✕</button>
+    </div>
+    <div class="hint">Funciona com telefone parcial — só o DDD + os últimos números já acha.</div>
+  </div>
+
+  <div class="count-row" id="countRow" hidden></div>
+  <div class="results" id="results"></div>
+  <div class="empty" id="emptyState" hidden>
+    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <div class="big">Nada encontrado</div>
+    <div>Confere se o número ou nome está certo, ou tenta com menos dígitos.</div>
+  </div>
+  <div class="idle-tip" id="idleTip">
+    <span>💡</span>
+    <div><b>Como usar:</b> ligou um número desconhecido? Cola aqui — com ou sem formatação, com ou sem DDI — que a Lupa acha o cliente, o negócio, a etapa e quem é o atendente responsável. Também busca por nome ou email. Pra abrir o card no DataCrazy: "Copiar nome" → "Abrir board no CRM" → cola na busca de lá (o CRM não tem link direto pra um negócio específico).</div>
+  </div>
+</div>
+
+<script>
+  const PIPELINE_URLS = {
+    'Comercial - Global Pro Pika': 'https://crm.datacrazy.io/pipelines/ce7b5b2f-19b9-43f1-b693-b11ab2f5c367',
+    'Comercial - PÓS SANGUINÁRIA': 'https://crm.datacrazy.io/pipelines/31761c70-6405-44a7-9361-3c019ca685e1',
+  };
+
+  const state = { leads: [], loaded: false };
+
+  const els = {
+    q: document.getElementById('q'),
+    clearBtn: document.getElementById('clearBtn'),
+    results: document.getElementById('results'),
+    countRow: document.getElementById('countRow'),
+    emptyState: document.getElementById('emptyState'),
+    idleTip: document.getElementById('idleTip'),
+    freshness: document.getElementById('freshness'),
+  };
+
+  function onlyDigits(s) { return (s || '').replace(/\D/g, ''); }
+
+  function formatPhone(digits) {
+    if (!digits) return '';
+    let d = digits, cc = '';
+    if (d.length > 11 && d.startsWith('55')) { cc = '+55 '; d = d.slice(2); }
+    if (d.length === 11) return `${cc}(${d.slice(0, 2)}) ${d.slice(2, 7)}-${d.slice(7)}`;
+    if (d.length === 10) return `${cc}(${d.slice(0, 2)}) ${d.slice(2, 6)}-${d.slice(6)}`;
+    return cc + d;
+  }
+
+  function waLink(digits) {
+    let d = digits;
+    if (d && !d.startsWith('55') && (d.length === 10 || d.length === 11)) d = '55' + d;
+    return `https://wa.me/${d}`;
+  }
+
+  function formatMoney(v) {
+    if (!v) return null;
+    return v.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 });
+  }
+
+  function relativeDate(iso) {
+    if (!iso) return '';
+    const d = new Date(iso);
+    const diffMs = Date.now() - d.getTime();
+    const days = Math.floor(diffMs / 86400000);
+    if (days <= 0) return 'hoje';
+    if (days === 1) return 'ontem';
+    if (days < 30) return `há ${days}d`;
+    const months = Math.floor(days / 30);
+    if (months < 12) return `há ${months}m`;
+    return `há ${Math.floor(months / 12)}a`;
+  }
+
+  function stageChipClass(stage) {
+    if (!stage) return '';
+    if (stage === 'GANHO') return 'won';
+    if (stage.startsWith('PERDIDO')) return 'lost';
+    return '';
+  }
+
+  function escapeHtml(s) {
+    return (s || '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  }
+
+  function render(query) {
+    const q = query.trim();
+    els.clearBtn.classList.toggle('show', q.length > 0);
+
+    if (!q) {
+      els.results.innerHTML = '';
+      els.countRow.hidden = true;
+      els.emptyState.hidden = true;
+      els.idleTip.hidden = false;
+      return;
+    }
+    els.idleTip.hidden = true;
+
+    const qDigits = onlyDigits(q);
+    const qLower = q.toLowerCase();
+    let matches = [];
+
+    if (qDigits.length >= 4) {
+      matches = state.leads.filter((r) => r.phoneDigits && r.phoneDigits.includes(qDigits));
+    } else if (q.length >= 2) {
+      matches = state.leads.filter(
+        (r) => (r.name && r.name.toLowerCase().includes(qLower)) ||
+               (r.email && r.email.toLowerCase().includes(qLower))
+      );
+    }
+
+    matches.sort((a, b) => (b.createdAt || '').localeCompare(a.createdAt || ''));
+    const shown = matches.slice(0, 80);
+
+    els.countRow.hidden = false;
+    els.countRow.textContent = matches.length === 0
+      ? ''
+      : `${matches.length} resultado${matches.length === 1 ? '' : 's'}${matches.length > shown.length ? ` (mostrando ${shown.length})` : ''}`;
+
+    els.emptyState.hidden = matches.length !== 0;
+
+    els.results.innerHTML = shown.map((r, i) => {
+      const value = formatMoney(r.total);
+      const attendantChip = r.attendant
+        ? `<span class="chip attendant">${escapeHtml(r.attendant)}</span>`
+        : `<span class="chip unassigned">Sem atendente</span>`;
+      const stageClass = stageChipClass(r.stage);
+      const stageChip = r.stage ? `<span class="chip ${stageClass}">${escapeHtml(r.stage)}</span>` : '';
+      const pipelineChip = r.pipeline ? `<span class="chip">${escapeHtml(r.pipeline.replace('Comercial - ', ''))}</span>` : '';
+      const ageChip = r.createdAt ? `<span class="chip age">${relativeDate(r.createdAt)}</span>` : '';
+      const phoneHtml = r.phoneDigits
+        ? `<a class="wa" href="${waLink(r.phoneDigits)}" target="_blank" rel="noopener"><span>💬</span><span class="phone-num">${formatPhone(r.phoneDigits)}</span></a>`
+        : `<span class="phone-num">sem telefone</span>`;
+      const emailHtml = r.email ? `<a href="mailto:${escapeHtml(r.email)}">${escapeHtml(r.email)}</a>` : '';
+      const crmUrl = PIPELINE_URLS[r.pipeline] || null;
+      const codeChip = r.businessCode ? `<span class="chip code">#${escapeHtml(String(r.businessCode))}</span>` : '';
+
+      return `<div class="card">
+        <div class="card-top">
+          <div class="card-name">${escapeHtml(r.name || 'Sem nome')}</div>
+          <div class="card-value ${value ? '' : 'zero'}">${value || 'sem valor'}</div>
+        </div>
+        <div class="contact-row">${phoneHtml}${emailHtml ? `<span>·</span>${emailHtml}` : ''}</div>
+        <div class="badge-row">${pipelineChip}${stageChip}${attendantChip}${ageChip}${codeChip}</div>
+        <div class="card-footer">
+          <button class="copy-name-btn" data-name="${escapeHtml(r.name || '')}" title="Copiar nome pra colar na busca do CRM">📋 Copiar nome</button>
+          ${crmUrl ? `<a class="open-crm-btn" href="${crmUrl}" target="_blank" rel="noopener" title="Abre o board do CRM — cole o nome copiado na busca de lá">Abrir board no CRM ↗</a>` : ''}
+        </div>
+      </div>`;
+    }).join('');
+
+    els.results.querySelectorAll('.copy-name-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const name = btn.getAttribute('data-name');
+        const done = () => { btn.textContent = '✓ Copiado'; setTimeout(() => { btn.textContent = '📋 Copiar nome'; }, 1400); };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(name).then(done).catch(done);
+        } else { done(); }
+      });
+    });
+  }
+
+  els.q.addEventListener('input', () => render(els.q.value));
+  els.clearBtn.addEventListener('click', () => { els.q.value = ''; render(''); els.q.focus(); });
+
+  fetch('leads-index.json', { cache: 'no-store' })
+    .then((r) => r.json())
+    .then((data) => {
+      state.leads = data.leads || [];
+      state.loaded = true;
+      const gen = data.generatedAt ? new Date(data.generatedAt) : null;
+      els.freshness.innerHTML = gen
+        ? `<strong>${state.leads.length.toLocaleString('pt-BR')}</strong> negócios · atualizado ${relativeDate(data.generatedAt)}`
+        : `${state.leads.length.toLocaleString('pt-BR')} negócios`;
+      els.q.disabled = false;
+      els.q.focus();
+      render(els.q.value);
+    })
+    .catch(() => {
+      els.freshness.textContent = 'erro ao carregar dados';
+      els.idleTip.innerHTML = '<span>⚠️</span><div>Não consegui carregar a base de clientes agora. Tenta recarregar a página em alguns segundos.</div>';
+    });
+</script>
