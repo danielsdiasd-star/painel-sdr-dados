@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-15T19:40:56.283844Z",
-  "openTotal": 5000,
+  "generatedAt": "2026-09-15T22:18:49.806352Z",
+  "openTotal": 5135,
   "yesterdayTotal": 197,
   "byPipeline": {
     "Comercial - Global Pro Pika": {
-      "openTotal": 4575,
+      "openTotal": 4708,
       "yesterdayEntradas": 192,
-      "zombieGanhoOuPerdido": 51,
+      "zombieGanhoOuPerdido": 35,
       "emGanhoMasAindaAberto": 0,
-      "emPerdidoMasAindaAberto": 51
+      "emPerdidoMasAindaAberto": 35
     },
     "Comercial - PÓS SANGUINÁRIA": {
       "openTotal": 43,
@@ -50,39 +50,39 @@
       "etapas": [
         {
           "etapa": "Novo Cliente Webnário",
-          "qtdNaEtapa": 0,
-          "qtdNestaOuAFrente": 2170,
-          "conversaoParaProximaEtapaPct": 100.0
+          "qtdNaEtapa": 354,
+          "qtdNestaOuAFrente": 2735,
+          "conversaoParaProximaEtapaPct": 87.1
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtdNaEtapa": 809,
-          "qtdNestaOuAFrente": 2170,
-          "conversaoParaProximaEtapaPct": 62.7
+          "qtdNaEtapa": 828,
+          "qtdNestaOuAFrente": 2381,
+          "conversaoParaProximaEtapaPct": 65.2
         },
         {
           "etapa": "APLICAÇÕES (Respondi)",
-          "qtdNaEtapa": 14,
-          "qtdNestaOuAFrente": 1361,
-          "conversaoParaProximaEtapaPct": 99.0
+          "qtdNaEtapa": 9,
+          "qtdNestaOuAFrente": 1553,
+          "conversaoParaProximaEtapaPct": 99.4
         },
         {
           "etapa": "Em Cadência",
-          "qtdNaEtapa": 1294,
-          "qtdNestaOuAFrente": 1347,
-          "conversaoParaProximaEtapaPct": 3.9
+          "qtdNaEtapa": 1492,
+          "qtdNestaOuAFrente": 1544,
+          "conversaoParaProximaEtapaPct": 3.4
         },
         {
           "etapa": "Atendeu - Qualificado",
-          "qtdNaEtapa": 36,
-          "qtdNestaOuAFrente": 53,
-          "conversaoParaProximaEtapaPct": 32.1
+          "qtdNaEtapa": 37,
+          "qtdNestaOuAFrente": 52,
+          "conversaoParaProximaEtapaPct": 28.8
         },
         {
           "etapa": "Reunião Marcada",
-          "qtdNaEtapa": 13,
-          "qtdNestaOuAFrente": 17,
-          "conversaoParaProximaEtapaPct": 23.5
+          "qtdNaEtapa": 11,
+          "qtdNestaOuAFrente": 15,
+          "conversaoParaProximaEtapaPct": 26.7
         },
         {
           "etapa": "Reunião Realizada",
@@ -105,26 +105,26 @@
       "etapas": [
         {
           "etapa": "Novo Lead",
-          "qtdNaEtapa": 2,
-          "qtdNestaOuAFrente": 34,
-          "conversaoParaProximaEtapaPct": 94.1
+          "qtdNaEtapa": 0,
+          "qtdNestaOuAFrente": 35,
+          "conversaoParaProximaEtapaPct": 100.0
         },
         {
           "etapa": "Em Cadência",
-          "qtdNaEtapa": 28,
-          "qtdNestaOuAFrente": 32,
-          "conversaoParaProximaEtapaPct": 12.5
+          "qtdNaEtapa": 30,
+          "qtdNestaOuAFrente": 35,
+          "conversaoParaProximaEtapaPct": 14.3
         },
         {
           "etapa": "Atendeu - Qualificado",
           "qtdNaEtapa": 0,
-          "qtdNestaOuAFrente": 4,
+          "qtdNestaOuAFrente": 5,
           "conversaoParaProximaEtapaPct": 100.0
         },
         {
           "etapa": "Reunião Marcada",
-          "qtdNaEtapa": 4,
-          "qtdNestaOuAFrente": 4,
+          "qtdNaEtapa": 5,
+          "qtdNestaOuAFrente": 5,
           "conversaoParaProximaEtapaPct": 0.0
         },
         {
@@ -149,28 +149,28 @@
     {
       "name": "João Vitor",
       "pipeline": "Comercial - Global Pro Pika",
-      "totalAberto": 1560,
-      "yesterdayEntradas": 63,
-      "tempoMedioNaEtapaDias": 4.2,
-      "paradosMais3Dias": 1150,
+      "totalAberto": 1614,
+      "yesterdayEntradas": 65,
+      "tempoMedioNaEtapaDias": 4.3,
+      "paradosMais3Dias": 1132,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 23,
       "porEtapa": [
         {
           "etapa": "Em Cadência",
-          "qtd": 678
+          "qtd": 695
         },
         {
           "etapa": "Novo Lead (Antes 09/09)",
-          "qtd": 522
+          "qtd": 507
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtd": 247
+          "qtd": 253
         },
         {
-          "etapa": "Novo Cliente Webnário50221",
-          "qtd": 70
+          "etapa": "Novo Cliente Webnário",
+          "qtd": 117
         },
         {
           "etapa": "PERDIDO SDR",
@@ -181,12 +181,12 @@
           "qtd": 9
         },
         {
-          "etapa": "Permaneceu 1 hora",
+          "etapa": "Permaneceu 30 minutos",
           "qtd": 4
         },
         {
-          "etapa": "Permaneceu 30 minutos",
-          "qtd": 4
+          "etapa": "Permaneceu 1 hora",
+          "qtd": 3
         },
         {
           "etapa": "Acessou o Hotwebinar",
@@ -201,40 +201,36 @@
     {
       "name": "Gabriel Silva",
       "pipeline": "Comercial - Global Pro Pika",
-      "totalAberto": 1528,
-      "yesterdayEntradas": 64,
-      "tempoMedioNaEtapaDias": 4.1,
-      "paradosMais3Dias": 1013,
+      "totalAberto": 1560,
+      "yesterdayEntradas": 63,
+      "tempoMedioNaEtapaDias": 4.0,
+      "paradosMais3Dias": 939,
       "emGanhoMasAindaAberto": 0,
-      "emPerdidoMasAindaAberto": 20,
+      "emPerdidoMasAindaAberto": 2,
       "porEtapa": [
         {
           "etapa": "Novo Lead (Antes 09/09)",
-          "qtd": 705
+          "qtd": 636
         },
         {
           "etapa": "Em Cadência",
-          "qtd": 434
+          "qtd": 500
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtd": 279
+          "qtd": 286
         },
         {
-          "etapa": "Novo Cliente Webnário50221",
-          "qtd": 69
+          "etapa": "Novo Cliente Webnário",
+          "qtd": 115
         },
         {
           "etapa": "Atendeu - Qualificado",
-          "qtd": 18
-        },
-        {
-          "etapa": "PERDIDO SDR",
-          "qtd": 18
+          "qtd": 19
         },
         {
           "etapa": "APLICAÇÕES (Respondi)",
-          "qtd": 3
+          "qtd": 2
         },
         {
           "etapa": "PERDIDO CLOSER",
@@ -245,40 +241,40 @@
     {
       "name": "Maicon Oliveira",
       "pipeline": "Comercial - Global Pro Pika",
-      "totalAberto": 1487,
-      "yesterdayEntradas": 65,
-      "tempoMedioNaEtapaDias": 5.0,
-      "paradosMais3Dias": 1244,
+      "totalAberto": 1534,
+      "yesterdayEntradas": 64,
+      "tempoMedioNaEtapaDias": 4.9,
+      "paradosMais3Dias": 1142,
       "emGanhoMasAindaAberto": 0,
-      "emPerdidoMasAindaAberto": 8,
+      "emPerdidoMasAindaAberto": 10,
       "porEtapa": [
         {
           "etapa": "Novo Lead (Antes 09/09)",
-          "qtd": 985
+          "qtd": 888
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtd": 283
+          "qtd": 289
         },
         {
           "etapa": "Em Cadência",
-          "qtd": 106
+          "qtd": 204
         },
         {
-          "etapa": "Novo Cliente Webnário50221",
-          "qtd": 72
-        },
-        {
-          "etapa": "APLICAÇÕES (Respondi)",
-          "qtd": 10
+          "etapa": "Novo Cliente Webnário",
+          "qtd": 115
         },
         {
           "etapa": "PERDIDO SDR",
-          "qtd": 8
+          "qtd": 10
         },
         {
           "etapa": "Atendeu - Qualificado",
           "qtd": 7
+        },
+        {
+          "etapa": "APLICAÇÕES (Respondi)",
+          "qtd": 6
         },
         {
           "etapa": "Permaneceu 1 hora",
@@ -299,10 +295,6 @@
         {
           "etapa": "Reunião Realizada",
           "qtd": 1
-        },
-        {
-          "etapa": "Reunião Marcada",
-          "qtd": 1
         }
       ]
     },
@@ -311,7 +303,7 @@
       "pipeline": "Comercial - PÓS SANGUINÁRIA",
       "totalAberto": 39,
       "yesterdayEntradas": 5,
-      "tempoMedioNaEtapaDias": 3.0,
+      "tempoMedioNaEtapaDias": 3.1,
       "paradosMais3Dias": 21,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 7,
@@ -356,7 +348,7 @@
       "emPerdidoMasAindaAberto": 0,
       "porEtapa": [
         {
-          "etapa": "Novo Lead",
+          "etapa": "Em Cadência",
           "qtd": 1
         },
         {
@@ -370,13 +362,13 @@
       "pipeline": "Comercial - PÓS SANGUINÁRIA",
       "totalAberto": 2,
       "yesterdayEntradas": 0,
-      "tempoMedioNaEtapaDias": 0.6,
+      "tempoMedioNaEtapaDias": 0.7,
       "paradosMais3Dias": 0,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 0,
       "porEtapa": [
         {
-          "etapa": "Novo Lead",
+          "etapa": "Em Cadência",
           "qtd": 1
         },
         {
@@ -398,15 +390,15 @@
     }
   ],
   "vendasFechadas": {
-    "qtdTotal": 12,
-    "valorTotal": 87560.26000000001,
+    "qtdTotal": 14,
+    "valorTotal": 114025.26,
     "semAtendente": 3,
     "porPipeline": {
       "Comercial - Global Pro Pika": {
-        "qtd": 8,
-        "valorTotal": 58618.22,
-        "qtdOntem": 0,
-        "valorOntem": null
+        "qtd": 10,
+        "valorTotal": 85083.22,
+        "qtdOntem": 1,
+        "valorOntem": 13000
       },
       "Comercial - PÓS SANGUINÁRIA": {
         "qtd": 4,
@@ -419,8 +411,14 @@
       {
         "name": "Kaio Ikeda",
         "pipeline": "Comercial - Global Pro Pika",
-        "qtd": 3,
-        "valorTotal": 20000
+        "qtd": 4,
+        "valorTotal": 33000
+      },
+      {
+        "name": "Bruna Lenotti",
+        "pipeline": "Comercial - Global Pro Pika",
+        "qtd": 2,
+        "valorTotal": 22138
       },
       {
         "name": "Maicon Oliveira",
@@ -435,12 +433,6 @@
         "valorTotal": 13255.39
       },
       {
-        "name": "Bruna Lenotti",
-        "pipeline": "Comercial - Global Pro Pika",
-        "qtd": 1,
-        "valorTotal": 8673
-      },
-      {
         "name": "João Lima",
         "pipeline": "Comercial - PÓS SANGUINÁRIA",
         "qtd": 1,
@@ -448,6 +440,20 @@
       }
     ],
     "recentes": [
+      {
+        "leadName": "Lucas Palhares Barbosa",
+        "pipeline": "Comercial - Global Pro Pika",
+        "attendantName": "Bruna Lenotti",
+        "total": 13465,
+        "statusChangedAt": "2026-09-15T03:00:00.000Z"
+      },
+      {
+        "leadName": "Higor",
+        "pipeline": "Comercial - Global Pro Pika",
+        "attendantName": "Kaio Ikeda",
+        "total": 13000,
+        "statusChangedAt": "2026-09-14T03:00:00.000Z"
+      },
       {
         "leadName": "Rui Carlos",
         "pipeline": "Comercial - Global Pro Pika",
@@ -503,20 +509,6 @@
         "attendantName": null,
         "total": 2500,
         "statusChangedAt": "2026-09-09T03:00:00.000Z"
-      },
-      {
-        "leadName": "Pedro",
-        "pipeline": "Comercial - Global Pro Pika",
-        "attendantName": "Leonardo Ruthes",
-        "total": 7997,
-        "statusChangedAt": "2026-09-08T03:00:00.000Z"
-      },
-      {
-        "leadName": "Thiago",
-        "pipeline": "Comercial - Global Pro Pika",
-        "attendantName": "Bruna Lenotti",
-        "total": 8673,
-        "statusChangedAt": "2026-09-07T03:00:00.000Z"
       }
     ]
   },
@@ -622,26 +614,6 @@
       "email": "matheusoliveira3633@outlook.com"
     },
     {
-      "lead_name": "fernando ",
-      "phone": "5563981117018",
-      "responsavel": "João Vitor",
-      "speaking_time": 48,
-      "ultima_ligacao": "2026-09-15T18:42:01.635Z",
-      "qualificacao": "Retornar depois",
-      "impacto": "positive",
-      "email": "fernandomotaiveco420@gmail.com"
-    },
-    {
-      "lead_name": "Marcio",
-      "phone": "5527981398875",
-      "responsavel": "Gabriel Silva",
-      "speaking_time": 144,
-      "ultima_ligacao": "2026-09-15T18:35:58.206Z",
-      "qualificacao": "Em negociação WhatsApp",
-      "impacto": "positive",
-      "email": "webmarcio001@gmail.com"
-    },
-    {
       "lead_name": "Juliano",
       "phone": "5551993728155",
       "responsavel": "Maicon Oliveira",
@@ -660,16 +632,6 @@
       "qualificacao": "Fora do ICP",
       "impacto": "negative",
       "email": "andrecivil@yahoo.com.br"
-    },
-    {
-      "lead_name": "Alexssandro",
-      "phone": "5547999148406",
-      "responsavel": "Gabriel Silva",
-      "speaking_time": 79,
-      "ultima_ligacao": "2026-09-15T18:22:05.549Z",
-      "qualificacao": "Em negociação WhatsApp",
-      "impacto": "positive",
-      "email": "leko.alexssandro@gmail.com"
     },
     {
       "lead_name": "Edson",
@@ -714,7 +676,7 @@
   ],
   "sdrConversion": {
     "data": "2026-09-15",
-    "generatedAt": "2026-09-15T19:47:55.489221Z",
+    "generatedAt": "2026-09-15T22:27:01.535352Z",
     "porSdr": [
       {
         "name": "João Vitor",
@@ -727,9 +689,9 @@
       },
       {
         "name": "Gabriel Silva",
-        "ligacoesFeitas": 816,
+        "ligacoesFeitas": 838,
         "atendidas": 11,
-        "naoAtendidas": 805,
+        "naoAtendidas": 827,
         "qualificados": 0,
         "taxaAtendimentoPct": 1.3,
         "taxaQualificacaoPct": 0.0
@@ -799,33 +761,33 @@
   },
   "funnelConversion": {
     "janelaDias": 7,
-    "generatedAt": "2026-09-15T19:47:58.493438Z",
+    "generatedAt": "2026-09-15T22:27:04.557985Z",
     "porSdr": [
       {
         "name": "Gabriel Silva",
-        "horasNo3cJanela": 3.4,
+        "horasNo3cJanela": 3.5,
         "horasFalandoJanela": 0.8,
         "horasOciosoJanela": 2.6,
         "mediaOciosoMinPorDia": 52.0,
         "mediaFalandoMinPorConectada": 2.0,
-        "ligacoesFeitasJanela": 1168,
+        "ligacoesFeitasJanela": 1190,
         "conectadasJanela": 24,
-        "taxaConexaoPct": 2.1,
+        "taxaConexaoPct": 2.0,
         "qualificadosTotal": 9,
         "reunioesMarcadas": 0,
         "reunioesRealizadas": 0,
         "ganho": 0,
         "perdido": 5,
         "taxaQualificadoParaReuniaoPct": 0.0,
-        "ligacoesPorQualificado": 129.8,
+        "ligacoesPorQualificado": 132.2,
         "horasPorReuniaoMarcada": null
       },
       {
         "name": "João Vitor",
-        "horasNo3cJanela": 7.8,
+        "horasNo3cJanela": 7.9,
         "horasFalandoJanela": 3.0,
-        "horasOciosoJanela": 3.6,
-        "mediaOciosoMinPorDia": 72.0,
+        "horasOciosoJanela": 3.7,
+        "mediaOciosoMinPorDia": 74.0,
         "mediaFalandoMinPorConectada": 6.2,
         "ligacoesFeitasJanela": 1851,
         "conectadasJanela": 29,
