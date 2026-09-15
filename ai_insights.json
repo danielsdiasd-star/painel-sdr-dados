@@ -1,24 +1,24 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-15T18:34:01Z",
+    "generatedAt": "2026-09-15T23:16:54Z",
     "items": [
       {
-        "titulo": "Aumento crítico de leads parados no funil Global Pro Pika",
-        "detalhe": "Leads parados há mais de 3 dias subiram para 1344 (um aumento contínuo desde 1300), indicando risco de perda por falta de follow-up.",
+        "titulo": "Crescimento significativo de leads parados",
+        "detalhe": "Total de 1344 leads parados por mais de 3 dias, um aumento de 18% em relação ao dia anterior (1132). A tendência é crescente, sinalizando necessidade urgente de ações para movimentar esses leads.",
         "severidade": "alta",
         "atendente": "João Vitor"
       },
       {
-        "titulo": "Crescimento de negócios perdidos ainda abertos",
-        "detalhe": "Total de negócios 'em perdido mas ainda aberto' aumentou para 48, necessidade de triagem urgente para evitar perdas reais.",
-        "severidade": "alta",
+        "titulo": "Aumento no total de leads abertos",
+        "detalhe": "Total de 1614 leads abertos, crescimento de 3% em relação à leitura anterior (1561). Monitorar para evitar acúmulo e inatividade.",
+        "severidade": "media",
         "atendente": "João Vitor"
       },
       {
-        "titulo": "Estabilidade geral no pipeline PÓS SANGUINÁRIA",
-        "detalhe": "Total de abertos no pipeline PÓS SANGUINÁRIA se manteve em 70, sem grandes oscilações recentes.",
+        "titulo": "Leads perdidos ainda abertos",
+        "detalhe": "Total de 48 leads perdidos, o que é um indicativo de que ações de follow-up são necessárias.",
         "severidade": "baixa",
-        "atendente": null
+        "atendente": "João Vitor"
       }
     ]
   }
