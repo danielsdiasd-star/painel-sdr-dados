@@ -342,11 +342,6 @@
 </div>
 
 <script>
-  const PIPELINE_URLS = {
-    'Comercial - Global Pro Pika': 'https://crm.datacrazy.io/pipelines/ce7b5b2f-19b9-43f1-b693-b11ab2f5c367',
-    'Comercial - PÓS SANGUINÁRIA': 'https://crm.datacrazy.io/pipelines/31761c70-6405-44a7-9361-3c019ca685e1',
-  };
-
   const state = { leads: [], loaded: false };
 
   const els = {
@@ -454,7 +449,7 @@
         ? `<a class="wa" href="${waLink(r.phoneDigits)}" target="_blank" rel="noopener"><span>💬</span><span class="phone-num">${formatPhone(r.phoneDigits)}</span></a>`
         : `<span class="phone-num">sem telefone</span>`;
       const emailHtml = r.email ? `<a href="mailto:${escapeHtml(r.email)}">${escapeHtml(r.email)}</a>` : '';
-      const crmUrl = PIPELINE_URLS[r.pipeline] || null;
+      const crmUrl = r.pipelineId ? `https://crm.datacrazy.io/pipelines/${r.pipelineId}` : null;
       const codeChip = r.businessCode ? `<span class="chip code">#${escapeHtml(String(r.businessCode))}</span>` : '';
 
       return `<div class="card">
