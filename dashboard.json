@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-15T19:04:11.303441Z",
-  "openTotal": 4999,
+  "generatedAt": "2026-09-15T19:40:56.283844Z",
+  "openTotal": 5000,
   "yesterdayTotal": 197,
   "byPipeline": {
     "Comercial - Global Pro Pika": {
-      "openTotal": 4574,
+      "openTotal": 4575,
       "yesterdayEntradas": 192,
-      "zombieGanhoOuPerdido": 42,
+      "zombieGanhoOuPerdido": 51,
       "emGanhoMasAindaAberto": 0,
-      "emPerdidoMasAindaAberto": 42
+      "emPerdidoMasAindaAberto": 51
     },
     "Comercial - PÓS SANGUINÁRIA": {
       "openTotal": 43,
@@ -51,32 +51,32 @@
         {
           "etapa": "Novo Cliente Webnário",
           "qtdNaEtapa": 0,
-          "qtdNestaOuAFrente": 1996,
+          "qtdNestaOuAFrente": 2170,
           "conversaoParaProximaEtapaPct": 100.0
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtdNaEtapa": 806,
-          "qtdNestaOuAFrente": 1996,
-          "conversaoParaProximaEtapaPct": 59.6
+          "qtdNaEtapa": 809,
+          "qtdNestaOuAFrente": 2170,
+          "conversaoParaProximaEtapaPct": 62.7
         },
         {
           "etapa": "APLICAÇÕES (Respondi)",
-          "qtdNaEtapa": 13,
-          "qtdNestaOuAFrente": 1190,
-          "conversaoParaProximaEtapaPct": 98.9
+          "qtdNaEtapa": 14,
+          "qtdNestaOuAFrente": 1361,
+          "conversaoParaProximaEtapaPct": 99.0
         },
         {
           "etapa": "Em Cadência",
-          "qtdNaEtapa": 1128,
-          "qtdNestaOuAFrente": 1177,
-          "conversaoParaProximaEtapaPct": 4.2
+          "qtdNaEtapa": 1294,
+          "qtdNestaOuAFrente": 1347,
+          "conversaoParaProximaEtapaPct": 3.9
         },
         {
           "etapa": "Atendeu - Qualificado",
-          "qtdNaEtapa": 32,
-          "qtdNestaOuAFrente": 49,
-          "conversaoParaProximaEtapaPct": 34.7
+          "qtdNaEtapa": 36,
+          "qtdNestaOuAFrente": 53,
+          "conversaoParaProximaEtapaPct": 32.1
         },
         {
           "etapa": "Reunião Marcada",
@@ -97,7 +97,7 @@
           "conversaoParaProximaEtapaPct": null
         }
       ],
-      "conversaoTotalPct": 0.1,
+      "conversaoTotalPct": 0.0,
       "metodologia": "snapshot",
       "nota": "\"Novo Lead (Antes 09/09)\" fica fora do funil: e o balde de leads legados da migracao, nao fluxo atual. \"PERDIDO SDR\"/\"PERDIDO CLOSER\" sao saidas, \"No-show / Reagendamento\" e lateral."
     },
@@ -151,22 +151,22 @@
       "pipeline": "Comercial - Global Pro Pika",
       "totalAberto": 1560,
       "yesterdayEntradas": 63,
-      "tempoMedioNaEtapaDias": 4.3,
-      "paradosMais3Dias": 1198,
+      "tempoMedioNaEtapaDias": 4.2,
+      "paradosMais3Dias": 1150,
       "emGanhoMasAindaAberto": 0,
-      "emPerdidoMasAindaAberto": 21,
+      "emPerdidoMasAindaAberto": 23,
       "porEtapa": [
         {
           "etapa": "Em Cadência",
-          "qtd": 634
+          "qtd": 678
         },
         {
           "etapa": "Novo Lead (Antes 09/09)",
-          "qtd": 569
+          "qtd": 522
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtd": 246
+          "qtd": 247
         },
         {
           "etapa": "Novo Cliente Webnário50221",
@@ -174,7 +174,7 @@
         },
         {
           "etapa": "PERDIDO SDR",
-          "qtd": 21
+          "qtd": 23
         },
         {
           "etapa": "Atendeu - Qualificado",
@@ -203,26 +203,26 @@
       "pipeline": "Comercial - Global Pro Pika",
       "totalAberto": 1528,
       "yesterdayEntradas": 64,
-      "tempoMedioNaEtapaDias": 4.4,
-      "paradosMais3Dias": 1111,
+      "tempoMedioNaEtapaDias": 4.1,
+      "paradosMais3Dias": 1013,
       "emGanhoMasAindaAberto": 0,
-      "emPerdidoMasAindaAberto": 16,
+      "emPerdidoMasAindaAberto": 20,
       "porEtapa": [
         {
           "etapa": "Novo Lead (Antes 09/09)",
-          "qtd": 802
+          "qtd": 705
         },
         {
           "etapa": "Em Cadência",
-          "qtd": 341
+          "qtd": 434
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtd": 278
+          "qtd": 279
         },
         {
           "etapa": "Novo Cliente Webnário50221",
-          "qtd": 70
+          "qtd": 69
         },
         {
           "etapa": "Atendeu - Qualificado",
@@ -230,7 +230,7 @@
         },
         {
           "etapa": "PERDIDO SDR",
-          "qtd": 14
+          "qtd": 18
         },
         {
           "etapa": "APLICAÇÕES (Respondi)",
@@ -245,24 +245,24 @@
     {
       "name": "Maicon Oliveira",
       "pipeline": "Comercial - Global Pro Pika",
-      "totalAberto": 1486,
+      "totalAberto": 1487,
       "yesterdayEntradas": 65,
-      "tempoMedioNaEtapaDias": 5.1,
-      "paradosMais3Dias": 1265,
+      "tempoMedioNaEtapaDias": 5.0,
+      "paradosMais3Dias": 1244,
       "emGanhoMasAindaAberto": 0,
-      "emPerdidoMasAindaAberto": 5,
+      "emPerdidoMasAindaAberto": 8,
       "porEtapa": [
         {
           "etapa": "Novo Lead (Antes 09/09)",
-          "qtd": 1006
+          "qtd": 985
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtd": 282
+          "qtd": 283
         },
         {
           "etapa": "Em Cadência",
-          "qtd": 92
+          "qtd": 106
         },
         {
           "etapa": "Novo Cliente Webnário50221",
@@ -270,14 +270,18 @@
         },
         {
           "etapa": "APLICAÇÕES (Respondi)",
-          "qtd": 9
-        },
-        {
-          "etapa": "Permaneceu 1 hora",
-          "qtd": 5
+          "qtd": 10
         },
         {
           "etapa": "PERDIDO SDR",
+          "qtd": 8
+        },
+        {
+          "etapa": "Atendeu - Qualificado",
+          "qtd": 7
+        },
+        {
+          "etapa": "Permaneceu 1 hora",
           "qtd": 5
         },
         {
@@ -286,10 +290,6 @@
         },
         {
           "etapa": "No-show / Reagendamento",
-          "qtd": 4
-        },
-        {
-          "etapa": "Atendeu - Qualificado",
           "qtd": 4
         },
         {
@@ -522,6 +522,26 @@
   },
   "ligacoesSemCrm": [
     {
+      "lead_name": "Vitor",
+      "phone": "5531998402110",
+      "responsavel": "Maicon Oliveira",
+      "speaking_time": 842,
+      "ultima_ligacao": "2026-09-15T19:42:03.344Z",
+      "qualificacao": "Reunião agendada",
+      "impacto": "positive",
+      "email": "vfrios.p@gmail.com"
+    },
+    {
+      "lead_name": "Herbete",
+      "phone": "5511985191776",
+      "responsavel": "Maicon Oliveira",
+      "speaking_time": 131,
+      "ultima_ligacao": "2026-09-15T19:20:26.100Z",
+      "qualificacao": "Sem interesse",
+      "impacto": "negative",
+      "email": "herbeteneo@gmail.com"
+    },
+    {
       "lead_name": "Thiago",
       "phone": "5521973067153",
       "responsavel": "Maicon Oliveira",
@@ -652,56 +672,6 @@
       "email": "leko.alexssandro@gmail.com"
     },
     {
-      "lead_name": "Alexia",
-      "phone": "5513997902421",
-      "responsavel": "João Vitor",
-      "speaking_time": 585,
-      "ultima_ligacao": "2026-09-15T18:10:14.086Z",
-      "qualificacao": "Fora do ICP",
-      "impacto": "negative",
-      "email": "alexiarmarques.ti@gmail.com"
-    },
-    {
-      "lead_name": "Lucas",
-      "phone": "5581988192296",
-      "responsavel": "Maicon Oliveira",
-      "speaking_time": 94,
-      "ultima_ligacao": "2026-09-15T18:06:53.170Z",
-      "qualificacao": "Fora do ICP",
-      "impacto": "negative",
-      "email": "lucasantonio2063@gmail.com"
-    },
-    {
-      "lead_name": "Cristian",
-      "phone": "5592986032632",
-      "responsavel": "Gabriel Silva",
-      "speaking_time": 54,
-      "ultima_ligacao": "2026-09-15T18:03:21.480Z",
-      "qualificacao": "Em negociação WhatsApp",
-      "impacto": "positive",
-      "email": "garcia.ac.cristian@gmail.com"
-    },
-    {
-      "lead_name": "Carlos",
-      "phone": "5535991097490",
-      "responsavel": "Maicon Oliveira",
-      "speaking_time": 235,
-      "ultima_ligacao": "2026-09-15T18:02:04.998Z",
-      "qualificacao": "Fora do ICP",
-      "impacto": "negative",
-      "email": "carlos.roberto.amancio.junior@gmail.com"
-    },
-    {
-      "lead_name": "Maria Júlia",
-      "phone": "5564993030110",
-      "responsavel": "Maicon Oliveira",
-      "speaking_time": 70,
-      "ultima_ligacao": "2026-09-15T17:57:37.284Z",
-      "qualificacao": "Caixa Postal",
-      "impacto": "negative",
-      "email": "mariajuliasena0110@gmail.com"
-    },
-    {
       "lead_name": "Edson",
       "phone": "5511987459488",
       "responsavel": "Maicon Oliveira",
@@ -744,33 +714,33 @@
   ],
   "sdrConversion": {
     "data": "2026-09-15",
-    "generatedAt": "2026-09-15T19:10:40.541237Z",
+    "generatedAt": "2026-09-15T19:47:55.489221Z",
     "porSdr": [
       {
         "name": "João Vitor",
-        "ligacoesFeitas": 1014,
+        "ligacoesFeitas": 1056,
         "atendidas": 18,
-        "naoAtendidas": 996,
+        "naoAtendidas": 1038,
         "qualificados": 1,
-        "taxaAtendimentoPct": 1.8,
+        "taxaAtendimentoPct": 1.7,
         "taxaQualificacaoPct": 5.6
       },
       {
         "name": "Gabriel Silva",
-        "ligacoesFeitas": 708,
+        "ligacoesFeitas": 816,
         "atendidas": 11,
-        "naoAtendidas": 697,
+        "naoAtendidas": 805,
         "qualificados": 0,
-        "taxaAtendimentoPct": 1.6,
+        "taxaAtendimentoPct": 1.3,
         "taxaQualificacaoPct": 0.0
       },
       {
         "name": "Maicon Oliveira",
-        "ligacoesFeitas": 359,
-        "atendidas": 12,
-        "naoAtendidas": 347,
+        "ligacoesFeitas": 493,
+        "atendidas": 16,
+        "naoAtendidas": 477,
         "qualificados": 0,
-        "taxaAtendimentoPct": 3.3,
+        "taxaAtendimentoPct": 3.2,
         "taxaQualificacaoPct": 0.0
       },
       {
@@ -829,45 +799,63 @@
   },
   "funnelConversion": {
     "janelaDias": 7,
-    "generatedAt": "2026-09-15T19:10:43.129323Z",
+    "generatedAt": "2026-09-15T19:47:58.493438Z",
     "porSdr": [
       {
         "name": "Gabriel Silva",
-        "horasNo3cJanela": 2.8,
-        "ligacoesFeitasJanela": 1063,
+        "horasNo3cJanela": 3.4,
+        "horasFalandoJanela": 0.8,
+        "horasOciosoJanela": 2.6,
+        "mediaOciosoMinPorDia": 52.0,
+        "mediaFalandoMinPorConectada": 2.0,
+        "ligacoesFeitasJanela": 1168,
+        "conectadasJanela": 24,
+        "taxaConexaoPct": 2.1,
         "qualificadosTotal": 9,
         "reunioesMarcadas": 0,
         "reunioesRealizadas": 0,
         "ganho": 0,
         "perdido": 5,
         "taxaQualificadoParaReuniaoPct": 0.0,
-        "ligacoesPorQualificado": 118.1,
+        "ligacoesPorQualificado": 129.8,
         "horasPorReuniaoMarcada": null
       },
       {
         "name": "João Vitor",
-        "horasNo3cJanela": 7.2,
-        "ligacoesFeitasJanela": 1809,
+        "horasNo3cJanela": 7.8,
+        "horasFalandoJanela": 3.0,
+        "horasOciosoJanela": 3.6,
+        "mediaOciosoMinPorDia": 72.0,
+        "mediaFalandoMinPorConectada": 6.2,
+        "ligacoesFeitasJanela": 1851,
+        "conectadasJanela": 29,
+        "taxaConexaoPct": 1.6,
         "qualificadosTotal": 4,
         "reunioesMarcadas": 0,
         "reunioesRealizadas": 0,
         "ganho": 0,
         "perdido": 2,
         "taxaQualificadoParaReuniaoPct": 0.0,
-        "ligacoesPorQualificado": 452.2,
+        "ligacoesPorQualificado": 462.8,
         "horasPorReuniaoMarcada": null
       },
       {
         "name": "Maicon Oliveira",
-        "horasNo3cJanela": 1.3,
-        "ligacoesFeitasJanela": 420,
+        "horasNo3cJanela": 1.8,
+        "horasFalandoJanela": 0.9,
+        "horasOciosoJanela": 0.7,
+        "mediaOciosoMinPorDia": 21.0,
+        "mediaFalandoMinPorConectada": 3.0,
+        "ligacoesFeitasJanela": 552,
+        "conectadasJanela": 18,
+        "taxaConexaoPct": 3.3,
         "qualificadosTotal": 1,
         "reunioesMarcadas": 0,
         "reunioesRealizadas": 0,
         "ganho": 0,
         "perdido": 0,
         "taxaQualificadoParaReuniaoPct": 0.0,
-        "ligacoesPorQualificado": 420.0,
+        "ligacoesPorQualificado": 552.0,
         "horasPorReuniaoMarcada": null
       }
     ],
@@ -900,6 +888,6 @@
         "taxaReuniaoParaVendaPct": null
       }
     ],
-    "nota": "\"Horas no 3C\" e \"Ligacoes feitas\" sao da janela de 7 dias; \"Qualificados\"/\"Reunioes\"/\"Ganho\" sao acumulados desde que esse rastreamento comecou (sem historico anterior -- a API do DataCrazy nao expoe mudanca de etapa passada). Reuniao marcada fica registrada pra sempre mesmo se o negocio for perdido depois. Conversao do Closer e atribuida pelo par fixo SDR->Closer combinado com o usuario, nao pelo atendente atual do negocio."
+    "nota": "\"Horas no 3C\", \"Falando\", \"Ocioso\", \"Ligacoes feitas\" e \"Conectadas\" sao da janela de 7 dias (direto da 3C Plus); \"Qualificados\"/\"Reunioes\"/\"Ganho\"/\"Perdido\" sao acumulados desde que esse rastreamento comecou (sem historico anterior -- a API do DataCrazy nao expoe mudanca de etapa passada). \"Conectada\" = ligacao com >=15s de conversa real (mesma regra que qualifica um negocio). \"Ocioso\" = tempo logado na 3C sem estar em ligacao (disponivel esperando a proxima). Reuniao marcada fica registrada pra sempre mesmo se o negocio for perdido depois. Conversao do Closer e atribuida pelo par fixo SDR->Closer combinado com o usuario, nao pelo atendente atual do negocio."
   }
 }
