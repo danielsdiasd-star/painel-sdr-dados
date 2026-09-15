@@ -28,6 +28,20 @@
     "classifiedAt": "2026-09-11T15:18:46Z"
   },
   {
+    "businessId": "3a36b5e9-43e5-4b77-a98b-532519e304e8",
+    "leadId": "d9ae6397-867e-4771-abab-e240e7f545f2",
+    "leadName": "Pamela",
+    "attendantName": "João Vitor",
+    "pipeline": "Comercial - Global Pro Pika",
+    "stage": "PERDIDO SDR",
+    "role": "sdr",
+    "motivoOficial": null,
+    "motivoIA": "ICP",
+    "confianca": "alta",
+    "evidencia": "Pâmela mencionou que não está trabalhando e se inscreveu errado.",
+    "classifiedAt": "2026-09-15T14:19:45Z"
+  },
+  {
     "businessId": "5f0e9d26-f3a7-4e72-84b4-6fe4bf310e2e",
     "leadId": "0f6c8fe0-04f5-478c-9d0a-d9d1f7670dea",
     "leadName": "Antonio Carlos",
@@ -70,6 +84,20 @@
     "classifiedAt": "2026-09-12T12:50:51Z"
   },
   {
+    "businessId": "b81f61bb-2d64-436d-88a0-2dfa194eed3f",
+    "leadId": "1cdd9cad-41e0-4590-bf23-5f0e7d98e17b",
+    "leadName": "Kauan",
+    "attendantName": "João Vitor",
+    "pipeline": "Comercial - Global Pro Pika",
+    "stage": "PERDIDO SDR",
+    "role": "sdr",
+    "motivoOficial": null,
+    "motivoIA": "ICP",
+    "confianca": "baixa",
+    "evidencia": "Não foram fornecidas informações suficientes sobre o perfil ou as necessidades do cliente.",
+    "classifiedAt": "2026-09-15T14:20:54Z"
+  },
+  {
     "businessId": "77cf102e-77a1-4a97-a3fa-0f46c3acfc8f",
     "leadId": "27e81646-3ea9-463a-8dfd-ded08ddbf5c6",
     "leadName": "Luciano",
@@ -96,6 +124,34 @@
     "confianca": "alta",
     "evidencia": "Guilherme mencionou ser Júnior, o que não se encaixa no perfil que buscamos.",
     "classifiedAt": "2026-09-12T12:50:56Z"
+  },
+  {
+    "businessId": "e7cd543e-0ed3-40e0-99b8-063e9eb8ffb2",
+    "leadId": "3e63ee5a-1ca3-435c-b93e-4fb36eeac2c9",
+    "leadName": "Liliane",
+    "attendantName": "João Vitor",
+    "pipeline": "Comercial - Global Pro Pika",
+    "stage": "PERDIDO SDR",
+    "role": "sdr",
+    "motivoOficial": null,
+    "motivoIA": "Não tem Agenda",
+    "confianca": "baixa",
+    "evidencia": "A transcrição não oferece informações claras sobre a disponibilidade do lead.",
+    "classifiedAt": "2026-09-15T14:20:56Z"
+  },
+  {
+    "businessId": "dc95eff3-2764-4e73-b678-d68322425fe7",
+    "leadId": "10c7beda-60e9-4805-a45f-be2d0c9e1158",
+    "leadName": "mirielly",
+    "attendantName": "João Vitor",
+    "pipeline": "Comercial - Global Pro Pika",
+    "stage": "PERDIDO SDR",
+    "role": "sdr",
+    "motivoOficial": null,
+    "motivoIA": "ICP",
+    "confianca": "baixa",
+    "evidencia": "A falta de informações sobre a tecnologia e o perfil do contato sugere que não se encaixa no ICP.",
+    "classifiedAt": "2026-09-15T14:20:57Z"
   },
   {
     "businessId": "2003ea61-9706-437f-9874-7d63e8133035",
@@ -168,6 +224,20 @@
     "classifiedAt": "2026-09-14T15:53:54Z"
   },
   {
+    "businessId": "a9d500fc-78e7-44dc-8bf4-0569660f5d9a",
+    "leadId": "02d2708b-58f9-461c-b6eb-c6e46a2932da",
+    "leadName": "Caio",
+    "attendantName": "Gabriel Silva",
+    "pipeline": "Comercial - Global Pro Pika",
+    "stage": "PERDIDO SDR",
+    "role": "sdr",
+    "motivoOficial": "6dc70607-3b88-41f7-8196-6731af8e57f9",
+    "motivoIA": "Não tem prioridade",
+    "confianca": "alta",
+    "evidencia": "Cliente mencionou que a busca por uma vaga não é mais prioridade para ele.",
+    "classifiedAt": "2026-09-15T14:22:12Z"
+  },
+  {
     "businessId": "6350336a-72ef-43a0-aef7-738b953e4bf9",
     "leadId": "079e7b3a-3b76-4629-bb61-efc726e9cb38",
     "leadName": "João Pedro",
@@ -194,6 +264,20 @@
     "confianca": "alta",
     "evidencia": "A Yanka afirmou que é júnior e possui quase um ano de experiência na área.",
     "classifiedAt": "2026-09-12T12:52:18Z"
+  },
+  {
+    "businessId": "116e2fbd-e225-400d-91c4-086d952df89c",
+    "leadId": "0d5b21e8-7b5e-495a-bf97-8b8513b157cc",
+    "leadName": "Phillipe",
+    "attendantName": "Gabriel Silva",
+    "pipeline": "Comercial - Global Pro Pika",
+    "stage": "PERDIDO SDR",
+    "role": "sdr",
+    "motivoOficial": "6dc70607-3b88-41f7-8196-6731af8e57f9",
+    "motivoIA": "Não tem prioridade",
+    "confianca": "alta",
+    "evidencia": "O Filipe afirmou que prefere deixar isso mais pra frente.",
+    "classifiedAt": "2026-09-15T14:22:14Z"
   },
   {
     "businessId": "4973760e-7a8f-49a4-b5d8-cd624d60ddf9",
@@ -224,6 +308,20 @@
     "classifiedAt": "2026-09-12T12:52:23Z"
   },
   {
+    "businessId": "65ae4f3e-4f2d-44ad-96be-f153f3c8ceb2",
+    "leadId": "4ea6c158-f19a-4f75-aa71-dab3c5d9b339",
+    "leadName": "Jonata",
+    "attendantName": "Gabriel Silva",
+    "pipeline": "Comercial - Global Pro Pika",
+    "stage": "PERDIDO SDR",
+    "role": "sdr",
+    "motivoOficial": null,
+    "motivoIA": "Não tem prioridade",
+    "confianca": "baixa",
+    "evidencia": "Jonathan afirma que não tem interesse no momento.",
+    "classifiedAt": "2026-09-15T14:22:20Z"
+  },
+  {
     "businessId": "d621a6fb-b3d6-45c9-9d91-85bc3152571a",
     "leadId": "0646768a-4db8-4314-b4b4-1c6c0e3c05bd",
     "leadName": "Fabrizio",
@@ -236,6 +334,20 @@
     "confianca": "media",
     "evidencia": "O Fabrício mencionou que não teria interesse agora, pois está focado na faculdade e em um novo emprego.",
     "classifiedAt": "2026-09-12T12:53:35Z"
+  },
+  {
+    "businessId": "464bacc2-b795-42fa-8a99-1b6d547c5e0c",
+    "leadId": "0c5b89f4-ac47-499b-80fa-c0e1875512f4",
+    "leadName": "Mayara",
+    "attendantName": "Kaio Ikeda",
+    "pipeline": "Comercial - Global Pro Pika",
+    "stage": "PERDIDO SDR",
+    "role": "sdr",
+    "motivoOficial": null,
+    "motivoIA": "ICP",
+    "confianca": "baixa",
+    "evidencia": "Não há informações suficientes sobre a posição ou interesse do contato na transcrição.",
+    "classifiedAt": "2026-09-15T14:25:41Z"
   },
   {
     "businessId": "40f5bf1c-09ef-4f8e-9b99-69ee6947c5bf",

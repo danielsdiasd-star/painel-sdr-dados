@@ -1,18 +1,18 @@
 {
   "lossAnalysis": {
-    "generatedAt": "2026-09-14T15:57:35Z",
-    "totalAnalisado": 18,
+    "generatedAt": "2026-09-15T14:25:43Z",
+    "totalAnalisado": 26,
     "byPerson": [
       {
         "name": "João Vitor",
         "pipeline": "Comercial - Global Pro Pika",
-        "totalClassificado": 11,
-        "totalPerdidoNoFunil": 73,
-        "semTranscricao": 62,
+        "totalClassificado": 15,
+        "totalPerdidoNoFunil": 86,
+        "semTranscricao": 71,
         "porMotivo": [
           {
             "motivo": "ICP",
-            "qtd": 8
+            "qtd": 11
           },
           {
             "motivo": "Não tem prioridade",
@@ -20,17 +20,21 @@
           },
           {
             "motivo": "Não tem Agenda",
-            "qtd": 1
+            "qtd": 2
           }
         ]
       },
       {
         "name": "Gabriel Silva",
         "pipeline": "Comercial - Global Pro Pika",
-        "totalClassificado": 5,
-        "totalPerdidoNoFunil": 30,
-        "semTranscricao": 25,
+        "totalClassificado": 8,
+        "totalPerdidoNoFunil": 39,
+        "semTranscricao": 31,
         "porMotivo": [
+          {
+            "motivo": "Não tem prioridade",
+            "qtd": 3
+          },
           {
             "motivo": "Não tem Agenda",
             "qtd": 3
@@ -45,8 +49,8 @@
         "name": "Maicon Oliveira",
         "pipeline": "Comercial - Global Pro Pika",
         "totalClassificado": 1,
-        "totalPerdidoNoFunil": 16,
-        "semTranscricao": 15,
+        "totalPerdidoNoFunil": 24,
+        "semTranscricao": 23,
         "porMotivo": [
           {
             "motivo": "Não tem prioridade",
@@ -57,31 +61,24 @@
       {
         "name": "Kaio Ikeda",
         "pipeline": "Comercial - PÓS SANGUINÁRIA",
-        "totalClassificado": 1,
-        "totalPerdidoNoFunil": 10,
+        "totalClassificado": 2,
+        "totalPerdidoNoFunil": 11,
         "semTranscricao": 9,
         "porMotivo": [
           {
             "motivo": "ICP",
-            "qtd": 1
+            "qtd": 2
           }
         ]
       }
     ],
     "samples": [
       {
-        "leadName": "Lucas",
-        "attendantName": "João Vitor",
-        "role": "sdr",
-        "motivoIA": "Não tem Agenda",
-        "evidencia": "A ligação indica que a pessoa está impossibilitada de participar devido à confusão."
-      },
-      {
-        "leadName": "Luis",
+        "leadName": "Caio",
         "attendantName": "Gabriel Silva",
         "role": "sdr",
-        "motivoIA": "ICP",
-        "evidencia": "Luiz tem um gap de carreira longo e trabalhou com tecnologia antiga, como .NET em VB."
+        "motivoIA": "Não tem prioridade",
+        "evidencia": "Cliente mencionou que a busca por uma vaga não é mais prioridade para ele."
       },
       {
         "leadName": "João Pedro",
@@ -96,6 +93,13 @@
         "role": "sdr",
         "motivoIA": "ICP",
         "evidencia": "A Yanka afirmou que é júnior e possui quase um ano de experiência na área."
+      },
+      {
+        "leadName": "Phillipe",
+        "attendantName": "Gabriel Silva",
+        "role": "sdr",
+        "motivoIA": "Não tem prioridade",
+        "evidencia": "O Filipe afirmou que prefere deixar isso mais pra frente."
       },
       {
         "leadName": "Emilia",
