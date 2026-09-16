@@ -1,18 +1,24 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-16T13:49:43Z",
+    "generatedAt": "2026-09-16T18:32:11Z",
     "items": [
       {
-        "titulo": "Aumentar a atenção para leads parados no pipeline Global Pro Pika",
-        "detalhe": "Total de 1080 leads parados por mais de 3 dias com João Vitor e 1078 com Maicon Oliveira, totalizando 2158 leads. Tendência de aumento nesta métrica nas últimas 3 leituras.",
-        "severidade": "alta",
-        "atendente": null
-      },
-      {
-        "titulo": "Atender leads perdidos em processo",
-        "detalhe": "Total de 23 leads perdidos em processo somente com João Vitor. Essa situação não está sendo resolvida, o que pode agravar nossa taxa de conversão.",
+        "titulo": "Aumento na quantidade de leads parados",
+        "detalhe": "Atualmente, 1050 leads estão parados há mais de 3 dias no pipeline 'Global Pro Pika', um aumento de 70% em relação ao último histórico de 615.",
         "severidade": "alta",
         "atendente": "João Vitor"
+      },
+      {
+        "titulo": "Crescimento contínuo de leads parados por mais de 3 dias",
+        "detalhe": "Nos últimos 6 históricos, o total de leads parados aumentou, subindo de 615 para 1050 leads parados por mais de 3 dias.",
+        "severidade": "alta",
+        "atendente": "Maicon Oliveira"
+      },
+      {
+        "titulo": "Acompanhamento necessário em oportunidades perdidas",
+        "detalhe": "No pipeline 'Global Pro Pika', 31 leads estão marcados como 'em Perdido mas ainda aberto', devam ser revisados pelo time para evitar perdas.",
+        "severidade": "media",
+        "atendente": null
       }
     ]
   }
