@@ -1,23 +1,17 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-16T08:00:17Z",
+    "generatedAt": "2026-09-16T13:49:43Z",
     "items": [
       {
-        "titulo": "Aumento no total de leads abertos",
-        "detalhe": "O total de leads abertos subiu para 1619, um aumento constante em cada leitura desde 1566 no dia 14, sinalizando problema.",
+        "titulo": "Aumentar a atenção para leads parados no pipeline Global Pro Pika",
+        "detalhe": "Total de 1080 leads parados por mais de 3 dias com João Vitor e 1078 com Maicon Oliveira, totalizando 2158 leads. Tendência de aumento nesta métrica nas últimas 3 leituras.",
         "severidade": "alta",
-        "atendente": "João Vitor"
+        "atendente": null
       },
       {
-        "titulo": "Alto número de leads parados mais de 3 dias",
-        "detalhe": "Total de 1099 leads parados há mais de 3 dias, um aumento em relação aos 1119 da leitura anterior. Necessita atenção.",
+        "titulo": "Atender leads perdidos em processo",
+        "detalhe": "Total de 23 leads perdidos em processo somente com João Vitor. Essa situação não está sendo resolvida, o que pode agravar nossa taxa de conversão.",
         "severidade": "alta",
-        "atendente": "João Vitor"
-      },
-      {
-        "titulo": "Manutenção de desempenho dos leads em processo não confirmado",
-        "detalhe": "Número de 'perdido mas ainda aberto' se mantém em 23, requer follow-up para evitar perdas.",
-        "severidade": "media",
         "atendente": "João Vitor"
       }
     ]
