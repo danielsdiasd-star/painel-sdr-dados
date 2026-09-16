@@ -1,22 +1,22 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-16T02:10:24Z",
+    "generatedAt": "2026-09-16T08:00:17Z",
     "items": [
       {
-        "titulo": "Aumento constante de leads parados",
-        "detalhe": "Total de leads parados por mais de 3 dias já é 3431, subindo continuamente (1325, 1343, 1344, último dado 1344)",
+        "titulo": "Aumento no total de leads abertos",
+        "detalhe": "O total de leads abertos subiu para 1619, um aumento constante em cada leitura desde 1566 no dia 14, sinalizando problema.",
         "severidade": "alta",
         "atendente": "João Vitor"
       },
       {
-        "titulo": "Total de negócios em processo sem fechamento",
-        "detalhe": "Negócios em 'emGanhoMasAindaAberto' permanece em 0, o que é crítico, pois indica falta de follow-up nas vendas em andamento.",
+        "titulo": "Alto número de leads parados mais de 3 dias",
+        "detalhe": "Total de 1099 leads parados há mais de 3 dias, um aumento em relação aos 1119 da leitura anterior. Necessita atenção.",
         "severidade": "alta",
-        "atendente": null
+        "atendente": "João Vitor"
       },
       {
-        "titulo": "Situação de leads perdidos",
-        "detalhe": "Embora o total de 'emPerdidoMasAindaAberto' em 2 e 10 em diferentes atendentes não sejam alarmantes, é importante acompanhar para evitar leads esquecidos.",
+        "titulo": "Manutenção de desempenho dos leads em processo não confirmado",
+        "detalhe": "Número de 'perdido mas ainda aberto' se mantém em 23, requer follow-up para evitar perdas.",
         "severidade": "media",
         "atendente": "João Vitor"
       }
