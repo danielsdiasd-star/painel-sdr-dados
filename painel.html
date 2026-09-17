@@ -861,7 +861,25 @@ function funnelConversionHtml(fc) {
       </table>
     </div>
     ${funnelConversionPosHtml(fc.porAtendentePos)}
+    ${reunioesRecentesHtml(fc.reunioesRecentes)}
   </section>`;
+}
+
+function reunioesRecentesHtml(rows) {
+  if (!rows || !rows.length) return "";
+  const items = rows.map(r => {
+    const iso = r.observadoEm.replace(" ", "T") + "Z";
+    const hoursOld = (Date.now() - new Date(iso).getTime()) / 3600000;
+    const isRecent = hoursOld >= 0 && hoursOld < 48;
+    return `<div class="sales-recent-row ${isRecent ? "ontem" : ""}">
+      <div class="lead">${r.leadName || "—"}${r.atendente ? ` <span class="att">· ${r.atendente}</span>` : ""}</div>
+      <span class="pipe-tag">${(r.pipeline || "").replace("Comercial - ", "")}</span>
+      <div class="when">${fmtAge(iso)}</div>
+    </div>`;
+  }).join("");
+  return `<div class="sales-col-title" style="margin-top:24px;">Reuniões marcadas mais recentes</div>
+    <div class="funnel-note" style="margin-bottom:10px;">A data é de quando o painel <b>viu</b> o negócio na coluna "Reunião Marcada" (roda em ciclos, não é o horário exato que o SDR marcou no CRM).</div>
+    <div class="sales-recent">${items}</div>`;
 }
 
 function funnelConversionPosHtml(rows) {
