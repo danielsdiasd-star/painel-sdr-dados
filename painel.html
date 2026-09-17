@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Painel comercial SDR/Closer da Full Stack Club -- funil, metas, ligacoes e atividades, atualizado automaticamente.">
+</head>
+<body style="margin:0">
+<title>Painel SDR Closer</title>
+<style>
+  :root {
+    --bg: #F3F0FB;
+    --surface: #FFFFFF;
+    --surface-2: #EAE4F8;
+    --ink: #191433;
+    --muted: #5E5678;
+    --muted-2: #8981A3;
+    --line: #DED6F3;
+    --accent: #5B3DF5;
+    --accent-ink: #FFFFFF;
+    --accent-soft: #E7E0FF;
+    --warn: #C4790A;
+    --warn-soft: #FBEACC;
+    --critical: #DE2C55;
+    --critical-soft: #FBDCE4;
+    --good: #0E9A5F;
+    --good-soft: #D5F3E6;
+    --shadow: 0 1px 2px rgba(25,20,51,0.07), 0 16px 34px -18px rgba(25,20,51,0.28);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #120F22;
+      --surface: #1C1932;
+      --surface-2: #262242;
+      --ink: #EFEBFA;
+      --muted: #A79FC8;
+      --muted-2: #7A7399;
+      --line: #342E55;
+      --accent: #A28BFF;
+      --accent-ink: #16112C;
+      --accent-soft: #2C2650;
+      --warn: #F0B346;
+      --warn-soft: #3B2C10;
+      --critical: #FF7C96;
+      --critical-soft: #3C1B26;
+      --good: #35DC98;
+      --good-soft: #0E3A29;
+      --shadow: 0 1px 2px rgba(0,0,0,0.35), 0 18px 38px -18px rgba(0,0,0,0.7);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #120F22;
+    --surface: #1C1932;
+    --surface-2: #262242;
+    --ink: #EFEBFA;
+    --muted: #A79FC8;
+    --muted-2: #7A7399;
+    --line: #342E55;
+    --accent: #A28BFF;
+    --accent-ink: #16112C;
+    --accent-soft: #2C2650;
+    --warn: #F0B346;
+    --warn-soft: #3B2C10;
+    --critical: #FF7C96;
+    --critical-soft: #3C1B26;
+    --good: #35DC98;
+    --good-soft: #0E3A29;
+    --shadow: 0 1px 2px rgba(0,0,0,0.35), 0 18px 38px -18px rgba(0,0,0,0.7);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Hanken Grotesk", system-ui, sans-serif;
+    line-height: 1.45;
+  }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 40px 28px 80px; }
+
+  h1, h2, h3 { font-family: "Bricolage Grotesque", "Hanken Grotesk", system-ui, sans-serif; text-wrap: balance; margin: 0; }
+  .mono { font-family: "IBM Plex Mono", ui-monospace, monospace; font-variant-numeric: tabular-nums; }
+
+  header.top { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap; margin-bottom: 30px; border-bottom: 1px solid var(--line); padding-bottom: 22px; }
+  header.top .eyebrow { font-size: 12px; letter-spacing: 0.09em; text-transform: uppercase; color: var(--accent); font-weight: 700; margin-bottom: 6px; }
+  header.top h1 { font-size: 32px; font-weight: 800; letter-spacing: -0.015em; display: flex; align-items: center; }
+  header.top h1 .mark { display: inline-block; width: 15px; height: 15px; border-radius: 5px; background: var(--accent); margin-right: 11px; box-shadow: 0 0 0 5px var(--accent-soft); }
+  header.top .meta { color: var(--muted); font-size: 13px; text-align: right; }
+  header.top .meta strong { color: var(--ink); }
+  #freshness-badge { display: inline-flex; align-items: center; gap: 7px; padding: 4px 12px; border-radius: 100px; background: var(--surface-2); font-size: 12px; font-weight: 600; margin-top: 7px; }
+  #freshness-badge .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--good); box-shadow: 0 0 0 3px var(--good-soft); }
+  #freshness-badge.stale .dot { background: var(--warn); box-shadow: 0 0 0 3px var(--warn-soft); }
+
+  .kpi-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; margin-bottom: 30px; }
+  .kpi { background: var(--surface); border: 1px solid var(--line); border-top: 3px solid var(--line); border-radius: 14px; padding: 18px 20px; box-shadow: var(--shadow); }
+  .kpi .label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); font-weight: 700; margin-bottom: 9px; }
+  .kpi .value { font-size: 32px; font-weight: 700; font-family: "IBM Plex Mono", monospace; letter-spacing: -0.02em; }
+  .kpi .sub { font-size: 12.5px; color: var(--muted-2); margin-top: 4px; }
+  .kpi.flag { border-top-color: var(--warn); }
+  .kpi.flag .value { color: var(--warn); }
+  .kpi.flag.critical { border-top-color: var(--critical); }
+  .kpi.flag.critical .value { color: var(--critical); }
+  .kpi.good { border-top-color: var(--good); }
+  .kpi.good .value { color: var(--good); }
+
+  section.sales { margin-bottom: 42px; }
+  section.sales h2 { font-size: 21px; font-weight: 800; margin-bottom: 4px; }
+  section.sales .sub { color: var(--muted); font-size: 13.5px; margin-bottom: 16px; max-width: 80ch; }
+  .sales-hero { padding: 6px 0 22px; border-bottom: 1px solid var(--line); margin-bottom: 20px; }
+  .sales-hero .hero-label { font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-weight: 700; margin-bottom: 8px; }
+  .sales-hero .hero-value { font-family: "IBM Plex Mono", monospace; font-weight: 700; font-size: 68px; letter-spacing: -0.02em; color: var(--good); line-height: 1; }
+  .sales-hero .hero-row { display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+  .sales-hero .hero-sub { font-size: 14px; color: var(--muted-2); }
+  .sales-hero .hero-trend { display: inline-flex; align-items: center; gap: 5px; font-weight: 700; font-family: "IBM Plex Mono", monospace; font-size: 13px; padding: 4px 12px; border-radius: 100px; background: var(--good-soft); color: var(--good); margin-top: 12px; }
+  .sales-hero .hero-trend.critical { background: var(--critical-soft); color: var(--critical); }
+  .pace-svg { width: 100%; height: 180px; display: block; }
+  .pace-meta-line { stroke: var(--line); stroke-width: 1.5; }
+  .pace-ideal-path { fill: none; stroke: var(--muted-2); stroke-width: 2; stroke-dasharray: 7 5; }
+  .pace-real-path { fill: none; stroke: var(--accent); stroke-width: 3; stroke-linecap: round; }
+  .pace-proj-path { fill: none; stroke-width: 2.5; stroke-dasharray: 5 4; stroke-linecap: round; }
+  .pace-proj-path.good { stroke: var(--good); }
+  .pace-proj-path.critical { stroke: var(--critical); }
+  .month-calls-svg { width: 100%; height: 150px; display: block; }
+  .month-bar { fill: var(--accent-soft); }
+  .month-bar.sem-dado { fill: var(--surface-2); }
+  .month-dot { fill: var(--good); }
+  .month-day-label { font-size: 9px; fill: var(--muted-2); font-family: "IBM Plex Mono", monospace; }
+  .sales-kpi-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; margin-bottom: 20px; }
+  .sales-col-title { font-family: "Bricolage Grotesque", sans-serif; font-weight: 700; font-size: 15px; margin-bottom: 10px; }
+  .sales-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 20px; align-items: start; }
+  @media (max-width: 720px) { .sales-grid { grid-template-columns: 1fr; } }
+  .sales-rank { display: flex; flex-direction: column; gap: 9px; }
+  .sales-rank-row { display: flex; align-items: center; gap: 10px; }
+  .rank-badge { flex: 0 0 22px; width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; font-family: "IBM Plex Mono", monospace; background: var(--surface-2); color: var(--muted); }
+  .rank-badge.rank-1 { background: var(--accent); color: var(--accent-ink); }
+  .rank-badge.rank-2 { background: var(--accent-soft); color: var(--accent); }
+  .sales-rank-row .name { font-size: 13px; width: 118px; flex: 0 0 118px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .sales-rank-row .track { flex: 1; height: 14px; background: var(--surface-2); border-radius: 100px; overflow: hidden; }
+  .sales-rank-row .fill { height: 100%; border-radius: 100px; background: linear-gradient(90deg, var(--accent-soft), var(--accent)); }
+  .sales-rank-row .val { font-family: "IBM Plex Mono", monospace; font-size: 12px; font-weight: 700; width: 92px; text-align: right; }
+  .sales-recent { display: flex; flex-direction: column; gap: 8px; }
+  .sales-recent-row { display: flex; align-items: center; gap: 10px; background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--line); border-radius: 10px; padding: 10px 14px; font-size: 13px; box-shadow: var(--shadow); }
+  .sales-recent-row.ontem { border-left-color: var(--good); }
+  .sales-recent-row .lead { font-weight: 700; flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .sales-recent-row .att { color: var(--muted); font-weight: 400; font-size: 12px; }
+  .sales-recent-row .pipe-tag { font-size: 10.5px; background: var(--accent-soft); color: var(--accent); padding: 2px 8px; border-radius: 100px; white-space: nowrap; font-weight: 600; }
+  .sales-recent-row .val { font-family: "IBM Plex Mono", monospace; font-weight: 700; white-space: nowrap; }
+  .sales-recent-row .when { font-size: 11.5px; color: var(--muted-2); width: 68px; text-align: right; white-space: nowrap; }
+
+  .findings { background: var(--accent-soft); border: 1px solid var(--accent); border-radius: 14px; padding: 20px 22px; margin-bottom: 36px; }
+  .findings h2 { font-size: 15px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); margin-bottom: 12px; }
+  .findings ul { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; }
+  .findings li { font-size: 14.5px; }
+  .findings li b { font-weight: 700; }
+  .findings .meta { font-size: 11.5px; color: var(--muted); margin-top: 14px; }
+
+  .ai-list { display: flex; flex-direction: column; gap: 10px; }
+  .ai-item { display: flex; gap: 12px; padding: 12px 14px; border-radius: 10px; background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--muted-2); }
+  .ai-item.alta { border-left-color: var(--critical); }
+  .ai-item.media { border-left-color: var(--warn); }
+  .ai-item.baixa { border-left-color: var(--good); }
+  .ai-item .body { flex: 1; min-width: 0; }
+  .ai-item .head { display: flex; align-items: baseline; gap: 8px; margin-bottom: 3px; flex-wrap: wrap; }
+  .ai-item .titulo { font-weight: 700; font-size: 14.5px; }
+  .ai-item .who { font-size: 11px; color: var(--accent); background: var(--accent-soft); padding: 1px 8px; border-radius: 100px; font-weight: 700; }
+  .ai-item .detalhe { font-size: 14px; color: var(--muted); }
+
+  section.pipeline { margin-bottom: 42px; }
+  section.pipeline .pipeline-head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }
+  section.pipeline h2 { font-size: 21px; font-weight: 800; }
+  section.pipeline .pipeline-stats { color: var(--muted); font-size: 13.5px; }
+
+  .rep-grid { display: flex; flex-direction: column; gap: 12px; }
+  .rep-card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; box-shadow: var(--shadow); }
+  .rep-top { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-bottom: 12px; }
+  .rep-name { font-family: "Bricolage Grotesque", sans-serif; font-weight: 700; font-size: 17px; min-width: 150px; }
+  .rep-metrics { display: flex; gap: 22px; flex-wrap: wrap; margin-left: auto; }
+  .metric { text-align: right; }
+  .metric .n { font-family: "IBM Plex Mono", monospace; font-weight: 700; font-size: 16px; }
+  .metric .l { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+  .metric.warn .n { color: var(--warn); }
+  .metric.critical .n { color: var(--critical); }
+  .metric.good .n { color: var(--good); }
+
+  .stage-bar { display: flex; height: 24px; border-radius: 100px; overflow: hidden; }
+  .stage-seg { display: flex; align-items: center; justify-content: center; font-size: 10.5px; font-weight: 700; font-family: "IBM Plex Mono", monospace; color: rgba(255,255,255,0.95); min-width: 0; white-space: nowrap; overflow: hidden; box-shadow: inset 2px 0 0 var(--surface); }
+  .stage-seg:first-child { box-shadow: none; }
+  .stage-legend { display: flex; flex-wrap: wrap; gap: 9px 15px; margin-top: 11px; font-size: 11.5px; color: var(--muted); }
+  .stage-legend span { display: inline-flex; align-items: center; gap: 5px; }
+  .stage-legend .sw { width: 9px; height: 9px; border-radius: 3px; display: inline-block; }
+
+  .funnel-box { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 20px 22px; box-shadow: var(--shadow); margin-bottom: 16px; }
+  .funnel-box .funnel-title { font-family: "Bricolage Grotesque", sans-serif; font-weight: 700; font-size: 15.5px; margin-bottom: 4px; }
+  .funnel-box .funnel-note { font-size: 12px; color: var(--muted-2); margin-bottom: 16px; max-width: 90ch; }
+  .funnel-chart { position: relative; }
+  .funnel-svg { width: 100%; height: 128px; display: block; }
+  .funnel-cols { display: flex; margin-top: 4px; }
+  .funnel-col { flex: 1; text-align: center; padding: 0 4px; min-width: 0; }
+  .funnel-col .stage-name { font-size: 10.5px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.03em; min-height: 28px; line-height: 1.3; margin-bottom: 4px; }
+  .funnel-col .qtd { font-family: "IBM Plex Mono", monospace; font-weight: 700; font-size: 18px; }
+  .funnel-col .conv { font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--muted); margin-top: 3px; font-weight: 600; }
+  .funnel-col .conv.low { color: var(--critical); }
+  .funnel-col .conv.total { color: var(--accent); }
+
+  section.loss-analysis { margin-bottom: 42px; }
+  section.loss-analysis h2 { font-size: 21px; font-weight: 800; margin-bottom: 4px; }
+  section.loss-analysis .sub { color: var(--muted); font-size: 13.5px; margin-bottom: 16px; max-width: 75ch; }
+  .loss-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; margin-bottom: 20px; }
+  .loss-card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; box-shadow: var(--shadow); }
+  .loss-card .name { font-family: "Bricolage Grotesque", sans-serif; font-weight: 700; font-size: 15px; margin-bottom: 2px; }
+  .loss-card .coverage { font-size: 11.5px; color: var(--muted-2); margin-bottom: 12px; }
+  .loss-bar-row { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+  .loss-bar-row .label { font-size: 12px; width: 118px; flex: 0 0 118px; color: var(--muted); text-align: right; }
+  .loss-bar-row .track { flex: 1; height: 14px; background: var(--surface-2); border-radius: 100px; overflow: hidden; }
+  .loss-bar-row .fill { height: 100%; border-radius: 100px; background: linear-gradient(90deg, var(--accent-soft), var(--accent)); }
+  .loss-bar-row .n { font-family: "IBM Plex Mono", monospace; font-size: 12px; font-weight: 700; width: 20px; text-align: right; }
+  .loss-samples { display: flex; flex-direction: column; gap: 8px; }
+  .loss-sample { background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 10px; padding: 10px 14px; font-size: 13px; }
+  .loss-sample .who { font-weight: 700; margin-right: 6px; }
+  .loss-sample .tag { font-size: 11px; background: var(--accent-soft); color: var(--accent); padding: 1px 7px; border-radius: 100px; margin-right: 6px; font-weight: 600; }
+  .loss-sample .quote { color: var(--muted); font-style: italic; }
+
+  section.calls { margin-bottom: 42px; }
+  section.calls h2 { font-size: 21px; font-weight: 800; margin-bottom: 4px; }
+  section.calls .sub { color: var(--muted); font-size: 13.5px; margin-bottom: 16px; max-width: 85ch; }
+  .calls-trend { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+  .calls-trend .pill { display: inline-flex; align-items: center; gap: 5px; font-size: 12.5px; font-weight: 600; padding: 5px 12px; border-radius: 100px; background: var(--surface-2); color: var(--muted); }
+  .calls-trend .pill .d { font-family: "IBM Plex Mono", monospace; font-weight: 700; }
+  .calls-trend .pill.up .d { color: var(--good); }
+  .calls-trend .pill.down .d { color: var(--critical); }
+  .calls-table-wrap { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); overflow-x: auto; }
+  table.calls-table { width: 100%; border-collapse: collapse; min-width: 640px; }
+  table.calls-table th, table.calls-table td { padding: 12px 16px; text-align: right; font-size: 13.5px; white-space: nowrap; }
+  table.calls-table th:first-child, table.calls-table td:first-child { text-align: left; }
+  table.calls-table thead th { font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); font-weight: 700; border-bottom: 1px solid var(--line); }
+  table.calls-table tbody tr { border-bottom: 1px solid var(--line); }
+  table.calls-table tbody tr:last-child { border-bottom: none; }
+  table.calls-table tbody tr.zero { color: var(--muted-2); }
+  table.calls-table td.name { font-family: "Bricolage Grotesque", sans-serif; font-weight: 700; font-size: 14px; color: var(--ink); }
+  table.calls-table td.n { font-family: "IBM Plex Mono", monospace; font-weight: 700; }
+  table.calls-table td.n.warn { color: var(--warn); }
+  table.calls-table td.pct { font-family: "IBM Plex Mono", monospace; color: var(--muted); }
+  table.calls-table tfoot td { padding: 12px 16px; font-family: "IBM Plex Mono", monospace; font-weight: 700; border-top: 2px solid var(--line); }
+  table.calls-table tfoot td.name { font-family: "Bricolage Grotesque", sans-serif; }
+
+  .glossary { margin-bottom: 20px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); overflow: hidden; }
+  .glossary summary { cursor: pointer; padding: 12px 18px; font-family: "Bricolage Grotesque", sans-serif; font-weight: 700; font-size: 13.5px; color: var(--accent); list-style: none; display: flex; align-items: center; gap: 8px; }
+  .glossary summary::-webkit-details-marker { display: none; }
+  .glossary summary::before { content: "▸"; font-size: 11px; transition: transform 0.15s; }
+  .glossary[open] summary::before { transform: rotate(90deg); }
+  .glossary-body { padding: 4px 18px 18px; border-top: 1px solid var(--line); }
+  .glossary-body p.lead-in { font-size: 13px; color: var(--muted); margin: 12px 0 16px; max-width: 70ch; }
+  .glossary-pipeline { margin-bottom: 18px; }
+  .glossary-pipeline:last-child { margin-bottom: 0; }
+  .glossary-pipeline h3 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin-bottom: 8px; }
+  .glossary-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px 20px; }
+  .glossary-item dt { font-weight: 700; font-size: 13px; margin-bottom: 2px; }
+  .glossary-item dd { font-size: 12.5px; color: var(--muted); margin: 0; line-height: 1.4; }
+
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted-2); font-size: 12.5px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; }
+  footer code { background: var(--surface-2); padding: 1px 6px; border-radius: 4px; font-family: "IBM Plex Mono", monospace; }
+
+  #loading-state { padding: 60px 20px; text-align: center; color: var(--muted); }
+</style>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap">
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="eyebrow">Comercial · Full Stack Club</div>
+      <h1><span class="mark"></span>Painel SDR &middot; Closer</h1>
+    </div>
+    <div class="meta">
+      <div>Global Pro Pika + Pós Graduação</div>
+      <div id="freshness-badge"><span class="dot"></span><span id="freshness-text">carregando…</span></div>
+    </div>
+  </header>
+
+  <details class="glossary">
+    <summary>O que significa cada etapa? (clique para abrir)</summary>
+    <div class="glossary-body">
+      <p class="lead-in">Cada negócio (lead que entrou no funil comercial) passa por uma sequência de etapas até virar cliente ou ser descartado. "Em aberto" = o negócio ainda está em alguma dessas etapas, sem ser marcado como Ganho nem Perdido de forma definitiva.</p>
+      <div class="glossary-pipeline">
+        <h3>Global Pro Pika (venda do bootcamp)</h3>
+        <dl class="glossary-grid">
+          <div class="glossary-item"><dt>Novo Lead (Antes 09/09)</dt><dd>Balde de leads antigos, de antes da reorganização do funil em 09/09. É histórico acumulado, não fluxo do dia a dia — por isso é bem maior que as outras etapas.</dd></div>
+          <div class="glossary-item"><dt>Novo Cliente Webnário</dt><dd>Porta de entrada atual: lead que se inscreveu num workshop/webinário ao vivo. É aqui que a maior parte dos leads novos cai hoje. Tem automação própria que move o lead sozinho em até ~24-48h — por isso essa etapa fica de fora do cálculo de "tempo médio na etapa" e "parados +3 dias" dos SDRs (senão o volume grande aqui mascara estagnação real nas etapas seguintes).</dd></div>
+          <div class="glossary-item"><dt>Disponível para Abordagem SDR</dt><dd>Já passou da triagem inicial e está esperando o SDR fazer o primeiro contato.</dd></div>
+          <div class="glossary-item"><dt>Aplicações (Respondi)</dt><dd>Lead respondeu a um formulário de aplicação.</dd></div>
+          <div class="glossary-item"><dt>Em Cadência</dt><dd>SDR está tentando contato ativo (ligações, mensagens) seguindo um roteiro de abordagem.</dd></div>
+          <div class="glossary-item"><dt>Atendeu - Qualificado</dt><dd>Lead atendeu e foi qualificado como bom encaixe para o produto.</dd></div>
+          <div class="glossary-item"><dt>Reunião Marcada</dt><dd>Reunião de venda com o Closer foi agendada.</dd></div>
+          <div class="glossary-item"><dt>No-show / Reagendamento</dt><dd>Lead não apareceu na reunião marcada, ou pediu para remarcar.</dd></div>
+          <div class="glossary-item"><dt>Reunião Realizada</dt><dd>A reunião de venda aconteceu de fato.</dd></div>
+          <div class="glossary-item"><dt>GANHO</dt><dd>Cliente fechou negócio — comprou. Só conta como fechado de verdade se alguém confirmar formalmente no CRM (card na coluna sozinho não basta, ver KPI "Em Ganho sem fechar").</dd></div>
+          <div class="glossary-item"><dt>PERDIDO SDR</dt><dd>SDR descartou o lead antes de chegar ao Closer (não qualificado, sem interesse, número errado etc).</dd></div>
+          <div class="glossary-item"><dt>PERDIDO CLOSER</dt><dd>Closer fez a reunião, mas o cliente não fechou.</dd></div>
+        </dl>
+      </div>
+      <div class="glossary-pipeline">
+        <h3>Pós Graduação (Pós Sanguinária)</h3>
+        <dl class="glossary-grid">
+          <div class="glossary-item"><dt>Novo Lead</dt><dd>Entrada do funil de pós-graduação.</dd></div>
+          <div class="glossary-item"><dt>Em Cadência</dt><dd>SDR tentando contato ativo com o lead.</dd></div>
+          <div class="glossary-item"><dt>Atendeu - Qualificado</dt><dd>Lead atendeu e foi qualificado.</dd></div>
+          <div class="glossary-item"><dt>Reunião Marcada</dt><dd>Reunião de venda agendada.</dd></div>
+          <div class="glossary-item"><dt>No-show / Reagendamento</dt><dd>Não apareceu ou pediu para remarcar.</dd></div>
+          <div class="glossary-item"><dt>Reunião Realizada</dt><dd>Reunião de venda aconteceu.</dd></div>
+          <div class="glossary-item"><dt>GANHO</dt><dd>Fechou matrícula — precisa de confirmação formal no CRM para contar de verdade.</dd></div>
+          <div class="glossary-item"><dt>PERDIDO CLOSER</dt><dd>Teve reunião mas não fechou.</dd></div>
+          <div class="glossary-item"><dt>PERDIDO SDR</dt><dd>Descartado antes de chegar ao Closer.</dd></div>
+        </dl>
+      </div>
+    </div>
+  </details>
+
+  <div id="loading-state">Carregando dados do CRM…</div>
+  <div id="content" hidden></div>
+
+  <footer>
+    <div>Fonte: DataCrazy API (negócios em aberto + criados no dia anterior) + relatório de ligações do 3C Plus (tempo até oportunidade, cobertura parcial — ver nota acima). Dados não incluem WhatsApp.</div>
+    <div>Peça pro Claude atualizar quando quiser dado mais recente que o <code id="footer-age">—</code>.</div>
+  </footer>
+</div>
+
+<script>
+const STAGE_COLORS = {
+  "Novo Lead (Antes 09/09)": "#9C93B8",
+  "Novo Lead": "#FFB020",
+  "Novo Cliente Webnário": "#FFB020",
+  "DISPONÍVEL PARA ABORDAGEM SDR": "#FF7A45",
+  "APLICAÇÕES (Respondi)": "#FF5C8A",
+  "Em Cadência": "#C24CFF",
+  "Atendeu - Qualificado": "#7C4DFF",
+  "Reunião Marcada": "#4C7DFF",
+  "No-show / Reagendamento": "#FFD166",
+  "Reunião Realizada": "#2BB4E0",
+  "GANHO": "#17B76B",
+  "PERDIDO CLOSER": "#E23A5C",
+  "PERDIDO SDR": "#FF4568"
+};
+function stageColor(name) { return STAGE_COLORS[name] || "#8880A3"; }
+
+function fmtAge(iso) {
+  const d = new Date(iso);
+  const mins = Math.round((Date.now() - d.getTime()) / 60000);
+  if (mins < 1) return "agora mesmo";
+  if (mins < 60) return mins + " min atrás";
+  const hrs = Math.round(mins / 60);
+  if (hrs < 24) return hrs + "h atrás";
+  return Math.round(hrs / 24) + "d atrás";
+}
+
+function metricClass(kind, value) {
+  if (kind === "tempo") return value > 3 ? "critical" : value > 1.5 ? "warn" : "good";
+  if (kind === "parados") return value > 15 ? "critical" : value > 5 ? "warn" : "good";
+  if (kind === "zombie") return value > 0 ? "warn" : "good";
+  if (kind === "semTentativa") return value > 50 ? "critical" : value > 20 ? "warn" : "good";
+  if (kind === "minutos") return value > 240 ? "critical" : value > 120 ? "warn" : "good";
+  return "";
+}
+
+function fmtMin(mins) {
+  if (mins === null || mins === undefined) return "—";
+  const h = Math.floor(mins / 60);
+  const m = Math.round(mins % 60);
+  return h > 0 ? `${h}h${String(m).padStart(2, "0")}` : `${m}min`;
+}
+
+function repCard(rep, stageOrder) {
+  const totalStage = rep.porEtapa.reduce((s, x) => s + x.qtd, 0) || 1;
+  const byName = {};
+  rep.porEtapa.forEach(s => byName[s.etapa] = s.qtd);
+  const segs = stageOrder.filter(name => byName[name] > 0).map(name => {
+    const qtd = byName[name];
+    const pct = (qtd / totalStage) * 100;
+    return `<div class="stage-seg" style="width:${pct}%; background:${stageColor(name)}" title="${name}: ${qtd}">${pct > 7 ? qtd : ""}</div>`;
+  }).join("");
+  const legend = stageOrder.filter(name => byName[name] > 0).map(name =>
+    `<span><span class="sw" style="background:${stageColor(name)}"></span>${name} (${byName[name]})</span>`
+  ).join("");
+
+  const tempoClass = metricClass("tempo", rep.tempoMedioNaEtapaDias);
+  const paradosClass = metricClass("parados", rep.paradosMais3Dias);
+  const ganhoClass = metricClass("zombie", rep.emGanhoMasAindaAberto);
+  const perdidoClass = metricClass("zombie", rep.emPerdidoMasAindaAberto);
+
+  const tao = rep.tempoAteOportunidade;
+  let taoHtml = "";
+  if (tao && tao.coberto3C) {
+    const semTentClass = metricClass("semTentativa", tao.pctSemTentativaMesmoDia);
+    const minClass = metricClass("minutos", tao.medianMinutosAteTentativa);
+    taoHtml = `
+        <div class="metric ${semTentClass}"><div class="n">${tao.pctSemTentativaMesmoDia}%</div><div class="l">Sem 1ª tentativa no dia</div></div>
+        <div class="metric ${minClass}"><div class="n">${fmtMin(tao.medianMinutosAteTentativa)}</div><div class="l">Mediana até 1ª tentativa</div></div>
+        <div class="metric"><div class="n">${tao.leadsComConexaoReal}/${tao.leadsAnalisados}</div><div class="l">Conexão real (atendida)</div></div>`;
+  } else if (tao) {
+    taoHtml = `<div class="metric"><div class="n">—</div><div class="l">Sem campanha 3C vinculada</div></div>`;
+  }
+
+  return `
+  <div class="rep-card">
+    <div class="rep-top">
+      <div class="rep-name">${rep.name}</div>
+      <div class="rep-metrics">
+        <div class="metric"><div class="n">${rep.totalAberto}</div><div class="l">Em aberto</div></div>
+        <div class="metric"><div class="n">${rep.yesterdayEntradas}</div><div class="l">Entraram ontem</div></div>
+        <div class="metric ${tempoClass}"><div class="n">${rep.tempoMedioNaEtapaDias}d</div><div class="l">Tempo médio na etapa</div></div>
+        <div class="metric ${paradosClass}"><div class="n">${rep.paradosMais3Dias}</div><div class="l">Parados +3 dias</div></div>
+        <div class="metric ${ganhoClass}"><div class="n">${rep.emGanhoMasAindaAberto}</div><div class="l">Em Ganho sem fechar</div></div>
+        <div class="metric ${perdidoClass}"><div class="n">${rep.emPerdidoMasAindaAberto}</div><div class="l">Em Perdido sem fechar</div></div>
+        ${taoHtml}
+      </div>
+    </div>
+    <div class="stage-bar">${segs}</div>
+    <div class="stage-legend">${legend}</div>
+  </div>`;
+}
+
+function smoothLine(pts) {
+  let d = `M ${pts[0].x} ${pts[0].y}`;
+  for (let i = 0; i < pts.length - 1; i++) {
+    const p0 = pts[i], p1 = pts[i + 1];
+    const midX = (p0.x + p1.x) / 2;
+    d += ` C ${midX} ${p0.y} ${midX} ${p1.y} ${p1.x} ${p1.y}`;
+  }
+  return d;
+}
+
+function smoothAreaPath(top, bottom) {
+  let d = smoothLine(top);
+  const bottomRev = [...bottom].reverse();
+  d += ` L ${bottomRev[0].x} ${bottomRev[0].y}`;
+  for (let i = 0; i < bottomRev.length - 1; i++) {
+    const p0 = bottomRev[i], p1 = bottomRev[i + 1];
+    const midX = (p0.x + p1.x) / 2;
+    d += ` C ${midX} ${p0.y} ${midX} ${p1.y} ${p1.x} ${p1.y}`;
+  }
+  d += " Z";
+  return d;
+}
+
+let funnelGradSeq = 0;
+function funnelSvg(funnel) {
+  const W = 1000, H = 128, midY = H / 2, maxHalf = 52, minHalf = 5;
+  const n = funnel.etapas.length;
+  const maxQtd = Math.max(...funnel.etapas.map(e => e.qtdNestaOuAFrente), 1);
+  const xs = funnel.etapas.map((e, i) => (i + 0.5) * (W / n));
+  const halves = funnel.etapas.map(e => minHalf + (e.qtdNestaOuAFrente / maxQtd) * (maxHalf - minHalf));
+  const top = xs.map((x, i) => ({ x, y: midY - halves[i] }));
+  const bottom = xs.map((x, i) => ({ x, y: midY + halves[i] }));
+  const path = smoothAreaPath(top, bottom);
+  const gradId = `funnelGrad${funnelGradSeq++}`;
+  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" class="funnel-svg">
+    <defs>
+      <linearGradient id="${gradId}" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" style="stop-color:var(--accent);stop-opacity:0.92"/>
+        <stop offset="100%" style="stop-color:var(--accent-soft);stop-opacity:0.92"/>
+      </linearGradient>
+    </defs>
+    <path d="${path}" fill="url(#${gradId})" style="stroke:var(--accent);stroke-opacity:0.55" stroke-width="2" stroke-linejoin="round"></path>
+  </svg>`;
+}
+
+function funnelHtml(funnel) {
+  if (!funnel || !funnel.etapas || !funnel.etapas.length) return "";
+  const n = funnel.etapas.length;
+  const cols = funnel.etapas.map((e, i) => {
+    let conv;
+    if (i < n - 1) {
+      const pct = e.conversaoParaProximaEtapaPct;
+      const pctClass = (pct !== null && pct < 25) ? "low" : "";
+      conv = `<div class="conv ${pctClass}">${pct !== null ? pct + "% →" : "—"}</div>`;
+    } else {
+      conv = `<div class="conv total">${funnel.conversaoTotalPct !== null ? funnel.conversaoTotalPct + "% total" : "—"}</div>`;
+    }
+    return `<div class="funnel-col">
+      <div class="stage-name">${e.etapa}</div>
+      <div class="qtd">${e.qtdNaEtapa}</div>
+      ${conv}
+    </div>`;
+  }).join("");
+  return `<div class="funnel-box">
+    <div class="funnel-title">Funil de conversão (snapshot atual, ${funnel.conversaoTotalPct !== null ? funnel.conversaoTotalPct + "% do topo até GANHO" : "sem dados"})</div>
+    <div class="funnel-note">${funnel.nota || ""} Os % são "quem está nesta etapa ou à frente ÷ quem está na anterior ou à frente" — mede acúmulo/gargalo agora, não taxa histórica de conversão por coorte.</div>
+    <div class="funnel-chart">
+      ${funnelSvg(funnel)}
+      <div class="funnel-cols">${cols}</div>
+    </div>
+  </div>`;
+}
+
+function fmtBRL(v) {
+  if (v === null || v === undefined) return "—";
+  return new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 }).format(v);
+}
+
+function vendasFechadasHtml(vf) {
+  if (!vf) return "";
+  const pipelines = Object.keys(vf.porPipeline || {});
+  const pipeCards = pipelines.map(pname => {
+    const p = vf.porPipeline[pname];
+    return `<div class="kpi"><div class="label">${pname.replace("Comercial - ", "")}</div><div class="value">${fmtBRL(p.valorTotal)}</div><div class="sub">${p.qtd} venda${p.qtd === 1 ? "" : "s"} · ${p.qtdOntem} ontem</div></div>`;
+  }).join("");
+
+  const ranked = vf.porAtendente || [];
+  const maxVal = Math.max(...ranked.map(a => a.valorTotal), 1);
+  const rankRows = ranked.map((a, i) => `
+    <div class="sales-rank-row">
+      <div class="rank-badge rank-${i + 1}">${i + 1}</div>
+      <div class="name">${a.name}</div>
+      <div class="track"><div class="fill" style="width:${(a.valorTotal / maxVal) * 100}%"></div></div>
+      <div class="val">${fmtBRL(a.valorTotal)}</div>
+    </div>`).join("");
+
+  const recentRows = (vf.recentes || []).map(r => {
+    const d = new Date(r.statusChangedAt);
+    const hoursOld = (Date.now() - d.getTime()) / 3600000;
+    const isRecent = hoursOld >= 0 && hoursOld < 48;
+    return `<div class="sales-recent-row ${isRecent ? "ontem" : ""}">
+      <div class="lead">${r.leadName}${r.attendantName ? ` <span class="att">· ${r.attendantName}</span>` : ` <span class="att">· sem atendente</span>`}</div>
+      <span class="pipe-tag">${r.pipeline.replace("Comercial - ", "")}</span>
+      <div class="val">${fmtBRL(r.total)}</div>
+      <div class="when">${d.toLocaleDateString("pt-BR")}</div>
+    </div>`;
+  }).join("");
+
+  const warn = vf.semAtendente > 0
+    ? `<div class="kpi flag critical"><div class="label">Sem atendente</div><div class="value">${vf.semAtendente}</div><div class="sub">venda fechada sem ninguém vinculado — não entra no ranking</div></div>`
+    : "";
+
+  const pipeVals = Object.values(vf.porPipeline || {});
+  const valorOntemTotal = pipeVals.reduce((s, p) => s + (p.valorOntem || 0), 0);
+  const qtdOntemTotal = pipeVals.reduce((s, p) => s + (p.qtdOntem || 0), 0);
+  const trendHtml = qtdOntemTotal > 0
+    ? `<div class="hero-trend">▲ ${fmtBRL(valorOntemTotal)} fechados ontem (${qtdOntemTotal})</div>`
+    : `<div class="hero-trend" style="background:var(--surface-2); color:var(--muted)">— nada fechado ontem</div>`;
+
+  return `<section class="sales">
+    <h2>Vendas fechadas</h2>
+    <div class="sub">Busca direto pela etapa GANHO com status confirmado ("won") no CRM — independente de atendente e sem o limite de requisições das outras métricas, então pega a venda mesmo que ninguém tenha vinculado atendente ainda.</div>
+    <div class="sales-hero">
+      <div class="hero-label">Total confirmado</div>
+      <div class="hero-row">
+        <div class="hero-value">${fmtBRL(vf.valorTotal)}</div>
+        <div class="hero-sub">${vf.qtdTotal} venda${vf.qtdTotal === 1 ? "" : "s"} no total</div>
+      </div>
+      ${trendHtml}
+    </div>
+    <div class="sales-kpi-row">
+      ${pipeCards}
+      ${warn}
+    </div>
+    <div class="sales-grid">
+      <div>
+        <div class="sales-col-title">Por atendente</div>
+        <div class="sales-rank">${rankRows || '<div class="sub">Sem vendas atribuídas ainda.</div>'}</div>
+      </div>
+      <div>
+        <div class="sales-col-title">Mais recentes</div>
+        <div class="sales-recent">${recentRows || '<div class="sub">Nenhuma venda registrada ainda.</div>'}</div>
+      </div>
+    </div>
+  </section>`;
+}
+
+function paceSvg(mm) {
+  const W = 1000, H = 200;
+  const maxY = Math.max(mm.meta, mm.projecaoFimMes, 1) * 1.08;
+  const xOf = d => (d / mm.diasNoMes) * W;
+  const yOf = v => H - (Math.max(v, 0) / maxY) * H;
+
+  const idealPath = `M ${xOf(0)} ${yOf(0)} L ${xOf(mm.diasNoMes)} ${yOf(mm.meta)}`;
+
+  const serie = mm.serieDiaria || [];
+  let realPath = serie.length ? "" : `M ${xOf(0)} ${yOf(0)}`;
+  serie.forEach((p, i) => { realPath += (i === 0 ? "M" : "L") + ` ${xOf(p.dia)} ${yOf(p.acumulado)} `; });
+
+  const last = serie.length ? serie[serie.length - 1] : { dia: 0, acumulado: 0 };
+  const projPath = `M ${xOf(last.dia)} ${yOf(last.acumulado)} L ${xOf(mm.diasNoMes)} ${yOf(mm.projecaoFimMes)}`;
+
+  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" class="pace-svg">
+    <line x1="0" y1="${yOf(mm.meta)}" x2="${W}" y2="${yOf(mm.meta)}" class="pace-meta-line" />
+    <path d="${idealPath}" class="pace-ideal-path"></path>
+    <path d="${projPath}" class="pace-proj-path ${mm.vaiBaterMeta ? "good" : "critical"}"></path>
+    <path d="${realPath}" class="pace-real-path"></path>
+  </svg>`;
+}
+
+function metaMensalHtml(mm) {
+  if (!mm) return "";
+  const statusClass = mm.vaiBaterMeta ? "" : "critical";
+  const statusText = mm.vaiBaterMeta
+    ? `▲ No ritmo atual, bate a meta (projeção ${fmtBRL(mm.projecaoFimMes)})`
+    : `▼ No ritmo atual, fica ${fmtBRL(mm.meta - mm.projecaoFimMes)} abaixo da meta`;
+
+  return `<section class="sales">
+    <h2>Meta do mês</h2>
+    <div class="sub">${mm.nota || ""}</div>
+    <div class="sales-hero">
+      <div class="hero-label">Vendido este mês (dia ${mm.diaAtualDoMes} de ${mm.diasNoMes})</div>
+      <div class="hero-row">
+        <div class="hero-value">${fmtBRL(mm.vendidoMes)}</div>
+        <div class="hero-sub">de ${fmtBRL(mm.meta)} · ${pct(mm.pctMeta)} da meta</div>
+      </div>
+      <div class="hero-trend ${statusClass}">${statusText}</div>
+    </div>
+    <div class="sales-kpi-row">
+      <div class="kpi flag ${mm.faltaParaMeta > 0 ? "warn" : "good"}"><div class="label">Falta pra meta</div><div class="value">${fmtBRL(mm.faltaParaMeta)}</div><div class="sub">${mm.diasRestantes} dias restantes no mês</div></div>
+      <div class="kpi flag ${mm.vaiBaterMeta ? "good" : "critical"}"><div class="label">Projeção fim do mês</div><div class="value">${fmtBRL(mm.projecaoFimMes)}</div><div class="sub">no ritmo atual de ${fmtBRL(mm.paceDiarioAtual)}/dia</div></div>
+      <div class="kpi"><div class="label">Ritmo necessário</div><div class="value">${fmtBRL(mm.paceDiarioNecessario)}</div><div class="sub">por dia, nos dias restantes</div></div>
+      <div class="kpi"><div class="label">Vendas necessárias</div><div class="value">${mm.vendasNecessariasRestantes}</div><div class="sub">~${mm.vendasPorDiaNecessarias}/dia · ticket médio ${fmtBRL(mm.ticketMedioMes)}</div></div>
+    </div>
+    <div class="funnel-box">
+      <div class="funnel-title">Ritmo do mês: real × ideal × projeção</div>
+      <div class="funnel-note">Linha pontilhada cinza = ritmo ideal pra bater a meta linearmente. Linha roxa cheia = acumulado real até hoje. Linha pontilhada ${mm.vaiBaterMeta ? "verde" : "vermelha"} = projeção até o fim do mês, mantendo o ritmo atual.</div>
+      ${paceSvg(mm)}
+      <div class="stage-legend">
+        <span><span class="sw" style="background:var(--accent)"></span>Real acumulado</span>
+        <span><span class="sw" style="background:var(--muted-2)"></span>Ritmo ideal</span>
+        <span><span class="sw" style="background:${mm.vaiBaterMeta ? "var(--good)" : "var(--critical)"}"></span>Projeção</span>
+      </div>
+    </div>
+  </section>`;
+}
+
+function pct(v) { return v === null || v === undefined ? "—" : v + "%"; }
+
+function monthCallsSvg(serie) {
+  if (!serie || !serie.length) return "";
+  const W = 1000, H = 150;
+  const n = serie.length;
+  const slot = W / n;
+  const barW = slot * 0.62;
+  const maxLig = Math.max(...serie.map(d => d.ligacoesFeitas), 1);
+  const parts = serie.map((d, i) => {
+    const x = i * slot + (slot - barW) / 2;
+    const h = d.semDado ? 4 : Math.max((d.ligacoesFeitas / maxLig) * (H - 24), d.ligacoesFeitas > 0 ? 3 : 0);
+    const y = H - 20 - h;
+    const cls = d.semDado ? "month-bar sem-dado" : "month-bar";
+    const marcador = d.reunioesMarcadas > 0
+      ? `<circle cx="${x + barW / 2}" cy="${Math.max(y - 10, 10)}" r="5" class="month-dot"></circle>`
+      : "";
+    const showLabel = d.dia === 1 || d.dia === n || d.dia % 5 === 0;
+    const label = showLabel ? `<text x="${x + barW / 2}" y="${H - 4}" class="month-day-label" text-anchor="middle">${d.dia}</text>` : "";
+    const title = d.semDado ? `Dia ${d.dia}: sem dado (painel não rodou)` : `Dia ${d.dia}: ${d.ligacoesFeitas} ligações, ${d.reunioesMarcadas} reunião(ões) marcada(s)`;
+    return `<rect x="${x}" y="${y}" width="${barW}" height="${Math.max(h, 2)}" rx="2" class="${cls}"><title>${title}</title></rect>${marcador}${label}`;
+  }).join("");
+  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" class="month-calls-svg">${parts}</svg>`;
+}
+
+function monthCallsHtml(sc) {
+  const serie = sc && sc.serieDiariaMes;
+  if (!serie || !serie.length) return "";
+  return `<div class="funnel-box" style="margin-top:16px;">
+    <div class="funnel-title">Ligações e reuniões por dia (mês atual)</div>
+    <div class="funnel-note">Barra = ligações feitas no dia (time todo). Bolinha verde = quantas reuniões foram marcadas naquele dia. Barra cinza clara = dia em que o painel não rodou nenhuma vez (sem dado, não é zero de verdade).</div>
+    ${monthCallsSvg(serie)}
+    <div class="stage-legend">
+      <span><span class="sw" style="background:var(--accent-soft)"></span>Ligações feitas</span>
+      <span><span class="sw" style="background:var(--good); border-radius:50%;"></span>Reunião marcada no dia</span>
+      <span><span class="sw" style="background:var(--surface-2)"></span>Sem dado</span>
+    </div>
+  </div>`;
+}
+
+function sdrConversionHtml(sc) {
+  if (!sc || !sc.porSdr || !sc.porSdr.length) return "";
+  const rows = sc.porSdr.map(r => `
+    <tr class="${r.ligacoesFeitas === 0 ? "zero" : ""}">
+      <td class="name">${r.name}</td>
+      <td class="n">${r.ligacoesFeitas}</td>
+      <td class="n">${r.atendidas}</td>
+      <td class="pct">${pct(r.taxaAtendimentoPct)}</td>
+      <td class="n">${r.qualificados}</td>
+      <td class="pct">${pct(r.taxaQualificacaoPct)}</td>
+      <td class="n">${r.naoAtendidas}</td>
+    </tr>`).join("");
+
+  const totals = sc.porSdr.reduce((acc, r) => {
+    acc.feitas += r.ligacoesFeitas; acc.atendidas += r.atendidas;
+    acc.qualificados += r.qualificados; acc.naoAtendidas += r.naoAtendidas;
+    return acc;
+  }, { feitas: 0, atendidas: 0, qualificados: 0, naoAtendidas: 0 });
+  const totalTaxaAtend = totals.feitas ? Math.round((totals.atendidas / totals.feitas) * 1000) / 10 : null;
+  const totalTaxaQualif = totals.atendidas ? Math.round((totals.qualificados / totals.atendidas) * 1000) / 10 : null;
+
+  let trendHtml = "";
+  if (sc.ontem) {
+    const o = sc.ontem;
+    const diff = (label, hoje, ontem) => {
+      const d = hoje - ontem;
+      const cls = d > 0 ? "up" : d < 0 ? "down" : "";
+      const sign = d > 0 ? "+" : "";
+      return `<span class="pill ${cls}">${label} <span class="d">${sign}${d}</span> vs ontem (${ontem})</span>`;
+    };
+    trendHtml = `<div class="calls-trend">
+      ${diff("Ligações", totals.feitas, o.ligacoesFeitas)}
+      ${diff("Atendidas", totals.atendidas, o.atendidas)}
+      ${diff("Qualificados", totals.qualificados, o.qualificados)}
+    </div>`;
+  }
+
+  return `<section class="calls">
+    <h2>Conversão por SDR (hoje, ${sc.data ? sc.data.split("-").reverse().join("/") : ""})</h2>
+    <div class="sub">${sc.nota || ""}</div>
+    ${trendHtml}
+    <div class="calls-table-wrap">
+      <table class="calls-table">
+        <thead>
+          <tr>
+            <th>SDR</th>
+            <th>Ligações feitas</th>
+            <th>Atendidas</th>
+            <th>Taxa atendimento</th>
+            <th>Qualificados</th>
+            <th>Taxa qualificação</th>
+            <th>Não atendidas</th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+        <tfoot>
+          <tr>
+            <td class="name">Total</td>
+            <td>${totals.feitas}</td>
+            <td>${totals.atendidas}</td>
+            <td>${pct(totalTaxaAtend)}</td>
+            <td>${totals.qualificados}</td>
+            <td>${pct(totalTaxaQualif)}</td>
+            <td>${totals.naoAtendidas}</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    ${monthCallsHtml(sc)}
+  </section>`;
+}
+
+function fmtH(h) {
+  if (h === null || h === undefined) return "—";
+  return h.toFixed(1).replace(".", ",") + "h";
+}
+
+function funnelConversionHtml(fc) {
+  if (!fc || !fc.porSdr || !fc.porSdr.length) return "";
+
+  const sdrRows = fc.porSdr.map(r => `
+    <tr class="${r.qualificadosTotal === 0 ? "zero" : ""}">
+      <td class="name">${r.name}</td>
+      <td class="n">${fmtH(r.horasNo3cJanela)}</td>
+      <td class="n">${fmtH(r.horasFalandoJanela)}</td>
+      <td class="n">${r.mediaOciosoMinPorDia !== null && r.mediaOciosoMinPorDia !== undefined ? fmtMin(r.mediaOciosoMinPorDia) + "/dia" : "—"}</td>
+      <td class="n">${r.ligacoesFeitasJanela}</td>
+      <td class="n">${r.conectadasJanela ?? 0}</td>
+      <td class="pct">${pct(r.taxaConexaoPct)}</td>
+      <td class="n">${r.qualificadosTotal}</td>
+      <td class="n ${r.perdido > 0 ? "warn" : ""}">${r.perdido}</td>
+      <td class="n">${r.reunioesMarcadas}</td>
+      <td class="pct">${pct(r.taxaQualificadoParaReuniaoPct)}</td>
+      <td class="n">${r.ligacoesPorReuniaoMarcada ?? "—"}</td>
+    </tr>`).join("");
+
+  const closerRows = (fc.porCloser || []).map(r => `
+    <tr class="${r.reunioesRecebidas === 0 ? "zero" : ""}">
+      <td class="name">${r.name}</td>
+      <td class="n" style="text-align:left; font-weight:400; color:var(--muted); font-family:inherit;">via ${r.sdrOrigem}</td>
+      <td class="n">${r.reunioesRecebidas}</td>
+      <td class="n">${r.reunioesRealizadas}</td>
+      <td class="n">${r.ganho}</td>
+      <td class="n">${r.perdido}</td>
+      <td class="pct">${pct(r.taxaReuniaoParaVendaPct)}</td>
+    </tr>`).join("");
+
+  return `<section class="calls">
+    <h2>Funil SDR → Closer (janela de ${fc.janelaDias} dias + acumulado)</h2>
+    <div class="sub">${fc.nota || ""}</div>
+
+    <div class="sales-col-title" style="margin-top:8px;">Esforço x resultado por SDR</div>
+    <div class="calls-table-wrap" style="margin-bottom:24px;">
+      <table class="calls-table">
+        <thead>
+          <tr>
+            <th>SDR</th>
+            <th>Horas 3C</th>
+            <th>Tempo falando</th>
+            <th>Tempo ocioso</th>
+            <th>Ligações</th>
+            <th>Conectadas</th>
+            <th>Taxa conexão</th>
+            <th>Qualificados</th>
+            <th>Perdido</th>
+            <th>Reuniões marcadas</th>
+            <th>Taxa qualif.→reunião</th>
+            <th>Ligações/reunião</th>
+          </tr>
+        </thead>
+        <tbody>${sdrRows}</tbody>
+      </table>
+    </div>
+
+    <div class="sales-col-title">Conversão por Closer</div>
+    <div class="calls-table-wrap">
+      <table class="calls-table">
+        <thead>
+          <tr>
+            <th>Closer</th>
+            <th>Origem</th>
+            <th>Reuniões recebidas</th>
+            <th>Realizadas</th>
+            <th>Ganho</th>
+            <th>Perdido</th>
+            <th>Taxa reunião→venda</th>
+          </tr>
+        </thead>
+        <tbody>${closerRows}</tbody>
+      </table>
+    </div>
+  </section>`;
+}
+
+function activitiesTrackingHtml(at) {
+  if (!at || !at.porAtendente || !at.porAtendente.length) return "";
+
+  const rows = at.porAtendente.map(r => `
+    <tr class="${r.pendentes === 0 ? "zero" : ""}">
+      <td class="name">${r.name}</td>
+      <td class="n">${r.pendentes}</td>
+      <td class="n ${r.atrasadas > 0 ? "warn" : ""}">${r.atrasadas}</td>
+      <td class="n">${r.proximas48h}</td>
+      <td class="n">${r.concluidasJanela}</td>
+    </tr>`).join("");
+
+  const totals = at.porAtendente.reduce((acc, r) => {
+    acc.pendentes += r.pendentes; acc.atrasadas += r.atrasadas;
+    acc.proximas += r.proximas48h; acc.concluidas += r.concluidasJanela;
+    return acc;
+  }, { pendentes: 0, atrasadas: 0, proximas: 0, concluidas: 0 });
+
+  return `<section class="calls">
+    <h2>Atividades (tarefas do Calendário) por atendente</h2>
+    <div class="sub">${at.nota || ""} Veja em <span class="mono">crm.datacrazy.io/calendar</span>, aba "Pendentes", filtrando por atendente.</div>
+    <div class="calls-table-wrap">
+      <table class="calls-table">
+        <thead>
+          <tr>
+            <th>Atendente</th>
+            <th>Pendentes</th>
+            <th>Atrasadas</th>
+            <th>Próximas 48h</th>
+            <th>Concluídas (${at.janelaDias}d)</th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+        <tfoot>
+          <tr>
+            <td class="name">Total</td>
+            <td>${totals.pendentes}</td>
+            <td class="${totals.atrasadas > 0 ? "warn" : ""}">${totals.atrasadas}</td>
+            <td>${totals.proximas}</td>
+            <td>${totals.concluidas}</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </section>`;
+}
+
+function lossAnalysisHtml(la) {
+  if (!la || !la.byPerson || !la.byPerson.length) return "";
+  const cards = la.byPerson.map(p => {
+    const maxQtd = Math.max(...p.porMotivo.map(m => m.qtd), 1);
+    const bars = p.porMotivo.map(m => `
+      <div class="loss-bar-row">
+        <div class="label">${m.motivo}</div>
+        <div class="track"><div class="fill" style="width:${(m.qtd / maxQtd) * 100}%"></div></div>
+        <div class="n">${m.qtd}</div>
+      </div>`).join("");
+    return `<div class="loss-card">
+      <div class="name">${p.name}</div>
+      <div class="coverage">${p.totalClassificado} de ${p.totalPerdidoNoFunil} negócios perdidos com ligação analisada${p.semTranscricao > 0 ? ` · ${p.semTranscricao} sem transcrição` : ""}</div>
+      ${bars}
+    </div>`;
+  }).join("");
+
+  const samples = (la.samples || []).map(s => `
+    <div class="loss-sample">
+      <span class="who">${s.attendantName}</span><span class="tag">${s.motivoIA}</span>
+      <span class="quote">"${s.evidencia}"</span>
+    </div>`).join("");
+
+  return `<section class="loss-analysis">
+    <h2>Motivos de perda (análise por IA das ligações)</h2>
+    <div class="sub">Cada negócio perdido é cruzado com a transcrição da ligação (via 3C) e classificado por IA num dos motivos abaixo. ${la.totalAnalisado} negócios analisados até agora. Atualiza 1x por dia.</div>
+    <div class="loss-grid">${cards}</div>
+    ${samples ? `<div class="loss-samples">${samples}</div>` : ""}
+  </section>`;
+}
+
+function render(data) {
+  const content = document.getElementById("content");
+  const pipelines = Object.keys(data.byPipeline);
+
+  const totalParados = data.attendants.reduce((s, r) => s + r.paradosMais3Dias, 0);
+  const totalEmGanho = data.attendants.reduce((s, r) => s + r.emGanhoMasAindaAberto, 0);
+  const totalEmPerdido = data.attendants.reduce((s, r) => s + r.emPerdidoMasAindaAberto, 0);
+  const atividades = data.activitiesTracking;
+  const totalAtrasadas = atividades && atividades.porAtendente
+    ? atividades.porAtendente.reduce((s, r) => s + r.atrasadas, 0) : null;
+
+  let html = "";
+
+  html += `<div class="kpi-row">
+    <div class="kpi"><div class="label">Negócios em aberto</div><div class="value">${data.openTotal}</div><div class="sub">nos 2 funis rastreados</div></div>
+    <div class="kpi"><div class="label">Entraram ontem</div><div class="value">${data.yesterdayTotal}</div><div class="sub">novos negócios criados</div></div>
+    <div class="kpi flag"><div class="label">Parados +3 dias sem mover</div><div class="value">${totalParados}</div><div class="sub">sem movimentação de etapa</div></div>
+    <div class="kpi flag critical"><div class="label">Em Ganho sem fechar</div><div class="value">${totalEmGanho}</div><div class="sub">venda parece feita, ninguém confirmou</div></div>
+    <div class="kpi flag warn"><div class="label">Em Perdido sem fechar</div><div class="value">${totalEmPerdido}</div><div class="sub">parece perdido, ninguém confirmou</div></div>
+    ${totalAtrasadas !== null ? `<div class="kpi flag ${totalAtrasadas > 0 ? "critical" : "good"}"><div class="label">Tarefas atrasadas</div><div class="value">${totalAtrasadas}</div><div class="sub">no Calendário, prazo já passou</div></div>` : ""}
+  </div>`;
+
+  html += metaMensalHtml(data.metaMensal);
+
+  html += vendasFechadasHtml(data.vendasFechadas);
+
+  html += sdrConversionHtml(data.sdrConversion);
+
+  html += funnelConversionHtml(data.funnelConversion);
+
+  html += activitiesTrackingHtml(data.activitiesTracking);
+
+  const tao = data.tempoAteOportunidade;
+  let taoFinding = "";
+  if (tao) {
+    taoFinding = `<li><b>Só ${tao.pctLigacoesParaLeadsNovos}% das ligações do dia (${tao.ligacoesParaLeadsDeOntem} de ${tao.totalLigacoesNoDia}) foram para leads criados naquele mesmo dia</b> — o resto (${tao.ligacoesParaLeadsAntigos}) foi discagem em leads antigos (backlog/cadência). Cruzamento telefone-a-telefone entre o CRM e o relatório de ligações do 3C, dia ${tao.periodoAnalisado}. ${tao.cobertura}</li>`;
+  }
+
+  const globalReps = data.attendants.filter(r => r.pipeline === "Comercial - Global Pro Pika");
+  let tempoEtapaFinding = "";
+  if (globalReps.length > 0) {
+    const tempos = globalReps.map(r => r.tempoMedioNaEtapaDias);
+    const min = Math.min(...tempos), max = Math.max(...tempos);
+    const spread = max - min > 1 ? "já há um outlier isolado hoje" : "não há um outlier isolado hoje";
+    tempoEtapaFinding = `<li>Tempo médio na etapa atual varia entre ${min}–${max} dias entre os SDRs do Global — ${spread}, mas o volume de "parados +3 dias" já separa o time.</li>`;
+  }
+
+  const ai = data.aiInsights;
+  if (ai && ai.items && ai.items.length) {
+    const itemsHtml = ai.items.map(it => `
+      <div class="ai-item ${it.severidade}">
+        <div class="body">
+          <div class="head">
+            <span class="titulo">${it.titulo}</span>
+            ${it.atendente ? `<span class="who">${it.atendente}</span>` : ""}
+          </div>
+          <div class="detalhe">${it.detalhe}</div>
+        </div>
+      </div>`).join("");
+    html += `<div class="findings">
+      <h2>Briefing do dia (gerado por IA)</h2>
+      <div class="ai-list">${itemsHtml}</div>
+      <div class="meta">Gerado ${fmtAge(ai.generatedAt)} a partir dos dados do painel · atualiza a cada 3h</div>
+    </div>`;
+  } else {
+    html += `<div class="findings">
+      <h2>O que os dados mostram</h2>
+      <ul>
+        <li><b>"Atividades" (tarefas) do CRM está vazio em todos os negócios verificados</b> — o time não está usando essa função, então não dá pra medir cadência cumprida por esse caminho. O proxy disponível é tempo parado na etapa "Em Cadência".</li>
+        <li><b>${totalEmGanho} negócios estão na coluna GANHO mas o status continua "em aberto"</b> — venda parece fechada mas ninguém confirmou formalmente. Dinheiro na mesa esperando confirmação.</li>
+        <li><b>${totalEmPerdido} negócios estão em PERDIDO SDR/CLOSER mas o status continua "em aberto"</b> — parecem perdidos, mas ninguém confirmou. Pode ser lead esquecido sendo tratado como morto sem necessidade.</li>
+        <li><b>${totalParados} negócios estão parados há mais de 3 dias sem nenhuma mudança de etapa</b> — candidatos a follow-up perdido ou lead esquecido.</li>
+        ${tempoEtapaFinding}
+        ${taoFinding}
+      </ul>
+    </div>`;
+  }
+
+  pipelines.forEach(pname => {
+    const pdata = data.byPipeline[pname];
+    const reps = data.attendants.filter(r => r.pipeline === pname);
+    const stageOrder = data.pipelineStages[pname] || [];
+    const funnel = data.funnels ? data.funnels[pname] : null;
+    html += `<section class="pipeline">
+      <div class="pipeline-head">
+        <h2>${pname}</h2>
+        <div class="pipeline-stats">${pdata.openTotal} em aberto · ${pdata.yesterdayEntradas} entraram ontem · ${pdata.emGanhoMasAindaAberto} em Ganho sem fechar · ${pdata.emPerdidoMasAindaAberto} em Perdido sem fechar</div>
+      </div>
+      ${funnelHtml(funnel)}
+      <div class="rep-grid">
+        ${reps.map(r => repCard(r, stageOrder)).join("")}
+      </div>
+    </section>`;
+  });
+
+  html += lossAnalysisHtml(data.lossAnalysis);
+
+  content.innerHTML = html;
+  content.hidden = false;
+  document.getElementById("loading-state").hidden = true;
+
+  const badge = document.getElementById("freshness-badge");
+  const ageText = fmtAge(data.generatedAt);
+  document.getElementById("freshness-text").textContent = "atualizado " + ageText;
+  document.getElementById("footer-age").textContent = ageText;
+  const hoursOld = (Date.now() - new Date(data.generatedAt).getTime()) / 3600000;
+  if (hoursOld > 20) badge.classList.add("stale");
+}
+
+async function loadDashboard() {
+  const res = await fetch("./dashboard.json", { cache: "no-store" });
+  if (!res.ok) throw new Error("HTTP " + res.status);
+  return res.json();
+}
+
+async function init() {
+  try {
+    const data = await loadDashboard();
+    render(data);
+  } catch (e) {
+    console.error("painel-sdr-closer init error:", e);
+    document.getElementById("loading-state").textContent = "Não consegui carregar os dados agora: " + (e && e.message ? e.message : String(e));
+  }
+}
+
+init();
+setInterval(async () => {
+  try { render(await loadDashboard()); } catch (e) { console.error("painel-sdr-closer refresh error:", e); }
+}, 5 * 60 * 1000);
+</script>
+
+</body></html>
