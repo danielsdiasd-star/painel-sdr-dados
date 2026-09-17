@@ -125,6 +125,9 @@
   .month-bar.sem-dado { fill: var(--surface-2); }
   .month-dot { fill: var(--good); }
   .month-day-label { font-size: 9px; fill: var(--muted-2); font-family: "IBM Plex Mono", monospace; }
+  .day-bar { fill: var(--accent-soft); }
+  .day-bar.above { fill: var(--good); }
+  .day-line { stroke: var(--muted-2); stroke-width: 1.5; stroke-dasharray: 5 4; }
   .sales-kpi-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; margin-bottom: 20px; }
   .sales-col-title { font-family: "Bricolage Grotesque", sans-serif; font-weight: 700; font-size: 15px; margin-bottom: 10px; }
   .sales-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 20px; align-items: start; }
@@ -588,6 +591,46 @@ function paceSvg(mm) {
   </svg>`;
 }
 
+function dailyPaceSvg(mm) {
+  const serie = mm.serieDiaria || [];
+  if (!serie.length) return "";
+  const W = 1000, H = 150;
+  const n = mm.diasNoMes;
+  const slot = W / n;
+  const barW = slot * 0.62;
+  const idealDiario = mm.meta / mm.diasNoMes;
+  const maxVal = Math.max(...serie.map(d => d.valorDia), idealDiario, 1);
+  const yScale = v => (v / maxVal) * (H - 24);
+  const idealY = H - 20 - yScale(idealDiario);
+  const bars = serie.map((d, i) => {
+    const x = i * slot + (slot - barW) / 2;
+    const h = Math.max(yScale(d.valorDia), d.valorDia > 0 ? 3 : 0);
+    const y = H - 20 - h;
+    const cls = d.valorDia >= idealDiario ? "day-bar above" : "day-bar";
+    const showLabel = d.dia === 1 || d.dia === n || d.dia % 5 === 0;
+    const label = showLabel ? `<text x="${x + barW / 2}" y="${H - 4}" class="month-day-label" text-anchor="middle">${d.dia}</text>` : "";
+    return `<rect x="${x}" y="${y}" width="${barW}" height="${Math.max(h, 2)}" rx="2" class="${cls}"><title>Dia ${d.dia}: ${fmtBRL(d.valorDia)} vendido</title></rect>${label}`;
+  }).join("");
+  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" class="month-calls-svg">
+    <line x1="0" y1="${idealY}" x2="${W}" y2="${idealY}" class="day-line"></line>
+    ${bars}
+  </svg>`;
+}
+
+function dailyPaceHtml(mm) {
+  const serie = mm.serieDiaria || [];
+  if (!serie.length) return "";
+  return `<div class="funnel-box" style="margin-top:16px;">
+    <div class="funnel-title">Vendido por dia (mês atual)</div>
+    <div class="funnel-note">Cada barra é o valor fechado (GANHO) naquele dia específico, não acumulado. Linha pontilhada = ritmo diário ideal pra bater a meta (${fmtBRL(mm.meta / mm.diasNoMes)}/dia). Barra verde = dia bateu ou passou esse ritmo.</div>
+    ${dailyPaceSvg(mm)}
+    <div class="stage-legend">
+      <span><span class="sw" style="background:var(--good)"></span>Bateu o ritmo ideal do dia</span>
+      <span><span class="sw" style="background:var(--accent-soft)"></span>Abaixo do ritmo ideal</span>
+    </div>
+  </div>`;
+}
+
 function metaMensalHtml(mm) {
   if (!mm) return "";
   const statusClass = mm.vaiBaterMeta ? "" : "critical";
@@ -622,6 +665,7 @@ function metaMensalHtml(mm) {
         <span><span class="sw" style="background:${mm.vaiBaterMeta ? "var(--good)" : "var(--critical)"}"></span>Projeção</span>
       </div>
     </div>
+    ${dailyPaceHtml(mm)}
   </section>`;
 }
 
