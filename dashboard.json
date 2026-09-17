@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-17T17:35:13.969973Z",
-  "openTotal": 6526,
-  "yesterdayTotal": 418,
+  "generatedAt": "2026-09-17T17:47:55.296305Z",
+  "openTotal": 6529,
+  "yesterdayTotal": 415,
   "byPipeline": {
     "Comercial - Global Pro Pika": {
-      "openTotal": 6013,
-      "yesterdayEntradas": 386,
-      "zombieGanhoOuPerdido": 73,
+      "openTotal": 6014,
+      "yesterdayEntradas": 383,
+      "zombieGanhoOuPerdido": 68,
       "emGanhoMasAindaAberto": 0,
-      "emPerdidoMasAindaAberto": 73
+      "emPerdidoMasAindaAberto": 68
     },
     "Comercial - PÓS SANGUINÁRIA": {
       "openTotal": 107,
@@ -50,15 +50,15 @@
       "etapas": [
         {
           "etapa": "Novo Cliente Webnário",
-          "qtdNaEtapa": 635,
-          "qtdNestaOuAFrente": 4269,
-          "conversaoParaProximaEtapaPct": 85.1
+          "qtdNaEtapa": 645,
+          "qtdNestaOuAFrente": 4282,
+          "conversaoParaProximaEtapaPct": 84.9
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtdNaEtapa": 1382,
-          "qtdNestaOuAFrente": 3634,
-          "conversaoParaProximaEtapaPct": 62.0
+          "qtdNaEtapa": 1385,
+          "qtdNestaOuAFrente": 3637,
+          "conversaoParaProximaEtapaPct": 61.9
         },
         {
           "etapa": "APLICAÇÕES (Respondi)",
@@ -105,9 +105,9 @@
       "etapas": [
         {
           "etapa": "Novo Lead",
-          "qtdNaEtapa": 5,
-          "qtdNestaOuAFrente": 63,
-          "conversaoParaProximaEtapaPct": 92.1
+          "qtdNaEtapa": 6,
+          "qtdNestaOuAFrente": 64,
+          "conversaoParaProximaEtapaPct": 90.6
         },
         {
           "etapa": "Em Cadência",
@@ -150,15 +150,15 @@
       "name": "João Vitor",
       "pipeline": "Comercial - Global Pro Pika",
       "totalAberto": 2051,
-      "yesterdayEntradas": 135,
+      "yesterdayEntradas": 132,
       "tempoMedioNaEtapaDias": 4.8,
       "paradosMais3Dias": 1068,
       "emGanhoMasAindaAberto": 0,
-      "emPerdidoMasAindaAberto": 40,
+      "emPerdidoMasAindaAberto": 35,
       "porEtapa": [
         {
           "etapa": "Em Cadência",
-          "qtd": 841
+          "qtd": 844
         },
         {
           "etapa": "Novo Lead (Antes 09/09)",
@@ -170,11 +170,11 @@
         },
         {
           "etapa": "Novo Cliente Webnário",
-          "qtd": 211
+          "qtd": 219
         },
         {
           "etapa": "PERDIDO SDR",
-          "qtd": 40
+          "qtd": 35
         },
         {
           "etapa": "Acessou o Hotwebinar",
@@ -182,15 +182,11 @@
         },
         {
           "etapa": "Permaneceu 30 minutos",
-          "qtd": 15
+          "qtd": 14
         },
         {
           "etapa": "Atendeu - Qualificado",
           "qtd": 9
-        },
-        {
-          "etapa": "Permaneceu 1 hora",
-          "qtd": 5
         }
       ]
     },
@@ -198,15 +194,15 @@
       "name": "Gabriel Silva",
       "pipeline": "Comercial - Global Pro Pika",
       "totalAberto": 1994,
-      "yesterdayEntradas": 124,
+      "yesterdayEntradas": 123,
       "tempoMedioNaEtapaDias": 4.1,
-      "paradosMais3Dias": 780,
+      "paradosMais3Dias": 777,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 5,
       "porEtapa": [
         {
           "etapa": "Em Cadência",
-          "qtd": 763
+          "qtd": 760
         },
         {
           "etapa": "Novo Lead (Antes 09/09)",
@@ -214,11 +210,11 @@
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtd": 471
+          "qtd": 472
         },
         {
           "etapa": "Novo Cliente Webnário",
-          "qtd": 213
+          "qtd": 216
         },
         {
           "etapa": "Atendeu - Qualificado",
@@ -245,10 +241,6 @@
           "qtd": 2
         },
         {
-          "etapa": "Reunião Marcada",
-          "qtd": 1
-        },
-        {
           "etapa": "PERDIDO CLOSER",
           "qtd": 1
         }
@@ -257,10 +249,10 @@
     {
       "name": "Maicon Oliveira",
       "pipeline": "Comercial - Global Pro Pika",
-      "totalAberto": 1968,
-      "yesterdayEntradas": 127,
+      "totalAberto": 1969,
+      "yesterdayEntradas": 128,
       "tempoMedioNaEtapaDias": 4.8,
-      "paradosMais3Dias": 985,
+      "paradosMais3Dias": 986,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 28,
       "porEtapa": [
@@ -270,7 +262,7 @@
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtd": 472
+          "qtd": 474
         },
         {
           "etapa": "Em Cadência",
@@ -278,7 +270,7 @@
         },
         {
           "etapa": "Novo Cliente Webnário",
-          "qtd": 203
+          "qtd": 202
         },
         {
           "etapa": "Acessou o Hotwebinar",
@@ -423,7 +415,7 @@
       "pipeline": "Comercial - PÓS SANGUINÁRIA",
       "totalAberto": 1,
       "yesterdayEntradas": 0,
-      "tempoMedioNaEtapaDias": 0.9,
+      "tempoMedioNaEtapaDias": 1.0,
       "paradosMais3Dias": 0,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 0,
@@ -753,7 +745,7 @@
   ],
   "sdrConversion": {
     "data": "2026-09-17",
-    "generatedAt": "2026-09-17T17:42:00.453145Z",
+    "generatedAt": "2026-09-17T17:56:17.168327Z",
     "porSdr": [
       {
         "name": "Bruna Lenotti",
@@ -834,11 +826,149 @@
       "atendidas": 10,
       "qualificados": 1
     },
-    "nota": "Ligacoes de hoje (fuso Brasilia) via D1 fsc-3c-calls. \"Atendida\" = conversa real (>=15s falando), mesma regra que move o negocio pra Atendeu-Qualificado. \"Qualificados\" conta so a 1a movimentacao automatica por negocio (nao repete se ligar de novo pro mesmo lead)."
+    "serieDiariaMes": [
+      {
+        "dia": 1,
+        "ligacoesFeitas": 0,
+        "atendidas": 0,
+        "qualificados": 0,
+        "reunioesMarcadas": 0,
+        "semDado": true
+      },
+      {
+        "dia": 2,
+        "ligacoesFeitas": 0,
+        "atendidas": 0,
+        "qualificados": 0,
+        "reunioesMarcadas": 0,
+        "semDado": true
+      },
+      {
+        "dia": 3,
+        "ligacoesFeitas": 0,
+        "atendidas": 0,
+        "qualificados": 0,
+        "reunioesMarcadas": 0,
+        "semDado": true
+      },
+      {
+        "dia": 4,
+        "ligacoesFeitas": 0,
+        "atendidas": 0,
+        "qualificados": 0,
+        "reunioesMarcadas": 0,
+        "semDado": true
+      },
+      {
+        "dia": 5,
+        "ligacoesFeitas": 0,
+        "atendidas": 0,
+        "qualificados": 0,
+        "reunioesMarcadas": 0,
+        "semDado": true
+      },
+      {
+        "dia": 6,
+        "ligacoesFeitas": 0,
+        "atendidas": 0,
+        "qualificados": 0,
+        "reunioesMarcadas": 0,
+        "semDado": true
+      },
+      {
+        "dia": 7,
+        "ligacoesFeitas": 0,
+        "atendidas": 0,
+        "qualificados": 0,
+        "reunioesMarcadas": 0,
+        "semDado": true
+      },
+      {
+        "dia": 8,
+        "ligacoesFeitas": 0,
+        "atendidas": 0,
+        "qualificados": 0,
+        "reunioesMarcadas": 0,
+        "semDado": true
+      },
+      {
+        "dia": 9,
+        "ligacoesFeitas": 0,
+        "atendidas": 0,
+        "qualificados": 0,
+        "reunioesMarcadas": 0,
+        "semDado": true
+      },
+      {
+        "dia": 10,
+        "ligacoesFeitas": 0,
+        "atendidas": 0,
+        "qualificados": 0,
+        "reunioesMarcadas": 0,
+        "semDado": true
+      },
+      {
+        "dia": 11,
+        "ligacoesFeitas": 0,
+        "atendidas": 0,
+        "qualificados": 0,
+        "reunioesMarcadas": 0,
+        "semDado": true
+      },
+      {
+        "dia": 12,
+        "ligacoesFeitas": 0,
+        "atendidas": 0,
+        "qualificados": 0,
+        "reunioesMarcadas": 0,
+        "semDado": true
+      },
+      {
+        "dia": 13,
+        "ligacoesFeitas": 0,
+        "atendidas": 0,
+        "qualificados": 0,
+        "reunioesMarcadas": 0,
+        "semDado": true
+      },
+      {
+        "dia": 14,
+        "ligacoesFeitas": 910,
+        "atendidas": 21,
+        "qualificados": 12,
+        "reunioesMarcadas": 0,
+        "semDado": false
+      },
+      {
+        "dia": 15,
+        "ligacoesFeitas": 2387,
+        "atendidas": 45,
+        "qualificados": 1,
+        "reunioesMarcadas": 17,
+        "semDado": false
+      },
+      {
+        "dia": 16,
+        "ligacoesFeitas": 785,
+        "atendidas": 10,
+        "qualificados": 1,
+        "reunioesMarcadas": 11,
+        "semDado": false
+      },
+      {
+        "dia": 17,
+        "ligacoesFeitas": 0,
+        "atendidas": 0,
+        "qualificados": 0,
+        "reunioesMarcadas": 7,
+        "semDado": false
+      }
+    ],
+    "nota": "Ligacoes de hoje (fuso Brasilia) via D1 fsc-3c-calls. \"Atendida\" = conversa real (>=15s falando), mesma regra que move o negocio pra Atendeu-Qualificado. \"Qualificados\" conta so a 1a movimentacao automatica por negocio (nao repete se ligar de novo pro mesmo lead). \"serieDiariaMes\" cobre do dia 1 do mes ate hoje (totais do time) -- dias em que o painel nao rodou nenhuma vez ficam com \"semDado\": true em vez de zero de verdade."
   },
   "funnelConversion": {
     "janelaDias": 7,
-    "generatedAt": "2026-09-17T17:42:03.237816Z",
+    "generatedAt": "2026-09-17T17:56:20.627383Z",
     "porSdr": [
       {
         "name": "João Vitor",
@@ -857,6 +987,8 @@
         "perdido": 5,
         "taxaQualificadoParaReuniaoPct": 77.8,
         "ligacoesPorQualificado": 536.5,
+        "ligacoesTotal": 2146,
+        "ligacoesPorReuniaoMarcada": 153.3,
         "horasPorReuniaoMarcada": 0.6
       },
       {
@@ -870,13 +1002,15 @@
         "conectadasJanela": 29,
         "taxaConexaoPct": 1.7,
         "qualificadosTotal": 9,
-        "reunioesMarcadas": 9,
+        "reunioesMarcadas": 10,
         "reunioesRealizadas": 1,
         "ganho": 1,
         "perdido": 5,
-        "taxaQualificadoParaReuniaoPct": 50.0,
+        "taxaQualificadoParaReuniaoPct": 52.6,
         "ligacoesPorQualificado": 186.7,
-        "horasPorReuniaoMarcada": 0.5
+        "ligacoesTotal": 1680,
+        "ligacoesPorReuniaoMarcada": 168.0,
+        "horasPorReuniaoMarcada": 0.4
       },
       {
         "name": "Maicon Oliveira",
@@ -895,6 +1029,8 @@
         "perdido": 2,
         "taxaQualificadoParaReuniaoPct": 81.8,
         "ligacoesPorQualificado": 276.0,
+        "ligacoesTotal": 552,
+        "ligacoesPorReuniaoMarcada": 61.3,
         "horasPorReuniaoMarcada": 0.2
       }
     ],
@@ -911,11 +1047,11 @@
       {
         "name": "Leonardo Ruthes",
         "sdrOrigem": "Gabriel Silva",
-        "reunioesRecebidas": 9,
+        "reunioesRecebidas": 10,
         "reunioesRealizadas": 1,
         "ganho": 1,
         "perdido": 5,
-        "taxaReuniaoParaVendaPct": 11.1
+        "taxaReuniaoParaVendaPct": 10.0
       },
       {
         "name": "Bruna Lenotti",
@@ -927,10 +1063,10 @@
         "taxaReuniaoParaVendaPct": 22.2
       }
     ],
-    "nota": "\"Horas no 3C\", \"Falando\", \"Ocioso\", \"Ligacoes feitas\" e \"Conectadas\" sao da janela de 7 dias (direto da 3C Plus); \"Reunioes\"/\"Ganho\"/\"Perdido\" sao acumulados desde que esse rastreamento comecou (sem historico anterior -- a API do DataCrazy nao expoe mudanca de etapa passada). \"Qualificados\" conta so quem foi auto-qualificado por ligacao 3C conectada (>=15s) -- e um numero baixo de proposito, so mede esse caminho especifico. Ja \"Reunioes\"/\"Ganho\"/\"Perdido\" sao creditados ao SDR que marcou a reuniao no CRM (nao dependem de ter passado pela qualificacao automatica via ligacao -- a maioria das reunioes marcadas nao passa por esse caminho, entao contar so por ali deixava esses numeros zerados). \"Taxa qualif.->reuniao\" e reunioes marcadas dividido pelo total de negocios creditados ao SDR (ligacao 3C + reuniao marcada), nao so pelos qualificados via ligacao. \"Conectada\" = ligacao com >=15s de conversa real. \"Ocioso\" = tempo logado na 3C sem estar em ligacao (disponivel esperando a proxima). Reuniao marcada fica registrada pra sempre mesmo se o negocio for perdido depois. Conversao do Closer e atribuida pelo par fixo SDR->Closer combinado com o usuario, nao pelo atendente atual do negocio."
+    "nota": "\"Horas no 3C\", \"Falando\", \"Ocioso\", \"Ligacoes feitas\" e \"Conectadas\" sao da janela de 7 dias (direto da 3C Plus); \"Reunioes\"/\"Ganho\"/\"Perdido\" sao acumulados desde que esse rastreamento comecou (sem historico anterior -- a API do DataCrazy nao expoe mudanca de etapa passada). \"Qualificados\" conta so quem foi auto-qualificado por ligacao 3C conectada (>=15s) -- e um numero baixo de proposito, so mede esse caminho especifico. Ja \"Reunioes\"/\"Ganho\"/\"Perdido\" sao creditados ao SDR que marcou a reuniao no CRM (nao dependem de ter passado pela qualificacao automatica via ligacao -- a maioria das reunioes marcadas nao passa por esse caminho, entao contar so por ali deixava esses numeros zerados). \"Taxa qualif.->reuniao\" e reunioes marcadas dividido pelo total de negocios creditados ao SDR (ligacao 3C + reuniao marcada), nao so pelos qualificados via ligacao. \"Ligacoes total\" e \"Ligacoes por reuniao marcada\" usam o TOTAL de ligacoes feitas pelo SDR desde sempre (nao so a janela de 7 dias) dividido pelas reunioes marcadas acumuladas -- pra manter a mesma escala de tempo dos dois lados da conta (misturar janela de 7 dias com acumulado total daria uma proporcao errada). \"Conectada\" = ligacao com >=15s de conversa real. \"Ocioso\" = tempo logado na 3C sem estar em ligacao (disponivel esperando a proxima). Reuniao marcada fica registrada pra sempre mesmo se o negocio for perdido depois. Conversao do Closer e atribuida pelo par fixo SDR->Closer combinado com o usuario, nao pelo atendente atual do negocio."
   },
   "activitiesTracking": {
-    "generatedAt": "2026-09-17T17:42:04.237717Z",
+    "generatedAt": "2026-09-17T17:56:21.823885Z",
     "janelaDias": 7,
     "porAtendente": [
       {
