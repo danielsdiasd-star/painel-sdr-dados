@@ -1,24 +1,24 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-16T23:22:07Z",
+    "generatedAt": "2026-09-17T02:14:04Z",
     "items": [
       {
-        "titulo": "Aumento significativo de leads parados",
-        "detalhe": "Os leads parados por mais de 3 dias somam 4090, um aumento em relação aos 4309 do último histórico, o que mostra uma tendência de crescimento preocupante. Isso indica potenciais leads esquecidos. A média dos atendentes é alta, com 1069 (João Vitor) e 1038 (Maicon Oliveira).",
+        "titulo": "Aumentar foco nos leads parados",
+        "detalhe": "Total de 1064 leads parados há mais de 3 dias em Global Pro Pika, 30% a mais em comparação com a leitura anterior de 823.",
         "severidade": "alta",
-        "atendente": null
+        "atendente": "João Vitor"
       },
       {
-        "titulo": "Aumento no número total de leads abertos",
-        "detalhe": "Total de leads abertos é de 1656, enquanto no último histórico era 1614, indicando um aumento contínuo nas oportunidades de vendas com mais entrada no pipeline.",
+        "titulo": "Monitorar a entrada de leads",
+        "detalhe": "Entradas diárias caíram: 191 leads ontem em comparação a 64 dias atrás, mostrando uma tendência de queda.",
         "severidade": "media",
-        "atendente": null
+        "atendente": "Gabriel Silva"
       },
       {
-        "titulo": "Nenhuma ação crítica registrada",
-        "detalhe": "Os números das propostas abertas não mostram declínios drásticos em nenhuma das atividades comerciais atuais.",
+        "titulo": "Gerenciar leads perdidos",
+        "detalhe": "Total de 38 leads em 'perdido mas ainda aberto' no funil Global Pro Pika, levando a atenção para follow-up.",
         "severidade": "baixa",
-        "atendente": null
+        "atendente": "Maicon Oliveira"
       }
     ]
   }
