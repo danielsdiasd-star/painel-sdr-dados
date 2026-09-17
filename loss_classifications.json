@@ -56,6 +56,20 @@
     "classifiedAt": "2026-09-15T14:19:45Z"
   },
   {
+    "businessId": "c8cc6406-bd04-4a69-804c-b005809330d2",
+    "leadId": "4f267674-4fe1-42ad-8ac7-8d162e359a5e",
+    "leadName": "Joao",
+    "attendantName": "João Vitor",
+    "pipeline": "Comercial - Global Pro Pika",
+    "stage": "PERDIDO SDR",
+    "role": "sdr",
+    "motivoOficial": "6dc70607-3b88-41f7-8196-6731af8e57f9",
+    "motivoIA": "ICP",
+    "confianca": "baixa",
+    "evidencia": "A pessoa mencionou que não é desenvolvedora e não tem experiência com a tecnologia.",
+    "classifiedAt": "2026-09-17T14:17:46Z"
+  },
+  {
     "businessId": "5f0e9d26-f3a7-4e72-84b4-6fe4bf310e2e",
     "leadId": "0f6c8fe0-04f5-478c-9d0a-d9d1f7670dea",
     "leadName": "Antonio Carlos",
@@ -308,6 +322,20 @@
     "classifiedAt": "2026-09-16T14:13:20Z"
   },
   {
+    "businessId": "c6e3b66e-8883-49b1-9956-8980d1be5044",
+    "leadId": "295947a4-bb64-4740-ada5-eb72daa1dbae",
+    "leadName": "Nicolas",
+    "attendantName": "João Vitor",
+    "pipeline": "Comercial - Global Pro Pika",
+    "stage": "PERDIDO SDR",
+    "role": "sdr",
+    "motivoOficial": null,
+    "motivoIA": "ICP",
+    "confianca": "alta",
+    "evidencia": "A transcrição não contém informações que identifiquem um lead relevante para o produto.",
+    "classifiedAt": "2026-09-17T14:19:16Z"
+  },
+  {
     "businessId": "d599e41e-1111-42a7-9497-061695f1f31b",
     "leadId": "7bf4281a-bbcd-439c-9758-350165c2947c",
     "leadName": "Felipe Rustan",
@@ -392,6 +420,20 @@
     "classifiedAt": "2026-09-16T14:14:29Z"
   },
   {
+    "businessId": "39fed0b0-7a51-40b7-b826-43b52080f3cb",
+    "leadId": "c04859cf-f30d-445e-bbc0-ac64cbab2da1",
+    "leadName": "André",
+    "attendantName": "João Vitor",
+    "pipeline": "Comercial - Global Pro Pika",
+    "stage": "PERDIDO SDR",
+    "role": "sdr",
+    "motivoOficial": null,
+    "motivoIA": "Financeiro",
+    "confianca": "alta",
+    "evidencia": "Estou num momento de recuperação, tive umas despesas aí e não estou podendo afinar as estrelas.",
+    "classifiedAt": "2026-09-17T14:19:21Z"
+  },
+  {
     "businessId": "4a047840-0ae3-42de-880f-449f9662d177",
     "leadId": "f1849414-8db8-4438-ba97-fffbc3fc8c67",
     "leadName": "Milena",
@@ -404,6 +446,20 @@
     "confianca": "alta",
     "evidencia": "A pessoa não respondeu e não estava disponível para conversar.",
     "classifiedAt": "2026-09-16T14:14:31Z"
+  },
+  {
+    "businessId": "88d32998-a934-4a63-a5d5-db48d7c3d128",
+    "leadId": "3c3454f7-e677-4a1b-af7f-7718135ce922",
+    "leadName": "Vicente",
+    "attendantName": "João Vitor",
+    "pipeline": "Comercial - Global Pro Pika",
+    "stage": "PERDIDO SDR",
+    "role": "sdr",
+    "motivoOficial": null,
+    "motivoIA": "Não tem prioridade",
+    "confianca": "alta",
+    "evidencia": "A pessoa manifesta desinteresse e uma visão negativa sobre a situação atual, sem urgência para mudar.",
+    "classifiedAt": "2026-09-17T14:19:23Z"
   },
   {
     "businessId": "c6c23d71-ea1b-42ff-9bb3-ed9e12e731d9",
@@ -420,6 +476,20 @@
     "classifiedAt": "2026-09-16T14:14:33Z"
   },
   {
+    "businessId": "bdf4acf9-f1ad-4728-8512-3aaec705557f",
+    "leadId": "3826050c-d740-4c40-bbdb-0b3b60d0c89b",
+    "leadName": "Eduardo",
+    "attendantName": "João Vitor",
+    "pipeline": "Comercial - Global Pro Pika",
+    "stage": "PERDIDO SDR",
+    "role": "sdr",
+    "motivoOficial": null,
+    "motivoIA": "ICP",
+    "confianca": "baixa",
+    "evidencia": "A transcrição é muito curta e não fornece informações claras sobre o perfil ou necessidades do cliente.",
+    "classifiedAt": "2026-09-17T14:19:25Z"
+  },
+  {
     "businessId": "a2a829c1-0127-42c5-801b-e1e58012bfb9",
     "leadId": "3cef8945-a326-407a-b5ad-1d789734dbf1",
     "leadName": "Clayton Guilherme",
@@ -432,6 +502,20 @@
     "confianca": "baixa",
     "evidencia": "A transcrição menciona que a pessoa trabalha com tecnologia antiga.",
     "classifiedAt": "2026-09-16T14:14:34Z"
+  },
+  {
+    "businessId": "439aba57-ead4-4d1c-8fca-f98163826a74",
+    "leadId": "40ebf7b9-28df-44f7-aedf-1be774edeed6",
+    "leadName": "Gabriel",
+    "attendantName": "João Vitor",
+    "pipeline": "Comercial - Global Pro Pika",
+    "stage": "PERDIDO SDR",
+    "role": "sdr",
+    "motivoOficial": null,
+    "motivoIA": "Não tem prioridade",
+    "confianca": "media",
+    "evidencia": "Gabriel já está no processo de receber em dólar e não busca mudanças.",
+    "classifiedAt": "2026-09-17T14:20:26Z"
   },
   {
     "businessId": "4e7d8ccc-41af-42fa-a3bc-f8836cb11dca",
@@ -460,6 +544,34 @@
     "confianca": "media",
     "evidencia": "Ele acredita que só conseguirá uma vaga internacional após se formar, mostrando falta de urgência.",
     "classifiedAt": "2026-09-16T14:14:37Z"
+  },
+  {
+    "businessId": "36a4ee64-a76c-4d86-913a-3a6cc1f9506d",
+    "leadId": "2615f1bf-17b0-4a5b-8350-a3214196e7be",
+    "leadName": "Natália",
+    "attendantName": "João Vitor",
+    "pipeline": "Comercial - Global Pro Pika",
+    "stage": "PERDIDO SDR",
+    "role": "sdr",
+    "motivoOficial": null,
+    "motivoIA": "Não tem Agenda",
+    "confianca": "alta",
+    "evidencia": "A conversa não apresenta nenhum indicativo de interesse ou envolvimento no programa.",
+    "classifiedAt": "2026-09-17T14:20:31Z"
+  },
+  {
+    "businessId": "eea32589-e1ee-44e5-a9c4-1e7ff1b145f7",
+    "leadId": "213d8e60-dae5-423d-9ead-279dca807306",
+    "leadName": "william",
+    "attendantName": "João Vitor",
+    "pipeline": "Comercial - Global Pro Pika",
+    "stage": "PERDIDO SDR",
+    "role": "sdr",
+    "motivoOficial": null,
+    "motivoIA": "Não tem Agenda",
+    "confianca": "media",
+    "evidencia": "A pessoa não está ouvindo a ligação e parece não ter tempo para a conversa.",
+    "classifiedAt": "2026-09-17T14:20:33Z"
   },
   {
     "businessId": "45863b2b-d7d8-4dcb-92f3-a1fb8bac6f70",
@@ -812,6 +924,34 @@
     "classifiedAt": "2026-09-16T14:17:20Z"
   },
   {
+    "businessId": "c2ad105f-bdd7-4398-9fd0-a301be036b93",
+    "leadId": "58b6e031-c9dd-488f-97ff-20803b687056",
+    "leadName": "Evaldo",
+    "attendantName": "Gabriel Silva",
+    "pipeline": "Comercial - Global Pro Pika",
+    "stage": "PERDIDO SDR",
+    "role": "sdr",
+    "motivoOficial": null,
+    "motivoIA": "ICP",
+    "confianca": "alta",
+    "evidencia": "Evaldo mencionou estar trabalhando na área de perícia judicial e não seguindo carreira em tecnologia.",
+    "classifiedAt": "2026-09-17T14:22:00Z"
+  },
+  {
+    "businessId": "bb76eabe-1abc-4475-931d-1cc5dae52391",
+    "leadId": "51275991-0246-45dd-a98a-a2a4d7b0dbaf",
+    "leadName": "Juan",
+    "attendantName": "Gabriel Silva",
+    "pipeline": "Comercial - Global Pro Pika",
+    "stage": "PERDIDO SDR",
+    "role": "sdr",
+    "motivoOficial": null,
+    "motivoIA": "Não tem prioridade",
+    "confianca": "alta",
+    "evidencia": "Juan mencionou que não está focado em mudar de área no momento devido à especialização no emprego atual.",
+    "classifiedAt": "2026-09-17T14:22:03Z"
+  },
+  {
     "businessId": "d621a6fb-b3d6-45c9-9d91-85bc3152571a",
     "leadId": "0646768a-4db8-4314-b4b4-1c6c0e3c05bd",
     "leadName": "Fabrizio",
@@ -868,20 +1008,6 @@
     "classifiedAt": "2026-09-16T14:18:32Z"
   },
   {
-    "businessId": "fdd50594-72a5-4004-84c1-c15e8652d3b8",
-    "leadId": "5d8376db-92c4-4e18-a259-0024b42368b7",
-    "leadName": "Thiago",
-    "attendantName": "Maicon Oliveira",
-    "pipeline": "Comercial - Global Pro Pika",
-    "stage": "PERDIDO SDR",
-    "role": "sdr",
-    "motivoOficial": null,
-    "motivoIA": "Não tem Agenda",
-    "confianca": "alta",
-    "evidencia": "O potencial cliente estava ocupado no trabalho e pediu para conversar em meia hora.",
-    "classifiedAt": "2026-09-16T14:18:33Z"
-  },
-  {
     "businessId": "c32d33dd-7108-4994-ac02-97ed6b3bee87",
     "leadId": "5638e4b7-f31e-464a-a54e-959325d56828",
     "leadName": "Jeferson",
@@ -924,6 +1050,20 @@
     "classifiedAt": "2026-09-16T14:18:39Z"
   },
   {
+    "businessId": "1bb6b6f7-a79b-49db-a779-41a1f2178f31",
+    "leadId": "03a9a339-a421-4feb-a7c8-fc368b4ee8ac",
+    "leadName": "Cristiano",
+    "attendantName": "Kaio Ikeda",
+    "pipeline": "Comercial - Global Pro Pika",
+    "stage": "PERDIDO CLOSER",
+    "role": "closer",
+    "motivoOficial": "6d57d0cd-3647-4ed2-b24f-3852648ce23c",
+    "motivoIA": "Não é o decisor",
+    "confianca": "alta",
+    "evidencia": "Cristiano mencionou que prefere permanecer em sua empresa atual, indicando que não tem autonomia para decidir mudar de emprego.",
+    "classifiedAt": "2026-09-17T14:27:11Z"
+  },
+  {
     "businessId": "464bacc2-b795-42fa-8a99-1b6d547c5e0c",
     "leadId": "0c5b89f4-ac47-499b-80fa-c0e1875512f4",
     "leadName": "Mayara",
@@ -952,6 +1092,20 @@
     "classifiedAt": "2026-09-11T15:24:09Z"
   },
   {
+    "businessId": "1dc81570-0ae6-44ed-86ce-34766285ed1e",
+    "leadId": "3a762579-d472-4d20-a82a-485f61783f7e",
+    "leadName": "Gabriel",
+    "attendantName": "Kaio Ikeda",
+    "pipeline": "Comercial - Global Pro Pika",
+    "stage": "PERDIDO SDR",
+    "role": "sdr",
+    "motivoOficial": null,
+    "motivoIA": "ICP",
+    "confianca": "alta",
+    "evidencia": "A transcrição não fornece informações sobre o perfil ou interesse do contato.",
+    "classifiedAt": "2026-09-17T14:27:13Z"
+  },
+  {
     "businessId": "e8eb5383-30af-4c40-ba27-236718e6efd0",
     "leadId": "f5b56f81-6f91-4d1c-98c9-a33facb3ad79",
     "leadName": "Flávio",
@@ -978,6 +1132,20 @@
     "confianca": "baixa",
     "evidencia": "A conversa não possui informações sobre situação financeira, agenda ou perfil do cliente.",
     "classifiedAt": "2026-09-16T14:21:04Z"
+  },
+  {
+    "businessId": "b0ae5e4c-4b45-4623-b838-4011cca443d8",
+    "leadId": "4f267674-4fe1-42ad-8ac7-8d162e359a5e",
+    "leadName": "Joao",
+    "attendantName": "Kaio Ikeda",
+    "pipeline": "Comercial - Global Pro Pika",
+    "stage": "PERDIDO SDR",
+    "role": "sdr",
+    "motivoOficial": null,
+    "motivoIA": "ICP",
+    "confianca": "alta",
+    "evidencia": "O cliente parece não ter o perfil técnico necessário para o produto.",
+    "classifiedAt": "2026-09-17T14:27:16Z"
   },
   {
     "businessId": "0ed10b76-7225-431f-8e98-6f355dd155ba",
