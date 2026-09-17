@@ -1,24 +1,24 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-17T18:40:08Z",
+    "generatedAt": "2026-09-17T23:13:06Z",
     "items": [
       {
-        "titulo": "Aumento alarmante em vendas não fechadas",
-        "detalhe": "O total de negócios abertos subiu para 2003, com 38 em 'emPerdidoMasAindaAberto' e 1062 parados há mais de 3 dias. Essa situação tem se agravado constantemente.",
+        "titulo": "Aumento de leads parados no funil Global Pro Pika",
+        "detalhe": "Leads parados por mais de 3 dias subiram para 3.064, um aumento contínuo nas últimas 24h (2.882 anteriormente) e risco de perder vendas.",
         "severidade": "alta",
         "atendente": "João Vitor"
       },
       {
-        "titulo": "Altos índices de leads parados",
-        "detalhe": "Ao todo, 4.329 leads estão parados há mais de 3 dias (1062 + 779 + 986 + 0 + 32 + 0 + 1 + 0). É necessário revisar esses leads imediatamente.",
-        "severidade": "alta",
-        "atendente": "Nenhum"
+        "titulo": "Retenção de oportunidades perdidas aumenta",
+        "detalhe": "O número de leads 'em perdido mas ainda aberto' subiu para 31, com aumento constante desde a última medição em 23.",
+        "severidade": "media",
+        "atendente": "João Vitor"
       },
       {
-        "titulo": "Leads perdidos com potencial",
-        "detalhe": "Com 70 leads em 'emPerdidoMasAindaAberto' e ainda não confirmados, devemos discutir próximos passos para evitar perdas.",
-        "severidade": "media",
-        "atendente": "Nenhum"
+        "titulo": "Situação geral estável",
+        "detalhe": "Total de leads abertos está em 2.041, com fluxo de entradas ainda ativo, nenhuma ação imediata necessária.",
+        "severidade": "baixa",
+        "atendente": null
       }
     ]
   }
