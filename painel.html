@@ -156,6 +156,8 @@
   .findings li { font-size: 14.5px; }
   .findings li b { font-weight: 700; }
   .findings .meta { font-size: 11.5px; color: var(--muted); margin-top: 14px; }
+  .findings.critical { background: var(--critical-soft); border-color: var(--critical); }
+  .findings.critical h2 { color: var(--critical); }
 
   .ai-list { display: flex; flex-direction: column; gap: 10px; }
   .ai-item { display: flex; gap: 12px; padding: 12px 14px; border-radius: 10px; background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--muted-2); }
@@ -912,6 +914,48 @@ function funnelConversionPosHtml(rows) {
     </div>`;
 }
 
+function filaDiscadorHtml(fd) {
+  if (!fd || !fd.porSdr || !fd.porSdr.length) return "";
+  const travados = fd.porSdr.filter(r => r.pendentes > 0 && r.discadosTotal === 0);
+  const rows = fd.porSdr.map(r => {
+    const stuck = r.pendentes > 0 && r.discadosTotal === 0;
+    return `<tr class="${stuck ? "" : (r.pendentes === 0 ? "zero" : "")}">
+      <td class="name">${r.name}</td>
+      <td class="n ${stuck ? "warn" : ""}">${r.pendentes}</td>
+      <td class="n ${stuck ? "warn" : ""}">${r.discadosTotal}</td>
+      <td class="n">${r.atendidosTotal}</td>
+      <td class="pct">${stuck ? "⚠ parado" : (r.pendentes === 0 ? "sem fila" : "ok")}</td>
+    </tr>`;
+  }).join("");
+
+  const alertBox = travados.length ? `<div class="findings critical">
+    <h2>⚠ Discador da 3C parece travado</h2>
+    <ul>
+      <li><b>${travados.length} de ${fd.porSdr.length} SDR(s) com fila cheia mas zero ligações discadas</b> (${travados.map(r => `${r.name}: ${r.pendentes} pendentes`).join(", ")}) — a campanha está ativa e tem contato disponível, mas o discador não está processando a fila. Não é falta de lead.</li>
+      <li>Vale abrir chamado com o suporte da 3C Plus — isso está fora do que este pipeline consegue corrigir diretamente.</li>
+    </ul>
+  </div>` : "";
+
+  return `${alertBox}<section class="calls">
+    <h2>Fila de discagem ao vivo (3C)</h2>
+    <div class="sub">${fd.nota || ""}</div>
+    <div class="calls-table-wrap">
+      <table class="calls-table">
+        <thead>
+          <tr>
+            <th>SDR</th>
+            <th>Pendentes na fila</th>
+            <th>Discados</th>
+            <th>Atendidos</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+  </section>`;
+}
+
 function activitiesTrackingHtml(at) {
   if (!at || !at.porAtendente || !at.porAtendente.length) return "";
 
@@ -1011,6 +1055,8 @@ function render(data) {
     <div class="kpi flag warn"><div class="label">Em Perdido sem fechar</div><div class="value">${totalEmPerdido}</div><div class="sub">parece perdido, ninguém confirmou</div></div>
     ${totalAtrasadas !== null ? `<div class="kpi flag ${totalAtrasadas > 0 ? "critical" : "good"}"><div class="label">Tarefas atrasadas</div><div class="value">${totalAtrasadas}</div><div class="sub">no Calendário, prazo já passou</div></div>` : ""}
   </div>`;
+
+  html += filaDiscadorHtml(data.filaDiscador3c);
 
   html += metaMensalHtml(data.metaMensal);
 
