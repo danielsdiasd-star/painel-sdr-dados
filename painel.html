@@ -860,7 +860,38 @@ function funnelConversionHtml(fc) {
         <tbody>${closerRows}</tbody>
       </table>
     </div>
+    ${funnelConversionPosHtml(fc.porAtendentePos)}
   </section>`;
+}
+
+function funnelConversionPosHtml(rows) {
+  if (!rows || !rows.length) return "";
+  const body = rows.map(r => `
+    <tr class="${r.reunioesMarcadas === 0 ? "zero" : ""}">
+      <td class="name">${r.name}</td>
+      <td class="n">${r.reunioesMarcadas}</td>
+      <td class="n">${r.reunioesRealizadas}</td>
+      <td class="n">${r.ganho}</td>
+      <td class="n ${r.perdido > 0 ? "warn" : ""}">${r.perdido}</td>
+      <td class="pct">${pct(r.taxaReuniaoParaVendaPct)}</td>
+    </tr>`).join("");
+  return `<div class="sales-col-title" style="margin-top:24px;">Reuniões marcadas por atendente — Pós Graduação (acumulado)</div>
+    <div class="funnel-note" style="margin-bottom:10px;">Pós Graduação não tem SDR/Closer separado — o mesmo atendente cuida do negócio do primeiro contato até o fechamento, por isso não tem tabela de Closer própria. Rastreamento durável começou em 17/09/2026.</div>
+    <div class="calls-table-wrap">
+      <table class="calls-table">
+        <thead>
+          <tr>
+            <th>Atendente</th>
+            <th>Reuniões marcadas</th>
+            <th>Realizadas</th>
+            <th>Ganho</th>
+            <th>Perdido</th>
+            <th>Taxa reunião→venda</th>
+          </tr>
+        </thead>
+        <tbody>${body}</tbody>
+      </table>
+    </div>`;
 }
 
 function activitiesTrackingHtml(at) {
