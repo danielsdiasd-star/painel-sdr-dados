@@ -1,24 +1,24 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-17T13:53:45Z",
+    "generatedAt": "2026-09-17T18:40:08Z",
     "items": [
       {
-        "titulo": "Aumento significativo no total de leads abertos",
-        "detalhe": "Total de leads abertos subiu de 1.959 para 1.970 em 3h. Sem precedentes, é a maior contagem nos últimos dias. Preocupante.",
+        "titulo": "Aumento alarmante em vendas não fechadas",
+        "detalhe": "O total de negócios abertos subiu para 2003, com 38 em 'emPerdidoMasAindaAberto' e 1062 parados há mais de 3 dias. Essa situação tem se agravado constantemente.",
         "severidade": "alta",
         "atendente": "João Vitor"
       },
       {
-        "titulo": "Aumento continuado nos leads parados há mais de 3 dias",
-        "detalhe": "Leads parados subirão para 1.064 em 3h, após 1069 nos últimos 3h. Indicativo de necessidade urgente de follow-ups.",
+        "titulo": "Altos índices de leads parados",
+        "detalhe": "Ao todo, 4.329 leads estão parados há mais de 3 dias (1062 + 779 + 986 + 0 + 32 + 0 + 1 + 0). É necessário revisar esses leads imediatamente.",
         "severidade": "alta",
-        "atendente": "João Vitor"
+        "atendente": "Nenhum"
       },
       {
-        "titulo": "Leads perdidos ainda em status aberto permanecem estáveis",
-        "detalhe": "Total de leads perdidos em aberto é 38, sem mudança em relação à leitura anterior. Monitorar, mas sem alterações alarmantes atualmente.",
+        "titulo": "Leads perdidos com potencial",
+        "detalhe": "Com 70 leads em 'emPerdidoMasAindaAberto' e ainda não confirmados, devemos discutir próximos passos para evitar perdas.",
         "severidade": "media",
-        "atendente": "João Vitor"
+        "atendente": "Nenhum"
       }
     ]
   }
