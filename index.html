@@ -337,7 +337,7 @@
   </div>
   <div class="idle-tip" id="idleTip">
     <span>💡</span>
-    <div><b>Como usar:</b> ligou um número desconhecido? Cola aqui — com ou sem formatação, com ou sem DDI — que a Lupa acha o cliente, o negócio, a etapa e quem é o atendente responsável. Também busca por nome ou email. Pra abrir o card no DataCrazy: "Copiar nome" → "Abrir board no CRM" → cola na busca de lá (o CRM não tem link direto pra um negócio específico).</div>
+    <div><b>Como usar:</b> ligou um número desconhecido? Cola aqui — com ou sem formatação, com ou sem DDI — que a Lupa acha o cliente, o negócio, a etapa e quem é o atendente responsável. Também busca por nome ou email. Pra abrir o card no DataCrazy: "Abrir no CRM" já abre o funil filtrado nesse cliente (o CRM não tem link direto pra um card específico, mas aceita a busca na URL) — se a busca não vier preenchida, use "Copiar nome" e cole na busca de lá.</div>
   </div>
 </div>
 
@@ -449,7 +449,10 @@
         ? `<a class="wa" href="${waLink(r.phoneDigits)}" target="_blank" rel="noopener"><span>💬</span><span class="phone-num">${formatPhone(r.phoneDigits)}</span></a>`
         : `<span class="phone-num">sem telefone</span>`;
       const emailHtml = r.email ? `<a href="mailto:${escapeHtml(r.email)}">${escapeHtml(r.email)}</a>` : '';
-      const crmUrl = r.pipelineId ? `https://crm.datacrazy.io/pipelines/${r.pipelineId}` : null;
+      // O CRM nao tem URL direta pra um card; o funil, porem, le "?search=" da URL e ja abre filtrado no cliente.
+      const crmUrl = r.pipelineId
+        ? `https://crm.datacrazy.io/pipelines/${r.pipelineId}${r.name ? `?search=${encodeURIComponent(r.name)}` : ''}`
+        : null;
       const codeChip = r.businessCode ? `<span class="chip code">#${escapeHtml(String(r.businessCode))}</span>` : '';
 
       return `<div class="card">
@@ -461,7 +464,7 @@
         <div class="badge-row">${pipelineChip}${stageChip}${attendantChip}${ageChip}${codeChip}</div>
         <div class="card-footer">
           <button class="copy-name-btn" data-name="${escapeHtml(r.name || '')}" title="Copiar nome pra colar na busca do CRM">📋 Copiar nome</button>
-          ${crmUrl ? `<a class="open-crm-btn" href="${crmUrl}" target="_blank" rel="noopener" title="Abre o board do CRM — cole o nome copiado na busca de lá">Abrir board no CRM ↗</a>` : ''}
+          ${crmUrl ? `<a class="open-crm-btn" href="${crmUrl}" target="_blank" rel="noopener" title="Abre o funil no CRM já filtrado nesse cliente">Abrir no CRM ↗</a>` : ''}
         </div>
       </div>`;
     }).join('');
