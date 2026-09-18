@@ -557,7 +557,7 @@ function vendasFechadasHtml(vf) {
   }).join("");
 
   const warn = vf.semAtendente > 0
-    ? `<div class="kpi flag critical"><div class="label">Sem atendente</div><div class="value">${vf.semAtendente}</div><div class="sub">venda fechada sem ninguém vinculado — não entra no ranking</div></div>`
+    ? `<div id="kpi-sematendente" class="kpi flag critical clickable" onclick="toggleDetailPanel('sematendente-panel','kpi-sematendente')"><div class="label">Sem atendente</div><div class="value">${vf.semAtendente}</div><div class="sub">venda fechada sem ninguém vinculado — não entra no ranking</div><div class="hint">ver quais</div></div>`
     : "";
 
   const pipeVals = Object.values(vf.porPipeline || {});
@@ -582,6 +582,7 @@ function vendasFechadasHtml(vf) {
       ${pipeCards}
       ${warn}
     </div>
+    ${semAtendentePanelHtml(vf.semAtendenteDetalhe)}
     <div class="sales-grid">
       <div>
         <div class="sales-col-title">Por atendente</div>
@@ -732,6 +733,26 @@ function toggleAtrasadasPanel() {
   panel.hidden = !panel.hidden;
   if (tile) tile.classList.toggle("open", !panel.hidden);
   if (!panel.hidden) panel.scrollIntoView({ behavior: "smooth", block: "nearest" });
+}
+
+function semAtendentePanelHtml(lista) {
+  if (!lista || !lista.length) return "";
+  const rows = lista.map(w => {
+    const pipelineLink = w.pipelineId
+      ? `<a class="abrir" href="https://crm.datacrazy.io/pipelines/${w.pipelineId}" target="_blank" rel="noopener">abrir pipeline →</a>`
+      : "";
+    const quando = w.statusChangedAt ? fmtAge(w.statusChangedAt) : "";
+    return `<div class="atrasadas-row">
+      <span class="lead">${w.leadName || "—"}</span>
+      <span class="titulo">${w.pipeline || ""}${quando ? " · fechada " + quando : ""}</span>
+      <span class="dias">${fmtBRL(w.total)}</span>
+      ${pipelineLink}
+    </div>`;
+  }).join("");
+  return `<div class="atrasadas-panel" id="sematendente-panel" hidden>
+    <h3>Vendas fechadas sem atendente (${lista.length})</h3>
+    <div class="atrasadas-list">${rows}</div>
+  </div>`;
 }
 
 function businessDetailPanelHtml(panelId, title, items, totalReal) {
