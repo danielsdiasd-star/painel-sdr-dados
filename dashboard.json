@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-18T13:55:33.918157Z",
-  "openTotal": 6730,
-  "yesterdayTotal": 365,
+  "generatedAt": "2026-09-18T14:33:00.639434Z",
+  "openTotal": 6775,
+  "yesterdayTotal": 363,
   "byPipeline": {
     "Comercial - Global Pro Pika": {
-      "openTotal": 6215,
-      "yesterdayEntradas": 351,
+      "openTotal": 6258,
+      "yesterdayEntradas": 349,
       "zombieGanhoOuPerdido": 16,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 16
     },
     "Comercial - PÓS SANGUINÁRIA": {
-      "openTotal": 96,
+      "openTotal": 98,
       "yesterdayEntradas": 14,
       "zombieGanhoOuPerdido": 1,
       "emGanhoMasAindaAberto": 0,
@@ -50,33 +50,33 @@
       "etapas": [
         {
           "etapa": "Novo Cliente Webnário",
-          "qtdNaEtapa": 639,
-          "qtdNestaOuAFrente": 4542,
-          "conversaoParaProximaEtapaPct": 85.9
+          "qtdNaEtapa": 691,
+          "qtdNestaOuAFrente": 4598,
+          "conversaoParaProximaEtapaPct": 85.0
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtdNaEtapa": 1608,
-          "qtdNestaOuAFrente": 3903,
-          "conversaoParaProximaEtapaPct": 58.8
+          "qtdNaEtapa": 1618,
+          "qtdNestaOuAFrente": 3907,
+          "conversaoParaProximaEtapaPct": 58.6
         },
         {
           "etapa": "APLICAÇÕES (Respondi)",
-          "qtdNaEtapa": 8,
-          "qtdNestaOuAFrente": 2295,
+          "qtdNaEtapa": 6,
+          "qtdNestaOuAFrente": 2289,
           "conversaoParaProximaEtapaPct": 99.7
         },
         {
           "etapa": "Em Cadência",
-          "qtdNaEtapa": 2239,
-          "qtdNestaOuAFrente": 2287,
+          "qtdNaEtapa": 2236,
+          "qtdNestaOuAFrente": 2283,
           "conversaoParaProximaEtapaPct": 2.1
         },
         {
           "etapa": "Atendeu - Qualificado",
-          "qtdNaEtapa": 24,
-          "qtdNestaOuAFrente": 48,
-          "conversaoParaProximaEtapaPct": 50.0
+          "qtdNaEtapa": 23,
+          "qtdNestaOuAFrente": 47,
+          "conversaoParaProximaEtapaPct": 51.1
         },
         {
           "etapa": "Reunião Marcada",
@@ -106,14 +106,14 @@
         {
           "etapa": "Novo Lead",
           "qtdNaEtapa": 2,
-          "qtdNestaOuAFrente": 71,
+          "qtdNestaOuAFrente": 72,
           "conversaoParaProximaEtapaPct": 97.2
         },
         {
           "etapa": "Em Cadência",
-          "qtdNaEtapa": 65,
-          "qtdNestaOuAFrente": 69,
-          "conversaoParaProximaEtapaPct": 5.8
+          "qtdNaEtapa": 66,
+          "qtdNestaOuAFrente": 70,
+          "conversaoParaProximaEtapaPct": 5.7
         },
         {
           "etapa": "Atendeu - Qualificado",
@@ -149,28 +149,28 @@
     {
       "name": "João Vitor",
       "pipeline": "Comercial - Global Pro Pika",
-      "totalAberto": 2087,
-      "yesterdayEntradas": 121,
+      "totalAberto": 2108,
+      "yesterdayEntradas": 119,
       "tempoMedioNaEtapaDias": 5.4,
-      "paradosMais3Dias": 1156,
+      "paradosMais3Dias": 1160,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 3,
       "porEtapa": [
         {
           "etapa": "Em Cadência",
-          "qtd": 856
+          "qtd": 855
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtd": 518
+          "qtd": 520
         },
         {
           "etapa": "Novo Lead (Antes 09/09)",
-          "qtd": 457
+          "qtd": 456
         },
         {
           "etapa": "Novo Cliente Webnário",
-          "qtd": 211
+          "qtd": 234
         },
         {
           "etapa": "Acessou o Hotwebinar",
@@ -178,15 +178,15 @@
         },
         {
           "etapa": "Atendeu - Qualificado",
-          "qtd": 10
-        },
-        {
-          "etapa": "APLICAÇÕES (Respondi)",
-          "qtd": 4
+          "qtd": 9
         },
         {
           "etapa": "Permaneceu 1 hora",
           "qtd": 4
+        },
+        {
+          "etapa": "APLICAÇÕES (Respondi)",
+          "qtd": 3
         },
         {
           "etapa": "PERDIDO SDR",
@@ -201,36 +201,32 @@
     {
       "name": "Gabriel Silva",
       "pipeline": "Comercial - Global Pro Pika",
-      "totalAberto": 2074,
-      "yesterdayEntradas": 118,
+      "totalAberto": 2090,
+      "yesterdayEntradas": 119,
       "tempoMedioNaEtapaDias": 4.7,
-      "paradosMais3Dias": 998,
+      "paradosMais3Dias": 997,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 0,
       "porEtapa": [
         {
           "etapa": "Em Cadência",
-          "qtd": 793
+          "qtd": 792
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtd": 550
+          "qtd": 554
         },
         {
           "etapa": "Novo Lead (Antes 09/09)",
-          "qtd": 496
+          "qtd": 495
         },
         {
           "etapa": "Novo Cliente Webnário",
-          "qtd": 206
+          "qtd": 225
         },
         {
           "etapa": "Acessou o Hotwebinar",
           "qtd": 14
-        },
-        {
-          "etapa": "Permaneceu 1 hora",
-          "qtd": 7
         },
         {
           "etapa": "Atendeu - Qualificado",
@@ -239,34 +235,38 @@
         {
           "etapa": "Permaneceu 30 minutos",
           "qtd": 3
+        },
+        {
+          "etapa": "Permaneceu 1 hora",
+          "qtd": 2
         }
       ]
     },
     {
       "name": "Maicon Oliveira",
       "pipeline": "Comercial - Global Pro Pika",
-      "totalAberto": 2054,
-      "yesterdayEntradas": 112,
+      "totalAberto": 2060,
+      "yesterdayEntradas": 111,
       "tempoMedioNaEtapaDias": 5.4,
-      "paradosMais3Dias": 1041,
+      "paradosMais3Dias": 1036,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 13,
       "porEtapa": [
         {
           "etapa": "Novo Lead (Antes 09/09)",
-          "qtd": 759
+          "qtd": 754
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtd": 540
+          "qtd": 544
         },
         {
           "etapa": "Em Cadência",
-          "qtd": 453
+          "qtd": 452
         },
         {
           "etapa": "Novo Cliente Webnário",
-          "qtd": 210
+          "qtd": 220
         },
         {
           "etapa": "Acessou o Hotwebinar",
@@ -274,7 +274,7 @@
         },
         {
           "etapa": "Permaneceu 30 minutos",
-          "qtd": 17
+          "qtd": 16
         },
         {
           "etapa": "PERDIDO SDR",
@@ -289,12 +289,12 @@
           "qtd": 7
         },
         {
-          "etapa": "APLICAÇÕES (Respondi)",
+          "etapa": "No-show / Reagendamento",
           "qtd": 4
         },
         {
-          "etapa": "No-show / Reagendamento",
-          "qtd": 4
+          "etapa": "APLICAÇÕES (Respondi)",
+          "qtd": 3
         },
         {
           "etapa": "Reunião Realizada",
@@ -307,8 +307,8 @@
       "pipeline": "Comercial - PÓS SANGUINÁRIA",
       "totalAberto": 67,
       "yesterdayEntradas": 8,
-      "tempoMedioNaEtapaDias": 3.2,
-      "paradosMais3Dias": 27,
+      "tempoMedioNaEtapaDias": 3.1,
+      "paradosMais3Dias": 26,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 1,
       "porEtapa": [
@@ -361,13 +361,17 @@
     {
       "name": "Bruna Lenotti",
       "pipeline": "Comercial - PÓS SANGUINÁRIA",
-      "totalAberto": 15,
+      "totalAberto": 16,
       "yesterdayEntradas": 3,
-      "tempoMedioNaEtapaDias": 1.5,
+      "tempoMedioNaEtapaDias": 1.4,
       "paradosMais3Dias": 1,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 0,
       "porEtapa": [
+        {
+          "etapa": "Inscrito no evento (ignorar)",
+          "qtd": 4
+        },
         {
           "etapa": "Permaneceu 1 hora",
           "qtd": 4
@@ -375,10 +379,6 @@
         {
           "etapa": "Entrou no Webnário",
           "qtd": 4
-        },
-        {
-          "etapa": "Inscrito no evento (ignorar)",
-          "qtd": 3
         },
         {
           "etapa": "Permaneceu 30 minutos",
@@ -393,16 +393,16 @@
     {
       "name": "João Lima",
       "pipeline": "Comercial - PÓS SANGUINÁRIA",
-      "totalAberto": 4,
+      "totalAberto": 5,
       "yesterdayEntradas": 2,
-      "tempoMedioNaEtapaDias": 0.2,
-      "paradosMais3Dias": 0,
+      "tempoMedioNaEtapaDias": 2.2,
+      "paradosMais3Dias": 1,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 0,
       "porEtapa": [
         {
           "etapa": "Em Cadência",
-          "qtd": 2
+          "qtd": 3
         },
         {
           "etapa": "No-show / Reagendamento",
@@ -664,6 +664,548 @@
     ],
     "nota": "Meta e ritmo calculados sobre vendas GANHO confirmadas (status \"won\") com data de fechamento dentro do mes corrente, fuso America/Sao_Paulo. Projecao e simples (ritmo medio ate agora x dias do mes) -- nao considera sazonalidade nem pipeline em andamento (reunioes marcadas que ainda podem fechar). \"Vendas necessarias\" usa o ticket medio das vendas deste mes (ou o ticket medio historico se ainda nao fechou nenhuma este mes)."
   },
+  "ganhoSemFecharDetalhe": [],
+  "perdidoSemFecharDetalhe": [
+    {
+      "leadName": "Kayque",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "PERDIDO SDR",
+      "diasParado": 7.9
+    },
+    {
+      "leadName": "Igor",
+      "attendantName": "Gabriel Santos",
+      "pipeline": "Comercial - PÓS SANGUINÁRIA",
+      "pipelineId": "31761c70-6405-44a7-9361-3c019ca685e1",
+      "etapa": "PERDIDO SDR",
+      "diasParado": 7.0
+    },
+    {
+      "leadName": "Carlos",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "PERDIDO SDR",
+      "diasParado": 2.9
+    },
+    {
+      "leadName": "Emerson José",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "PERDIDO SDR",
+      "diasParado": 2.9
+    },
+    {
+      "leadName": "Lucas",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "PERDIDO SDR",
+      "diasParado": 2.8
+    },
+    {
+      "leadName": "Jeferson",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "PERDIDO SDR",
+      "diasParado": 2.8
+    },
+    {
+      "leadName": "Herbete",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "PERDIDO SDR",
+      "diasParado": 2.8
+    },
+    {
+      "leadName": "Natan",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "PERDIDO SDR",
+      "diasParado": 2.8
+    },
+    {
+      "leadName": "Gabrielle",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "PERDIDO SDR",
+      "diasParado": 1.8
+    },
+    {
+      "leadName": "Álvaro",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "PERDIDO SDR",
+      "diasParado": 1.8
+    },
+    {
+      "leadName": "roldan.eng.software@gmail.com",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "PERDIDO SDR",
+      "diasParado": 1.8
+    },
+    {
+      "leadName": "igoraalmeida96@gmail.com",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "PERDIDO SDR",
+      "diasParado": 1.8
+    },
+    {
+      "leadName": "Erick Ricardo",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "PERDIDO SDR",
+      "diasParado": 1.8
+    },
+    {
+      "leadName": "Tiago",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "PERDIDO SDR",
+      "diasParado": 1.8
+    },
+    {
+      "leadName": "Gustavo",
+      "attendantName": "João Vitor",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "PERDIDO SDR",
+      "diasParado": 0.8
+    },
+    {
+      "leadName": "Isabele",
+      "attendantName": "João Vitor",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "PERDIDO SDR",
+      "diasParado": 0.8
+    },
+    {
+      "leadName": "Angelo Gabriel",
+      "attendantName": "João Vitor",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "PERDIDO SDR",
+      "diasParado": 0.8
+    }
+  ],
+  "paradosDetalhe": [
+    {
+      "leadName": "Willem",
+      "attendantName": "João Vitor",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 13.8
+    },
+    {
+      "leadName": "Samuel",
+      "attendantName": "João Vitor",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 13.8
+    },
+    {
+      "leadName": "Victor",
+      "attendantName": "João Vitor",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 13.8
+    },
+    {
+      "leadName": "Jose",
+      "attendantName": "Gabriel Silva",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 13.8
+    },
+    {
+      "leadName": "Jeferson",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 13.8
+    },
+    {
+      "leadName": "Leandro",
+      "attendantName": "João Vitor",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 13.7
+    },
+    {
+      "leadName": "Carina",
+      "attendantName": "João Vitor",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 13.7
+    },
+    {
+      "leadName": "Renan",
+      "attendantName": "Gabriel Silva",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 13.7
+    },
+    {
+      "leadName": "Yan",
+      "attendantName": "Gabriel Silva",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 13.7
+    },
+    {
+      "leadName": "William",
+      "attendantName": "Gabriel Silva",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 13.6
+    },
+    {
+      "leadName": "Christian",
+      "attendantName": "Gabriel Silva",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 13.6
+    },
+    {
+      "leadName": "Rafael",
+      "attendantName": "Gabriel Silva",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 13.6
+    },
+    {
+      "leadName": "Marcos",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 13.6
+    },
+    {
+      "leadName": "Rosana",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 13.6
+    },
+    {
+      "leadName": "Bruna",
+      "attendantName": "João Vitor",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 13.5
+    },
+    {
+      "leadName": "Raphael",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 13.5
+    },
+    {
+      "leadName": "Cristiano Antônio de",
+      "attendantName": "João Vitor",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 13.4
+    },
+    {
+      "leadName": "Edson",
+      "attendantName": "João Vitor",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 13.2
+    },
+    {
+      "leadName": "Daniel",
+      "attendantName": "João Vitor",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 13.2
+    },
+    {
+      "leadName": "Samuel",
+      "attendantName": "João Vitor",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 13.1
+    },
+    {
+      "leadName": "Walter",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 13.1
+    },
+    {
+      "leadName": "Marília",
+      "attendantName": "Gabriel Silva",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 12.9
+    },
+    {
+      "leadName": "Felipe",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 12.9
+    },
+    {
+      "leadName": "Jose Luiz",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 12.8
+    },
+    {
+      "leadName": "Nicolas Rafael",
+      "attendantName": "João Vitor",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 12.6
+    },
+    {
+      "leadName": "João Pedro",
+      "attendantName": "Gabriel Silva",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 12.6
+    },
+    {
+      "leadName": "Reyson Ferreira",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 12.6
+    },
+    {
+      "leadName": "Vinícios",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 12.6
+    },
+    {
+      "leadName": "Anderson",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 12.6
+    },
+    {
+      "leadName": "Jonathan",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 12.6
+    },
+    {
+      "leadName": "Beatriz",
+      "attendantName": "João Vitor",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 12.5
+    },
+    {
+      "leadName": "Vinicius",
+      "attendantName": "Gabriel Silva",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 12.5
+    },
+    {
+      "leadName": "Juan",
+      "attendantName": "Gabriel Silva",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 12.5
+    },
+    {
+      "leadName": "Alyson",
+      "attendantName": "Gabriel Silva",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 12.5
+    },
+    {
+      "leadName": "Arisvan",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 12.5
+    },
+    {
+      "leadName": "Paulo",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 12.4
+    },
+    {
+      "leadName": "Jean Carlos",
+      "attendantName": "João Vitor",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 12.1
+    },
+    {
+      "leadName": "Paulo",
+      "attendantName": "Gabriel Silva",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 12.1
+    },
+    {
+      "leadName": "Nathan",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 12.1
+    },
+    {
+      "leadName": "Gabriel",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 12.1
+    },
+    {
+      "leadName": "Pawel",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 12.1
+    },
+    {
+      "leadName": "Wildson",
+      "attendantName": "João Vitor",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 12.0
+    },
+    {
+      "leadName": "Sergio",
+      "attendantName": "Gabriel Silva",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 12.0
+    },
+    {
+      "leadName": "Gabriel",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 12.0
+    },
+    {
+      "leadName": "Thais",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 11.9
+    },
+    {
+      "leadName": "Marconde",
+      "attendantName": "João Vitor",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 11.8
+    },
+    {
+      "leadName": "Nelson Rodrigo",
+      "attendantName": "Gabriel Silva",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 11.7
+    },
+    {
+      "leadName": "Leandro",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 11.7
+    },
+    {
+      "leadName": "Elivelton",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 11.7
+    },
+    {
+      "leadName": "Matheus",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 11.6
+    }
+  ],
+  "paradosDetalheTotal": 3221,
   "ligacoesSemCrm": [
     {
       "lead_name": null,
@@ -768,7 +1310,7 @@
   ],
   "sdrConversion": {
     "data": "2026-09-18",
-    "generatedAt": "2026-09-18T14:01:27.513126Z",
+    "generatedAt": "2026-09-18T14:38:37.943990Z",
     "porSdr": [
       {
         "name": "Bruna Lenotti",
@@ -1108,7 +1650,7 @@
     "nota": "Ligacoes de hoje (fuso Brasilia) via D1 fsc-3c-calls. \"Atendida\" = conversa real (>=15s falando), mesma regra que move o negocio pra Atendeu-Qualificado. \"Qualificados\" conta so a 1a movimentacao automatica por negocio (nao repete se ligar de novo pro mesmo lead). \"serieDiariaMes\" cobre do dia 1 do mes ate hoje (totais do time) -- dias em que o painel nao rodou nenhuma vez ficam com \"semDado\": true em vez de zero de verdade. \"comparacao2Dias\" traz ligacoes/atendidas/qualificados por SDR nos 2 dias mais recentes (ontem x hoje) lado a lado."
   },
   "filaDiscador3c": {
-    "generatedAt": "2026-09-18T14:01:30.113170Z",
+    "generatedAt": "2026-09-18T14:38:42.793594Z",
     "porSdr": [
       {
         "name": "João Vitor",
@@ -1136,7 +1678,7 @@
   },
   "funnelConversion": {
     "janelaDias": 7,
-    "generatedAt": "2026-09-18T14:01:31.401399Z",
+    "generatedAt": "2026-09-18T14:38:44.723280Z",
     "porSdr": [
       {
         "name": "João Vitor",
@@ -1471,23 +2013,23 @@
     "nota": "\"Horas no 3C\", \"Falando\", \"Ocioso\", \"Ligacoes feitas\" e \"Conectadas\" sao da janela de 7 dias (direto da 3C Plus); \"Reunioes\"/\"Ganho\"/\"Perdido\" sao acumulados desde que esse rastreamento comecou (sem historico anterior -- a API do DataCrazy nao expoe mudanca de etapa passada). \"Qualificados\" conta so quem foi auto-qualificado por ligacao 3C conectada (>=15s) -- e um numero baixo de proposito, so mede esse caminho especifico. Ja \"Reunioes\"/\"Ganho\"/\"Perdido\" sao creditados ao SDR que marcou a reuniao no CRM (nao dependem de ter passado pela qualificacao automatica via ligacao -- a maioria das reunioes marcadas nao passa por esse caminho, entao contar so por ali deixava esses numeros zerados). \"Taxa qualif.->reuniao\" e reunioes marcadas dividido pelo total de negocios creditados ao SDR (ligacao 3C + reuniao marcada), nao so pelos qualificados via ligacao. \"Ligacoes total\" e \"Ligacoes por reuniao marcada\" usam o TOTAL de ligacoes feitas pelo SDR desde sempre (nao so a janela de 7 dias) dividido pelas reunioes marcadas acumuladas -- pra manter a mesma escala de tempo dos dois lados da conta (misturar janela de 7 dias com acumulado total daria uma proporcao errada). \"Conectada\" = ligacao com >=15s de conversa real. \"Ocioso\" = tempo logado na 3C sem estar em ligacao (disponivel esperando a proxima). Reuniao marcada fica registrada pra sempre mesmo se o negocio for perdido depois. Conversao do Closer e atribuida pelo par fixo SDR->Closer combinado com o usuario, nao pelo atendente atual do negocio. \"porAtendentePos\" traz os mesmos campos pra Pos Graduacao, mas sem separacao SDR/Closer -- la o mesmo atendente cuida do negocio do primeiro contato ate o fechamento, entao nao existe uma tabela de Closer correspondente. O rastreamento de milestones cobre Pos Graduacao desde 2026-09-17 -- reunioes marcadas antes disso nao aparecem aqui mesmo que ja tenham acontecido. \"reunioesRecentes\" lista as ultimas reunioes marcadas capturadas -- \"observadoEm\" e quando este script VIU o negocio nessa etapa (roda a cada ciclo do pipeline), nao o horario real que o SDR marcou no CRM, que a API do DataCrazy nao expoe."
   },
   "activitiesTracking": {
-    "generatedAt": "2026-09-18T14:01:32.766106Z",
+    "generatedAt": "2026-09-18T14:38:46.284678Z",
     "janelaDias": 7,
     "porAtendente": [
       {
         "name": "João Vitor",
         "pipeline": "Comercial - Global Pro Pika",
-        "pendentes": 24,
-        "atrasadas": 18,
+        "pendentes": 18,
+        "atrasadas": 12,
         "proximas48h": 2,
-        "concluidasJanela": 0
+        "concluidasJanela": 9
       },
       {
         "name": "Gabriel Silva",
         "pipeline": "Comercial - Global Pro Pika",
-        "pendentes": 11,
+        "pendentes": 16,
         "atrasadas": 5,
-        "proximas48h": 3,
+        "proximas48h": 7,
         "concluidasJanela": 6
       },
       {
@@ -1501,10 +2043,10 @@
       {
         "name": "Gabriel Santos",
         "pipeline": "Comercial - PÓS SANGUINÁRIA",
-        "pendentes": 28,
-        "atrasadas": 5,
+        "pendentes": 26,
+        "atrasadas": 3,
         "proximas48h": 14,
-        "concluidasJanela": 11
+        "concluidasJanela": 13
       },
       {
         "name": "Kaio Ikeda",
@@ -1525,9 +2067,9 @@
       {
         "name": "João Lima",
         "pipeline": "Comercial - PÓS SANGUINÁRIA",
-        "pendentes": 5,
+        "pendentes": 39,
         "atrasadas": 1,
-        "proximas48h": 4,
+        "proximas48h": 38,
         "concluidasJanela": 0
       },
       {
@@ -1595,6 +2137,24 @@
         "pipelineName": "Lista de Espera - FSC"
       },
       {
+        "atendente": "João Vitor",
+        "leadName": "Cesar Augusto",
+        "titulo": "follow 3",
+        "prazo": "2026-08-19T15:00:00.000Z",
+        "etapa": null,
+        "pipelineId": null,
+        "pipelineName": null
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Douglas",
+        "titulo": "Follow D3 ",
+        "prazo": "2026-08-19T16:00:00.000Z",
+        "etapa": null,
+        "pipelineId": null,
+        "pipelineName": null
+      },
+      {
         "atendente": "João Lima",
         "leadName": "Allyson",
         "titulo": "Ligação",
@@ -1649,15 +2209,6 @@
         "pipelineName": null
       },
       {
-        "atendente": "João Vitor",
-        "leadName": "João Lucas",
-        "titulo": "Ver se consegiu o dinheiro ",
-        "prazo": "2026-09-12T15:00:00.000Z",
-        "etapa": "Em Cadência",
-        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
-        "pipelineName": "Comercial - Global Pro Pika"
-      },
-      {
         "atendente": "Gabriel Santos",
         "leadName": "Henrique",
         "titulo": "retorno segunda-feira",
@@ -1665,24 +2216,6 @@
         "etapa": null,
         "pipelineId": null,
         "pipelineName": null
-      },
-      {
-        "atendente": "João Vitor",
-        "leadName": "Luis Alberto",
-        "titulo": "Ligar pra ele ",
-        "prazo": "2026-09-14T19:05:00.000Z",
-        "etapa": "Reunião Marcada",
-        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
-        "pipelineName": "Comercial - Global Pro Pika"
-      },
-      {
-        "atendente": "João Vitor",
-        "leadName": "Eric",
-        "titulo": "Retornar ligação - Eric",
-        "prazo": "2026-09-14T20:00:00.000Z",
-        "etapa": "Atendeu - Qualificado",
-        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
-        "pipelineName": "Comercial - Global Pro Pika"
       },
       {
         "atendente": "João Vitor",
@@ -1717,33 +2250,6 @@
         "titulo": "reagendamento ",
         "prazo": "2026-09-15T15:00:00.000Z",
         "etapa": "No-show / Reagendamento",
-        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
-        "pipelineName": "Comercial - Global Pro Pika"
-      },
-      {
-        "atendente": "João Vitor",
-        "leadName": "Jorge Denys",
-        "titulo": "Ligar pra ele ",
-        "prazo": "2026-09-15T16:15:00.000Z",
-        "etapa": "Em Cadência",
-        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
-        "pipelineName": "Comercial - Global Pro Pika"
-      },
-      {
-        "atendente": "João Vitor",
-        "leadName": "Paulo",
-        "titulo": "Retornar ligação - Paulo",
-        "prazo": "2026-09-15T18:00:00.000Z",
-        "etapa": "Atendeu - Qualificado",
-        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
-        "pipelineName": "Comercial - Global Pro Pika"
-      },
-      {
-        "atendente": "João Vitor",
-        "leadName": "fernando ",
-        "titulo": "Retornar ligação - fernando ",
-        "prazo": "2026-09-15T21:08:00.000Z",
-        "etapa": "PERDIDO SDR",
         "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
         "pipelineName": "Comercial - Global Pro Pika"
       },
@@ -1820,15 +2326,6 @@
         "pipelineName": "Comercial - Global Pro Pika"
       },
       {
-        "atendente": "Gabriel Santos",
-        "leadName": "Lucas Rodrigues ",
-        "titulo": "retornar ás 17:00",
-        "prazo": "2026-09-16T20:00:00.000Z",
-        "etapa": null,
-        "pipelineId": null,
-        "pipelineName": null
-      },
-      {
         "atendente": "Gabriel Silva",
         "leadName": "Adriel",
         "titulo": "Atendeu, mas teve que sair, retornar depois. ",
@@ -1836,24 +2333,6 @@
         "etapa": null,
         "pipelineId": null,
         "pipelineName": null
-      },
-      {
-        "atendente": "Gabriel Santos",
-        "leadName": "Lucas Rodrigues ",
-        "titulo": "retornar",
-        "prazo": "2026-09-17T20:45:00.000Z",
-        "etapa": "Em Cadência",
-        "pipelineId": "31761c70-6405-44a7-9361-3c019ca685e1",
-        "pipelineName": "Comercial - PÓS SANGUINÁRIA"
-      },
-      {
-        "atendente": "João Vitor",
-        "leadName": "Viviane",
-        "titulo": "Retornar pra ela ",
-        "prazo": "2026-09-17T21:00:00.000Z",
-        "etapa": "PERDIDO SDR",
-        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
-        "pipelineName": "Comercial - Global Pro Pika"
       },
       {
         "atendente": "Kaio Ikeda",
@@ -1947,17 +2426,8 @@
       },
       {
         "atendente": "João Vitor",
-        "leadName": "Luis",
-        "titulo": "Ligar pra ele e agendar a call",
-        "prazo": "2026-09-18T13:45:00.000Z",
-        "etapa": "Atendeu - Qualificado",
-        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
-        "pipelineName": "Comercial - Global Pro Pika"
-      },
-      {
-        "atendente": "João Vitor",
-        "leadName": "Cesar Augusto",
-        "titulo": "Follow 2 ",
+        "leadName": "Samuel",
+        "titulo": "Follow amanhã",
         "prazo": "2026-09-18T14:00:00.000Z",
         "etapa": "Em Cadência",
         "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
@@ -1965,9 +2435,9 @@
       },
       {
         "atendente": "João Vitor",
-        "leadName": "Samuel",
-        "titulo": "Follow amanhã",
-        "prazo": "2026-09-18T14:00:00.000Z",
+        "leadName": "Victor",
+        "titulo": "Estou conversando pelo wpp ",
+        "prazo": "2026-09-18T14:30:00.000Z",
         "etapa": "Em Cadência",
         "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
         "pipelineName": "Comercial - Global Pro Pika"
