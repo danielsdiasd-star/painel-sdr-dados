@@ -706,12 +706,17 @@ function diasAtrasada(prazoIso) {
   return dias === 1 ? "1 dia" : `${dias} dias`;
 }
 
+function crmLink(pipelineId, leadName) {
+  // O CRM nao tem URL direta pra um card; o funil le "?search=" da URL e ja abre filtrado no cliente.
+  if (!pipelineId) return "";
+  const q = leadName ? `?search=${encodeURIComponent(leadName)}` : "";
+  return `<a class="abrir" href="https://crm.datacrazy.io/pipelines/${pipelineId}${q}" target="_blank" rel="noopener" title="Abre o funil já filtrado nesse cliente">abrir no CRM →</a>`;
+}
+
 function atrasadasPanelHtml(lista) {
   if (!lista || !lista.length) return "";
   const rows = lista.map(t => {
-    const pipelineLink = t.pipelineId
-      ? `<a class="abrir" href="https://crm.datacrazy.io/pipelines/${t.pipelineId}" target="_blank" rel="noopener">abrir pipeline →</a>`
-      : "";
+    const pipelineLink = crmLink(t.pipelineId, t.leadName);
     return `<div class="atrasadas-row">
       <span class="lead">${t.leadName || "—"}</span>
       <span class="titulo">${t.titulo || ""}</span>
@@ -738,9 +743,7 @@ function toggleAtrasadasPanel() {
 function semAtendentePanelHtml(lista) {
   if (!lista || !lista.length) return "";
   const rows = lista.map(w => {
-    const pipelineLink = w.pipelineId
-      ? `<a class="abrir" href="https://crm.datacrazy.io/pipelines/${w.pipelineId}" target="_blank" rel="noopener">abrir pipeline →</a>`
-      : "";
+    const pipelineLink = crmLink(w.pipelineId, w.leadName);
     const quando = w.statusChangedAt ? fmtAge(w.statusChangedAt) : "";
     return `<div class="atrasadas-row">
       <span class="lead">${w.leadName || "—"}</span>
@@ -758,9 +761,7 @@ function semAtendentePanelHtml(lista) {
 function businessDetailPanelHtml(panelId, title, items, totalReal) {
   if (!items || !items.length) return "";
   const rows = items.map(t => {
-    const pipelineLink = t.pipelineId
-      ? `<a class="abrir" href="https://crm.datacrazy.io/pipelines/${t.pipelineId}" target="_blank" rel="noopener">abrir pipeline →</a>`
-      : "";
+    const pipelineLink = crmLink(t.pipelineId, t.leadName);
     const detalhe = [t.pipeline, t.etapa].filter(Boolean).join(" · ");
     return `<div class="atrasadas-row">
       <span class="lead">${t.leadName || "—"}</span>
