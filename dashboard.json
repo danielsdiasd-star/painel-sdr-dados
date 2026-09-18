@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-18T03:00:27.380155Z",
-  "openTotal": 6607,
+  "generatedAt": "2026-09-18T03:57:00.796023Z",
+  "openTotal": 6624,
   "yesterdayTotal": 367,
   "byPipeline": {
     "Comercial - Global Pro Pika": {
-      "openTotal": 6082,
+      "openTotal": 6098,
       "yesterdayEntradas": 353,
       "zombieGanhoOuPerdido": 16,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 16
     },
     "Comercial - PÓS SANGUINÁRIA": {
-      "openTotal": 103,
+      "openTotal": 104,
       "yesterdayEntradas": 14,
       "zombieGanhoOuPerdido": 7,
       "emGanhoMasAindaAberto": 0,
@@ -50,15 +50,15 @@
       "etapas": [
         {
           "etapa": "Novo Cliente Webnário",
-          "qtdNaEtapa": 616,
-          "qtdNestaOuAFrente": 4411,
+          "qtdNaEtapa": 618,
+          "qtdNestaOuAFrente": 4426,
           "conversaoParaProximaEtapaPct": 86.0
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtdNaEtapa": 1502,
-          "qtdNestaOuAFrente": 3795,
-          "conversaoParaProximaEtapaPct": 60.4
+          "qtdNaEtapa": 1515,
+          "qtdNestaOuAFrente": 3808,
+          "conversaoParaProximaEtapaPct": 60.2
         },
         {
           "etapa": "APLICAÇÕES (Respondi)",
@@ -149,28 +149,28 @@
     {
       "name": "João Vitor",
       "pipeline": "Comercial - Global Pro Pika",
-      "totalAberto": 2045,
+      "totalAberto": 2049,
       "yesterdayEntradas": 123,
       "tempoMedioNaEtapaDias": 5.1,
-      "paradosMais3Dias": 1143,
+      "paradosMais3Dias": 1146,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 3,
       "porEtapa": [
         {
           "etapa": "Em Cadência",
-          "qtd": 856
+          "qtd": 857
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtd": 483
+          "qtd": 487
         },
         {
           "etapa": "Novo Lead (Antes 09/09)",
-          "qtd": 456
+          "qtd": 457
         },
         {
           "etapa": "Novo Cliente Webnário",
-          "qtd": 205
+          "qtd": 203
         },
         {
           "etapa": "Acessou o Hotwebinar",
@@ -201,32 +201,32 @@
     {
       "name": "Gabriel Silva",
       "pipeline": "Comercial - Global Pro Pika",
-      "totalAberto": 2035,
+      "totalAberto": 2041,
       "yesterdayEntradas": 119,
-      "tempoMedioNaEtapaDias": 4.3,
-      "paradosMais3Dias": 978,
+      "tempoMedioNaEtapaDias": 4.4,
+      "paradosMais3Dias": 981,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 0,
       "porEtapa": [
         {
           "etapa": "Em Cadência",
-          "qtd": 787
+          "qtd": 786
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtd": 514
+          "qtd": 520
         },
         {
           "etapa": "Novo Lead (Antes 09/09)",
-          "qtd": 496
+          "qtd": 497
         },
         {
           "etapa": "Novo Cliente Webnário",
-          "qtd": 202
+          "qtd": 203
         },
         {
           "etapa": "Acessou o Hotwebinar",
-          "qtd": 15
+          "qtd": 14
         },
         {
           "etapa": "Permaneceu 1 hora",
@@ -249,10 +249,10 @@
     {
       "name": "Maicon Oliveira",
       "pipeline": "Comercial - Global Pro Pika",
-      "totalAberto": 2002,
+      "totalAberto": 2008,
       "yesterdayEntradas": 111,
-      "tempoMedioNaEtapaDias": 5.0,
-      "paradosMais3Dias": 1019,
+      "tempoMedioNaEtapaDias": 5.1,
+      "paradosMais3Dias": 1021,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 13,
       "porEtapa": [
@@ -262,7 +262,7 @@
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtd": 505
+          "qtd": 508
         },
         {
           "etapa": "Em Cadência",
@@ -270,7 +270,7 @@
         },
         {
           "etapa": "Novo Cliente Webnário",
-          "qtd": 199
+          "qtd": 202
         },
         {
           "etapa": "Acessou o Hotwebinar",
@@ -343,7 +343,7 @@
       "pipeline": "Comercial - PÓS SANGUINÁRIA",
       "totalAberto": 9,
       "yesterdayEntradas": 1,
-      "tempoMedioNaEtapaDias": 0.7,
+      "tempoMedioNaEtapaDias": 0.8,
       "paradosMais3Dias": 0,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 0,
@@ -365,7 +365,7 @@
     {
       "name": "Bruna Lenotti",
       "pipeline": "Comercial - PÓS SANGUINÁRIA",
-      "totalAberto": 15,
+      "totalAberto": 16,
       "yesterdayEntradas": 4,
       "tempoMedioNaEtapaDias": 1.0,
       "paradosMais3Dias": 1,
@@ -381,11 +381,11 @@
           "qtd": 4
         },
         {
-          "etapa": "Permaneceu 30 minutos",
-          "qtd": 2
+          "etapa": "Inscrito no evento (ignorar)",
+          "qtd": 3
         },
         {
-          "etapa": "Inscrito no evento (ignorar)",
+          "etapa": "Permaneceu 30 minutos",
           "qtd": 2
         },
         {
@@ -427,7 +427,7 @@
       "pipeline": "Comercial - PÓS SANGUINÁRIA",
       "totalAberto": 1,
       "yesterdayEntradas": 0,
-      "tempoMedioNaEtapaDias": 1.3,
+      "tempoMedioNaEtapaDias": 1.4,
       "paradosMais3Dias": 0,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 0,
@@ -776,7 +776,7 @@
   ],
   "sdrConversion": {
     "data": "2026-09-18",
-    "generatedAt": "2026-09-18T03:05:08.648118Z",
+    "generatedAt": "2026-09-18T04:02:03.685550Z",
     "porSdr": [
       {
         "name": "Bruna Lenotti",
@@ -1006,7 +1006,7 @@
     "nota": "Ligacoes de hoje (fuso Brasilia) via D1 fsc-3c-calls. \"Atendida\" = conversa real (>=15s falando), mesma regra que move o negocio pra Atendeu-Qualificado. \"Qualificados\" conta so a 1a movimentacao automatica por negocio (nao repete se ligar de novo pro mesmo lead). \"serieDiariaMes\" cobre do dia 1 do mes ate hoje (totais do time) -- dias em que o painel nao rodou nenhuma vez ficam com \"semDado\": true em vez de zero de verdade."
   },
   "filaDiscador3c": {
-    "generatedAt": "2026-09-18T03:05:10.985277Z",
+    "generatedAt": "2026-09-18T04:02:07.370002Z",
     "porSdr": [
       {
         "name": "João Vitor",
@@ -1034,7 +1034,7 @@
   },
   "funnelConversion": {
     "janelaDias": 7,
-    "generatedAt": "2026-09-18T03:05:11.853028Z",
+    "generatedAt": "2026-09-18T04:02:08.735628Z",
     "porSdr": [
       {
         "name": "João Vitor",
@@ -1369,7 +1369,7 @@
     "nota": "\"Horas no 3C\", \"Falando\", \"Ocioso\", \"Ligacoes feitas\" e \"Conectadas\" sao da janela de 7 dias (direto da 3C Plus); \"Reunioes\"/\"Ganho\"/\"Perdido\" sao acumulados desde que esse rastreamento comecou (sem historico anterior -- a API do DataCrazy nao expoe mudanca de etapa passada). \"Qualificados\" conta so quem foi auto-qualificado por ligacao 3C conectada (>=15s) -- e um numero baixo de proposito, so mede esse caminho especifico. Ja \"Reunioes\"/\"Ganho\"/\"Perdido\" sao creditados ao SDR que marcou a reuniao no CRM (nao dependem de ter passado pela qualificacao automatica via ligacao -- a maioria das reunioes marcadas nao passa por esse caminho, entao contar so por ali deixava esses numeros zerados). \"Taxa qualif.->reuniao\" e reunioes marcadas dividido pelo total de negocios creditados ao SDR (ligacao 3C + reuniao marcada), nao so pelos qualificados via ligacao. \"Ligacoes total\" e \"Ligacoes por reuniao marcada\" usam o TOTAL de ligacoes feitas pelo SDR desde sempre (nao so a janela de 7 dias) dividido pelas reunioes marcadas acumuladas -- pra manter a mesma escala de tempo dos dois lados da conta (misturar janela de 7 dias com acumulado total daria uma proporcao errada). \"Conectada\" = ligacao com >=15s de conversa real. \"Ocioso\" = tempo logado na 3C sem estar em ligacao (disponivel esperando a proxima). Reuniao marcada fica registrada pra sempre mesmo se o negocio for perdido depois. Conversao do Closer e atribuida pelo par fixo SDR->Closer combinado com o usuario, nao pelo atendente atual do negocio. \"porAtendentePos\" traz os mesmos campos pra Pos Graduacao, mas sem separacao SDR/Closer -- la o mesmo atendente cuida do negocio do primeiro contato ate o fechamento, entao nao existe uma tabela de Closer correspondente. O rastreamento de milestones cobre Pos Graduacao desde 2026-09-17 -- reunioes marcadas antes disso nao aparecem aqui mesmo que ja tenham acontecido. \"reunioesRecentes\" lista as ultimas reunioes marcadas capturadas -- \"observadoEm\" e quando este script VIU o negocio nessa etapa (roda a cada ciclo do pipeline), nao o horario real que o SDR marcou no CRM, que a API do DataCrazy nao expoe."
   },
   "activitiesTracking": {
-    "generatedAt": "2026-09-18T03:05:12.716638Z",
+    "generatedAt": "2026-09-18T04:02:09.931255Z",
     "janelaDias": 7,
     "porAtendente": [
       {
