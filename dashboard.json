@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-09-18T15:56:47.593044Z",
-  "openTotal": 6856,
-  "yesterdayTotal": 360,
+  "generatedAt": "2026-09-18T18:20:13.489440Z",
+  "openTotal": 6964,
+  "yesterdayTotal": 377,
   "byPipeline": {
     "Comercial - Global Pro Pika": {
-      "openTotal": 6338,
-      "yesterdayEntradas": 346,
+      "openTotal": 6436,
+      "yesterdayEntradas": 360,
       "zombieGanhoOuPerdido": 16,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 16
     },
     "Comercial - PÓS SANGUINÁRIA": {
-      "openTotal": 100,
-      "yesterdayEntradas": 14,
+      "openTotal": 105,
+      "yesterdayEntradas": 17,
       "zombieGanhoOuPerdido": 1,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 1
@@ -50,45 +50,45 @@
       "etapas": [
         {
           "etapa": "Novo Cliente Webnário",
-          "qtdNaEtapa": 747,
-          "qtdNestaOuAFrente": 4687,
-          "conversaoParaProximaEtapaPct": 84.1
+          "qtdNaEtapa": 779,
+          "qtdNestaOuAFrente": 4770,
+          "conversaoParaProximaEtapaPct": 83.7
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtdNaEtapa": 1640,
-          "qtdNestaOuAFrente": 3940,
-          "conversaoParaProximaEtapaPct": 58.4
+          "qtdNaEtapa": 1685,
+          "qtdNestaOuAFrente": 3991,
+          "conversaoParaProximaEtapaPct": 57.8
         },
         {
           "etapa": "APLICAÇÕES (Respondi)",
           "qtdNaEtapa": 1,
-          "qtdNestaOuAFrente": 2300,
+          "qtdNestaOuAFrente": 2306,
           "conversaoParaProximaEtapaPct": 100.0
         },
         {
           "etapa": "Em Cadência",
-          "qtdNaEtapa": 2250,
-          "qtdNestaOuAFrente": 2299,
-          "conversaoParaProximaEtapaPct": 2.1
+          "qtdNaEtapa": 2254,
+          "qtdNestaOuAFrente": 2305,
+          "conversaoParaProximaEtapaPct": 2.2
         },
         {
           "etapa": "Atendeu - Qualificado",
-          "qtdNaEtapa": 23,
-          "qtdNestaOuAFrente": 49,
-          "conversaoParaProximaEtapaPct": 53.1
+          "qtdNaEtapa": 24,
+          "qtdNestaOuAFrente": 51,
+          "conversaoParaProximaEtapaPct": 52.9
         },
         {
           "etapa": "Reunião Marcada",
-          "qtdNaEtapa": 21,
-          "qtdNestaOuAFrente": 26,
-          "conversaoParaProximaEtapaPct": 19.2
+          "qtdNaEtapa": 20,
+          "qtdNestaOuAFrente": 27,
+          "conversaoParaProximaEtapaPct": 25.9
         },
         {
           "etapa": "Reunião Realizada",
-          "qtdNaEtapa": 4,
-          "qtdNestaOuAFrente": 5,
-          "conversaoParaProximaEtapaPct": 20.0
+          "qtdNaEtapa": 6,
+          "qtdNestaOuAFrente": 7,
+          "conversaoParaProximaEtapaPct": 14.3
         },
         {
           "etapa": "GANHO",
@@ -106,25 +106,25 @@
         {
           "etapa": "Novo Lead",
           "qtdNaEtapa": 0,
-          "qtdNestaOuAFrente": 74,
+          "qtdNestaOuAFrente": 79,
           "conversaoParaProximaEtapaPct": 100.0
         },
         {
           "etapa": "Em Cadência",
-          "qtdNaEtapa": 70,
-          "qtdNestaOuAFrente": 74,
-          "conversaoParaProximaEtapaPct": 5.4
+          "qtdNaEtapa": 74,
+          "qtdNestaOuAFrente": 79,
+          "conversaoParaProximaEtapaPct": 6.3
         },
         {
           "etapa": "Atendeu - Qualificado",
           "qtdNaEtapa": 0,
-          "qtdNestaOuAFrente": 4,
+          "qtdNestaOuAFrente": 5,
           "conversaoParaProximaEtapaPct": 100.0
         },
         {
           "etapa": "Reunião Marcada",
-          "qtdNaEtapa": 4,
-          "qtdNestaOuAFrente": 4,
+          "qtdNaEtapa": 5,
+          "qtdNestaOuAFrente": 5,
           "conversaoParaProximaEtapaPct": 0.0
         },
         {
@@ -149,60 +149,68 @@
     {
       "name": "João Vitor",
       "pipeline": "Comercial - Global Pro Pika",
-      "totalAberto": 2132,
-      "yesterdayEntradas": 116,
+      "totalAberto": 2168,
+      "yesterdayEntradas": 124,
       "tempoMedioNaEtapaDias": 5.5,
-      "paradosMais3Dias": 1173,
+      "paradosMais3Dias": 1234,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 3,
       "porEtapa": [
         {
           "etapa": "Em Cadência",
-          "qtd": 864
+          "qtd": 865
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtd": 529
+          "qtd": 543
         },
         {
           "etapa": "Novo Lead (Antes 09/09)",
-          "qtd": 463
+          "qtd": 455
         },
         {
           "etapa": "Novo Cliente Webnário",
-          "qtd": 245
+          "qtd": 265
         },
         {
           "etapa": "Acessou o Hotwebinar",
-          "qtd": 19
+          "qtd": 20
         },
         {
           "etapa": "Atendeu - Qualificado",
-          "qtd": 9
+          "qtd": 10
+        },
+        {
+          "etapa": "Permaneceu 1 hora",
+          "qtd": 5
         },
         {
           "etapa": "PERDIDO SDR",
           "qtd": 3
+        },
+        {
+          "etapa": "Permaneceu 30 minutos",
+          "qtd": 2
         }
       ]
     },
     {
       "name": "Gabriel Silva",
       "pipeline": "Comercial - Global Pro Pika",
-      "totalAberto": 2118,
-      "yesterdayEntradas": 119,
+      "totalAberto": 2152,
+      "yesterdayEntradas": 124,
       "tempoMedioNaEtapaDias": 4.8,
-      "paradosMais3Dias": 1004,
+      "paradosMais3Dias": 1018,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 0,
       "porEtapa": [
         {
           "etapa": "Em Cadência",
-          "qtd": 796
+          "qtd": 797
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtd": 561
+          "qtd": 577
         },
         {
           "etapa": "Novo Lead (Antes 09/09)",
@@ -210,51 +218,63 @@
         },
         {
           "etapa": "Novo Cliente Webnário",
-          "qtd": 247
+          "qtd": 252
         },
         {
           "etapa": "Acessou o Hotwebinar",
-          "qtd": 14
+          "qtd": 19
         },
         {
           "etapa": "Atendeu - Qualificado",
           "qtd": 5
+        },
+        {
+          "etapa": "Permaneceu 1 hora",
+          "qtd": 4
+        },
+        {
+          "etapa": "Permaneceu 30 minutos",
+          "qtd": 2
+        },
+        {
+          "etapa": "APLICAÇÕES (Respondi)",
+          "qtd": 1
         }
       ]
     },
     {
       "name": "Maicon Oliveira",
       "pipeline": "Comercial - Global Pro Pika",
-      "totalAberto": 2088,
-      "yesterdayEntradas": 111,
+      "totalAberto": 2116,
+      "yesterdayEntradas": 112,
       "tempoMedioNaEtapaDias": 5.4,
-      "paradosMais3Dias": 1038,
+      "paradosMais3Dias": 1044,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 13,
       "porEtapa": [
         {
           "etapa": "Novo Lead (Antes 09/09)",
-          "qtd": 753
+          "qtd": 750
         },
         {
           "etapa": "DISPONÍVEL PARA ABORDAGEM SDR",
-          "qtd": 550
+          "qtd": 565
         },
         {
           "etapa": "Em Cadência",
-          "qtd": 453
+          "qtd": 455
         },
         {
           "etapa": "Novo Cliente Webnário",
-          "qtd": 243
+          "qtd": 249
         },
         {
           "etapa": "Acessou o Hotwebinar",
-          "qtd": 38
+          "qtd": 43
         },
         {
           "etapa": "Permaneceu 30 minutos",
-          "qtd": 16
+          "qtd": 18
         },
         {
           "etapa": "PERDIDO SDR",
@@ -262,7 +282,7 @@
         },
         {
           "etapa": "Permaneceu 1 hora",
-          "qtd": 8
+          "qtd": 11
         },
         {
           "etapa": "Atendeu - Qualificado",
@@ -273,14 +293,6 @@
           "qtd": 4
         },
         {
-          "etapa": "Reunião Marcada",
-          "qtd": 1
-        },
-        {
-          "etapa": "APLICAÇÕES (Respondi)",
-          "qtd": 1
-        },
-        {
           "etapa": "Reunião Realizada",
           "qtd": 1
         }
@@ -289,7 +301,7 @@
     {
       "name": "Gabriel Santos",
       "pipeline": "Comercial - PÓS SANGUINÁRIA",
-      "totalAberto": 66,
+      "totalAberto": 67,
       "yesterdayEntradas": 8,
       "tempoMedioNaEtapaDias": 3.2,
       "paradosMais3Dias": 26,
@@ -298,7 +310,7 @@
       "porEtapa": [
         {
           "etapa": "Em Cadência",
-          "qtd": 57
+          "qtd": 58
         },
         {
           "etapa": "Reunião Marcada",
@@ -323,7 +335,7 @@
       "pipeline": "Comercial - PÓS SANGUINÁRIA",
       "totalAberto": 9,
       "yesterdayEntradas": 1,
-      "tempoMedioNaEtapaDias": 1.2,
+      "tempoMedioNaEtapaDias": 1.3,
       "paradosMais3Dias": 0,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 0,
@@ -351,7 +363,7 @@
       "pipeline": "Comercial - PÓS SANGUINÁRIA",
       "totalAberto": 17,
       "yesterdayEntradas": 3,
-      "tempoMedioNaEtapaDias": 1.3,
+      "tempoMedioNaEtapaDias": 1.4,
       "paradosMais3Dias": 1,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 0,
@@ -385,16 +397,20 @@
     {
       "name": "João Lima",
       "pipeline": "Comercial - PÓS SANGUINÁRIA",
-      "totalAberto": 7,
-      "yesterdayEntradas": 2,
-      "tempoMedioNaEtapaDias": 1.5,
+      "totalAberto": 11,
+      "yesterdayEntradas": 5,
+      "tempoMedioNaEtapaDias": 1.0,
       "paradosMais3Dias": 1,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 0,
       "porEtapa": [
         {
           "etapa": "Em Cadência",
-          "qtd": 6
+          "qtd": 9
+        },
+        {
+          "etapa": "Reunião Marcada",
+          "qtd": 1
         },
         {
           "etapa": "No-show / Reagendamento",
@@ -407,7 +423,7 @@
       "pipeline": "Comercial - PÓS SANGUINÁRIA",
       "totalAberto": 1,
       "yesterdayEntradas": 0,
-      "tempoMedioNaEtapaDias": 1.9,
+      "tempoMedioNaEtapaDias": 2.0,
       "paradosMais3Dias": 0,
       "emGanhoMasAindaAberto": 0,
       "emPerdidoMasAindaAberto": 0,
@@ -472,7 +488,7 @@
     ],
     "recentes": [
       {
-        "leadName": "Davi",
+        "leadName": "Davi Afonso Pereira de",
         "pipeline": "Comercial - PÓS SANGUINÁRIA",
         "attendantName": "João Lima",
         "total": 5160,
@@ -661,7 +677,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "PERDIDO SDR",
-      "diasParado": 7.9
+      "diasParado": 8.0
     },
     {
       "leadName": "Igor",
@@ -669,7 +685,7 @@
       "pipeline": "Comercial - PÓS SANGUINÁRIA",
       "pipelineId": "31761c70-6405-44a7-9361-3c019ca685e1",
       "etapa": "PERDIDO SDR",
-      "diasParado": 7.1
+      "diasParado": 7.2
     },
     {
       "leadName": "Carlos",
@@ -677,7 +693,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "PERDIDO SDR",
-      "diasParado": 2.9
+      "diasParado": 3.0
     },
     {
       "leadName": "Emerson José",
@@ -685,7 +701,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "PERDIDO SDR",
-      "diasParado": 2.9
+      "diasParado": 3.0
     },
     {
       "leadName": "Lucas",
@@ -693,7 +709,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "PERDIDO SDR",
-      "diasParado": 2.9
+      "diasParado": 3.0
     },
     {
       "leadName": "Jeferson",
@@ -701,7 +717,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "PERDIDO SDR",
-      "diasParado": 2.9
+      "diasParado": 3.0
     },
     {
       "leadName": "Herbete",
@@ -709,7 +725,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "PERDIDO SDR",
-      "diasParado": 2.9
+      "diasParado": 3.0
     },
     {
       "leadName": "Natan",
@@ -717,7 +733,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "PERDIDO SDR",
-      "diasParado": 2.9
+      "diasParado": 3.0
     },
     {
       "leadName": "Gabrielle",
@@ -725,7 +741,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "PERDIDO SDR",
-      "diasParado": 1.9
+      "diasParado": 2.0
     },
     {
       "leadName": "Álvaro",
@@ -733,7 +749,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "PERDIDO SDR",
-      "diasParado": 1.9
+      "diasParado": 2.0
     },
     {
       "leadName": "roldan.eng.software@gmail.com",
@@ -741,7 +757,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "PERDIDO SDR",
-      "diasParado": 1.8
+      "diasParado": 1.9
     },
     {
       "leadName": "igoraalmeida96@gmail.com",
@@ -749,7 +765,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "PERDIDO SDR",
-      "diasParado": 1.8
+      "diasParado": 1.9
     },
     {
       "leadName": "Erick Ricardo",
@@ -757,7 +773,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "PERDIDO SDR",
-      "diasParado": 1.8
+      "diasParado": 1.9
     },
     {
       "leadName": "Tiago",
@@ -765,7 +781,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "PERDIDO SDR",
-      "diasParado": 1.8
+      "diasParado": 1.9
     },
     {
       "leadName": "Gustavo",
@@ -773,7 +789,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "PERDIDO SDR",
-      "diasParado": 0.8
+      "diasParado": 0.9
     },
     {
       "leadName": "Isabele",
@@ -781,7 +797,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "PERDIDO SDR",
-      "diasParado": 0.8
+      "diasParado": 0.9
     },
     {
       "leadName": "Angelo Gabriel",
@@ -789,7 +805,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "PERDIDO SDR",
-      "diasParado": 0.8
+      "diasParado": 0.9
     }
   ],
   "paradosDetalhe": [
@@ -799,7 +815,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 13.9
+      "diasParado": 14.0
     },
     {
       "leadName": "Jeferson",
@@ -807,7 +823,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 13.9
+      "diasParado": 14.0
     },
     {
       "leadName": "Carina",
@@ -815,7 +831,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 13.8
+      "diasParado": 13.9
     },
     {
       "leadName": "Willem",
@@ -823,7 +839,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 13.8
+      "diasParado": 13.9
     },
     {
       "leadName": "Samuel",
@@ -831,7 +847,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 13.8
+      "diasParado": 13.9
     },
     {
       "leadName": "Victor",
@@ -839,7 +855,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 13.8
+      "diasParado": 13.9
     },
     {
       "leadName": "Yan",
@@ -847,7 +863,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 13.8
+      "diasParado": 13.9
     },
     {
       "leadName": "Leandro",
@@ -855,7 +871,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 13.7
+      "diasParado": 13.8
     },
     {
       "leadName": "Christian",
@@ -863,7 +879,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 13.7
+      "diasParado": 13.8
     },
     {
       "leadName": "Rafael",
@@ -871,7 +887,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 13.7
+      "diasParado": 13.8
     },
     {
       "leadName": "Renan",
@@ -879,7 +895,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 13.7
+      "diasParado": 13.8
     },
     {
       "leadName": "Rosana",
@@ -887,7 +903,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 13.7
+      "diasParado": 13.8
     },
     {
       "leadName": "Bruna",
@@ -895,7 +911,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 13.6
+      "diasParado": 13.7
     },
     {
       "leadName": "William",
@@ -903,7 +919,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 13.6
+      "diasParado": 13.7
     },
     {
       "leadName": "Marcos",
@@ -911,7 +927,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 13.6
+      "diasParado": 13.7
     },
     {
       "leadName": "Raphael",
@@ -919,7 +935,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 13.5
+      "diasParado": 13.6
     },
     {
       "leadName": "Cristiano Antônio de",
@@ -927,7 +943,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 13.4
+      "diasParado": 13.5
     },
     {
       "leadName": "Daniel",
@@ -935,7 +951,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 13.3
+      "diasParado": 13.4
     },
     {
       "leadName": "Edson",
@@ -943,7 +959,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 13.2
+      "diasParado": 13.3
     },
     {
       "leadName": "Samuel",
@@ -951,7 +967,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 13.1
+      "diasParado": 13.2
     },
     {
       "leadName": "Walter",
@@ -959,7 +975,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 13.1
+      "diasParado": 13.2
     },
     {
       "leadName": "Marília",
@@ -967,7 +983,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 12.9
+      "diasParado": 13.0
     },
     {
       "leadName": "Felipe",
@@ -975,7 +991,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 12.9
+      "diasParado": 13.0
     },
     {
       "leadName": "Jose Luiz",
@@ -983,7 +999,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 12.8
+      "diasParado": 12.9
     },
     {
       "leadName": "Anderson",
@@ -991,7 +1007,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 12.7
+      "diasParado": 12.8
     },
     {
       "leadName": "Jonathan",
@@ -999,7 +1015,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 12.7
+      "diasParado": 12.8
     },
     {
       "leadName": "Beatriz",
@@ -1007,7 +1023,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 12.6
+      "diasParado": 12.7
     },
     {
       "leadName": "Nicolas Rafael",
@@ -1015,7 +1031,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 12.6
+      "diasParado": 12.7
     },
     {
       "leadName": "Vinicius",
@@ -1023,7 +1039,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 12.6
+      "diasParado": 12.7
     },
     {
       "leadName": "Juan",
@@ -1031,7 +1047,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 12.6
+      "diasParado": 12.7
     },
     {
       "leadName": "Alyson",
@@ -1039,7 +1055,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 12.6
+      "diasParado": 12.7
     },
     {
       "leadName": "João Pedro",
@@ -1047,7 +1063,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 12.6
+      "diasParado": 12.7
     },
     {
       "leadName": "Arisvan",
@@ -1055,7 +1071,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 12.6
+      "diasParado": 12.7
     },
     {
       "leadName": "Reyson Ferreira",
@@ -1063,7 +1079,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 12.6
+      "diasParado": 12.7
     },
     {
       "leadName": "Vinícios",
@@ -1071,7 +1087,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 12.6
+      "diasParado": 12.7
     },
     {
       "leadName": "Paulo",
@@ -1079,7 +1095,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 12.5
+      "diasParado": 12.6
     },
     {
       "leadName": "Jean Carlos",
@@ -1087,7 +1103,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 12.2
+      "diasParado": 12.3
     },
     {
       "leadName": "Paulo",
@@ -1095,7 +1111,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 12.2
+      "diasParado": 12.3
     },
     {
       "leadName": "Pawel",
@@ -1103,7 +1119,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 12.2
+      "diasParado": 12.3
     },
     {
       "leadName": "Wildson",
@@ -1111,7 +1127,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 12.1
+      "diasParado": 12.2
     },
     {
       "leadName": "Sergio",
@@ -1119,7 +1135,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 12.1
+      "diasParado": 12.2
     },
     {
       "leadName": "Nathan",
@@ -1127,7 +1143,15 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 12.1
+      "diasParado": 12.2
+    },
+    {
+      "leadName": "Gabriel",
+      "attendantName": "Maicon Oliveira",
+      "pipeline": "Comercial - Global Pro Pika",
+      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+      "etapa": "Novo Lead (Antes 09/09)",
+      "diasParado": 12.2
     },
     {
       "leadName": "Gabriel",
@@ -1136,14 +1160,6 @@
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
       "diasParado": 12.1
-    },
-    {
-      "leadName": "Gabriel",
-      "attendantName": "Maicon Oliveira",
-      "pipeline": "Comercial - Global Pro Pika",
-      "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
-      "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 12.0
     },
     {
       "leadName": "Marconde",
@@ -1151,7 +1167,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 11.9
+      "diasParado": 12.0
     },
     {
       "leadName": "Thais",
@@ -1159,7 +1175,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 11.9
+      "diasParado": 12.0
     },
     {
       "leadName": "Elivelton",
@@ -1167,7 +1183,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 11.8
+      "diasParado": 11.9
     },
     {
       "leadName": "Nelson Rodrigo",
@@ -1175,7 +1191,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 11.7
+      "diasParado": 11.8
     },
     {
       "leadName": "Leandro",
@@ -1183,7 +1199,7 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 11.7
+      "diasParado": 11.8
     },
     {
       "leadName": "Rafael",
@@ -1191,10 +1207,10 @@
       "pipeline": "Comercial - Global Pro Pika",
       "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
       "etapa": "Novo Lead (Antes 09/09)",
-      "diasParado": 11.6
+      "diasParado": 11.7
     }
   ],
-  "paradosDetalheTotal": 3243,
+  "paradosDetalheTotal": 3324,
   "ligacoesSemCrm": [
     {
       "lead_name": null,
@@ -1299,7 +1315,7 @@
   ],
   "sdrConversion": {
     "data": "2026-09-18",
-    "generatedAt": "2026-09-18T16:01:54.509073Z",
+    "generatedAt": "2026-09-18T18:25:50.355189Z",
     "porSdr": [
       {
         "name": "Bruna Lenotti",
@@ -1522,7 +1538,7 @@
         "ligacoesFeitas": 0,
         "atendidas": 0,
         "qualificados": 0,
-        "reunioesMarcadas": 4,
+        "reunioesMarcadas": 9,
         "semDado": false
       }
     ],
@@ -1639,26 +1655,26 @@
     "nota": "Ligacoes de hoje (fuso Brasilia) via D1 fsc-3c-calls. \"Atendida\" = conversa real (>=15s falando), mesma regra que move o negocio pra Atendeu-Qualificado. \"Qualificados\" conta so a 1a movimentacao automatica por negocio (nao repete se ligar de novo pro mesmo lead). \"serieDiariaMes\" cobre do dia 1 do mes ate hoje (totais do time) -- dias em que o painel nao rodou nenhuma vez ficam com \"semDado\": true em vez de zero de verdade. \"comparacao2Dias\" traz ligacoes/atendidas/qualificados por SDR nos 2 dias mais recentes (ontem x hoje) lado a lado."
   },
   "filaDiscador3c": {
-    "generatedAt": "2026-09-18T16:01:57.474406Z",
+    "generatedAt": "2026-09-18T18:25:55.738273Z",
     "porSdr": [
       {
         "name": "João Vitor",
         "campaignId": 310304,
-        "pendentes": 857,
+        "pendentes": 1714,
         "discadosTotal": 0,
         "atendidosTotal": 0
       },
       {
         "name": "Gabriel Silva",
         "campaignId": 310303,
-        "pendentes": 813,
+        "pendentes": 1626,
         "discadosTotal": 0,
         "atendidosTotal": 0
       },
       {
         "name": "Maicon Oliveira",
         "campaignId": 310305,
-        "pendentes": 800,
+        "pendentes": 1600,
         "discadosTotal": 0,
         "atendidosTotal": 0
       }
@@ -1667,30 +1683,8 @@
   },
   "funnelConversion": {
     "janelaDias": 7,
-    "generatedAt": "2026-09-18T16:01:58.495089Z",
+    "generatedAt": "2026-09-18T18:25:58.198524Z",
     "porSdr": [
-      {
-        "name": "João Vitor",
-        "horasNo3cJanela": 9.2,
-        "horasFalandoJanela": 3.2,
-        "horasOciosoJanela": 4.6,
-        "mediaOciosoMinPorDia": 55.0,
-        "mediaFalandoMinPorConectada": 5.6,
-        "ligacoesFeitasJanela": 2146,
-        "conectadasJanela": 34,
-        "taxaConexaoPct": 1.6,
-        "qualificadosTotal": 4,
-        "reunioesMarcadas": 14,
-        "reunioesRealizadas": 0,
-        "ganho": 1,
-        "perdido": 6,
-        "taxaQualificadoParaReuniaoPct": 77.8,
-        "ligacoesPorQualificado": 536.5,
-        "ligacoesTotal": 2146,
-        "ligacoesPorReuniaoMarcada": 153.3,
-        "horasPorReuniaoMarcada": 0.7,
-        "taxaReuniaoParaVendaPct": 7.1
-      },
       {
         "name": "Gabriel Silva",
         "horasNo3cJanela": 4.8,
@@ -1702,16 +1696,38 @@
         "conectadasJanela": 29,
         "taxaConexaoPct": 1.7,
         "qualificadosTotal": 14,
-        "reunioesMarcadas": 14,
+        "reunioesMarcadas": 16,
         "reunioesRealizadas": 1,
         "ganho": 1,
         "perdido": 5,
-        "taxaQualificadoParaReuniaoPct": 50.0,
+        "taxaQualificadoParaReuniaoPct": 53.3,
         "ligacoesPorQualificado": 120.0,
         "ligacoesTotal": 1680,
-        "ligacoesPorReuniaoMarcada": 120.0,
+        "ligacoesPorReuniaoMarcada": 105.0,
         "horasPorReuniaoMarcada": 0.3,
-        "taxaReuniaoParaVendaPct": 7.1
+        "taxaReuniaoParaVendaPct": 6.2
+      },
+      {
+        "name": "João Vitor",
+        "horasNo3cJanela": 9.2,
+        "horasFalandoJanela": 3.2,
+        "horasOciosoJanela": 4.6,
+        "mediaOciosoMinPorDia": 55.0,
+        "mediaFalandoMinPorConectada": 5.6,
+        "ligacoesFeitasJanela": 2146,
+        "conectadasJanela": 34,
+        "taxaConexaoPct": 1.6,
+        "qualificadosTotal": 4,
+        "reunioesMarcadas": 15,
+        "reunioesRealizadas": 2,
+        "ganho": 1,
+        "perdido": 7,
+        "taxaQualificadoParaReuniaoPct": 78.9,
+        "ligacoesPorQualificado": 536.5,
+        "ligacoesTotal": 2146,
+        "ligacoesPorReuniaoMarcada": 143.1,
+        "horasPorReuniaoMarcada": 0.6,
+        "taxaReuniaoParaVendaPct": 6.7
       },
       {
         "name": "Maicon Oliveira",
@@ -1724,45 +1740,45 @@
         "conectadasJanela": 18,
         "taxaConexaoPct": 3.3,
         "qualificadosTotal": 5,
-        "reunioesMarcadas": 11,
+        "reunioesMarcadas": 12,
         "reunioesRealizadas": 2,
         "ganho": 2,
         "perdido": 2,
-        "taxaQualificadoParaReuniaoPct": 68.8,
+        "taxaQualificadoParaReuniaoPct": 70.6,
         "ligacoesPorQualificado": 110.4,
         "ligacoesTotal": 552,
-        "ligacoesPorReuniaoMarcada": 50.2,
-        "horasPorReuniaoMarcada": 0.2,
-        "taxaReuniaoParaVendaPct": 18.2
+        "ligacoesPorReuniaoMarcada": 46.0,
+        "horasPorReuniaoMarcada": 0.1,
+        "taxaReuniaoParaVendaPct": 16.7
       }
     ],
     "porCloser": [
       {
-        "name": "Kaio Ikeda",
-        "sdrOrigem": "João Vitor",
-        "reunioesRecebidas": 14,
-        "reunioesRealizadas": 0,
-        "ganho": 1,
-        "perdido": 6,
-        "taxaReuniaoParaVendaPct": 7.1
-      },
-      {
         "name": "Leonardo Ruthes",
         "sdrOrigem": "Gabriel Silva",
-        "reunioesRecebidas": 14,
+        "reunioesRecebidas": 16,
         "reunioesRealizadas": 1,
         "ganho": 1,
         "perdido": 5,
-        "taxaReuniaoParaVendaPct": 7.1
+        "taxaReuniaoParaVendaPct": 6.2
+      },
+      {
+        "name": "Kaio Ikeda",
+        "sdrOrigem": "João Vitor",
+        "reunioesRecebidas": 15,
+        "reunioesRealizadas": 2,
+        "ganho": 1,
+        "perdido": 7,
+        "taxaReuniaoParaVendaPct": 6.7
       },
       {
         "name": "Bruna Lenotti",
         "sdrOrigem": "Maicon Oliveira",
-        "reunioesRecebidas": 11,
+        "reunioesRecebidas": 12,
         "reunioesRealizadas": 2,
         "ganho": 2,
         "perdido": 2,
-        "taxaReuniaoParaVendaPct": 18.2
+        "taxaReuniaoParaVendaPct": 16.7
       }
     ],
     "porAtendentePos": [
@@ -1799,7 +1815,7 @@
         "conectadasJanela": 0,
         "taxaConexaoPct": null,
         "qualificadosTotal": 0,
-        "reunioesMarcadas": 1,
+        "reunioesMarcadas": 2,
         "reunioesRealizadas": 0,
         "ganho": 0,
         "perdido": 0,
@@ -1807,7 +1823,7 @@
         "ligacoesPorQualificado": null,
         "ligacoesTotal": 0,
         "ligacoesPorReuniaoMarcada": 0.0,
-        "horasPorReuniaoMarcada": 9.2,
+        "horasPorReuniaoMarcada": 4.6,
         "taxaReuniaoParaVendaPct": 0.0
       },
       {
@@ -1878,6 +1894,36 @@
       }
     ],
     "reunioesRecentes": [
+      {
+        "leadName": "Erikson",
+        "pipeline": "Comercial - Global Pro Pika",
+        "atendente": "Leonardo Ruthes",
+        "observadoEm": "2026-09-18 18:25:38"
+      },
+      {
+        "leadName": "Augusto Wagner",
+        "pipeline": "Comercial - Global Pro Pika",
+        "atendente": "Kaio Ikeda",
+        "observadoEm": "2026-09-18 18:25:38"
+      },
+      {
+        "leadName": "Thiago",
+        "pipeline": "Comercial - PÓS SANGUINÁRIA",
+        "atendente": "João Lima",
+        "observadoEm": "2026-09-18 17:46:46"
+      },
+      {
+        "leadName": "Julio",
+        "pipeline": "Comercial - Global Pro Pika",
+        "atendente": "Leonardo Ruthes",
+        "observadoEm": "2026-09-18 17:46:37"
+      },
+      {
+        "leadName": "Mauricio Honorato",
+        "pipeline": "Comercial - Global Pro Pika",
+        "atendente": "Maicon Oliveira",
+        "observadoEm": "2026-09-18 17:46:37"
+      },
       {
         "leadName": "João Marcos",
         "pipeline": "Comercial - Global Pro Pika",
@@ -1967,98 +2013,68 @@
         "pipeline": "Comercial - Global Pro Pika",
         "atendente": "Gabriel Silva",
         "observadoEm": "2026-09-17 17:39:56"
-      },
-      {
-        "leadName": "Peronn",
-        "pipeline": "Comercial - Global Pro Pika",
-        "atendente": "João Vitor",
-        "observadoEm": "2026-09-17 15:50:05"
-      },
-      {
-        "leadName": "Anderson",
-        "pipeline": "Comercial - Global Pro Pika",
-        "atendente": "Leonardo Ruthes",
-        "observadoEm": "2026-09-17 15:50:04"
-      },
-      {
-        "leadName": "Ricardo",
-        "pipeline": "Comercial - Global Pro Pika",
-        "atendente": null,
-        "observadoEm": "2026-09-17 14:43:04"
-      },
-      {
-        "leadName": "Marcelo Ribeiro Gasparini",
-        "pipeline": "Comercial - Global Pro Pika",
-        "atendente": "Kaio Ikeda",
-        "observadoEm": "2026-09-17 14:43:01"
-      },
-      {
-        "leadName": "Leonardo",
-        "pipeline": "Comercial - Global Pro Pika",
-        "atendente": null,
-        "observadoEm": "2026-09-17 14:30:24"
       }
     ],
     "nota": "\"Horas no 3C\", \"Falando\", \"Ocioso\", \"Ligacoes feitas\" e \"Conectadas\" sao da janela de 7 dias (direto da 3C Plus); \"Reunioes\"/\"Ganho\"/\"Perdido\" sao acumulados desde que esse rastreamento comecou (sem historico anterior -- a API do DataCrazy nao expoe mudanca de etapa passada). \"Qualificados\" conta so quem foi auto-qualificado por ligacao 3C conectada (>=15s) -- e um numero baixo de proposito, so mede esse caminho especifico. Ja \"Reunioes\"/\"Ganho\"/\"Perdido\" sao creditados ao SDR que marcou a reuniao no CRM (nao dependem de ter passado pela qualificacao automatica via ligacao -- a maioria das reunioes marcadas nao passa por esse caminho, entao contar so por ali deixava esses numeros zerados). \"Taxa qualif.->reuniao\" e reunioes marcadas dividido pelo total de negocios creditados ao SDR (ligacao 3C + reuniao marcada), nao so pelos qualificados via ligacao. \"Ligacoes total\" e \"Ligacoes por reuniao marcada\" usam o TOTAL de ligacoes feitas pelo SDR desde sempre (nao so a janela de 7 dias) dividido pelas reunioes marcadas acumuladas -- pra manter a mesma escala de tempo dos dois lados da conta (misturar janela de 7 dias com acumulado total daria uma proporcao errada). \"Conectada\" = ligacao com >=15s de conversa real. \"Ocioso\" = tempo logado na 3C sem estar em ligacao (disponivel esperando a proxima). Reuniao marcada fica registrada pra sempre mesmo se o negocio for perdido depois. Conversao do Closer e atribuida pelo par fixo SDR->Closer combinado com o usuario, nao pelo atendente atual do negocio. \"porAtendentePos\" traz os mesmos campos pra Pos Graduacao, mas sem separacao SDR/Closer -- la o mesmo atendente cuida do negocio do primeiro contato ate o fechamento, entao nao existe uma tabela de Closer correspondente. O rastreamento de milestones cobre Pos Graduacao desde 2026-09-17 -- reunioes marcadas antes disso nao aparecem aqui mesmo que ja tenham acontecido. \"reunioesRecentes\" lista as ultimas reunioes marcadas capturadas -- \"observadoEm\" e quando este script VIU o negocio nessa etapa (roda a cada ciclo do pipeline), nao o horario real que o SDR marcou no CRM, que a API do DataCrazy nao expoe."
   },
   "activitiesTracking": {
-    "generatedAt": "2026-09-18T16:01:59.906441Z",
+    "generatedAt": "2026-09-18T18:26:00.089928Z",
     "janelaDias": 7,
     "porAtendente": [
       {
         "name": "João Vitor",
         "pipeline": "Comercial - Global Pro Pika",
-        "pendentes": 23,
-        "atrasadas": 15,
-        "proximas48h": 4,
-        "concluidasJanela": 9
+        "pendentes": 87,
+        "atrasadas": 75,
+        "proximas48h": 8,
+        "concluidasJanela": 12
       },
       {
         "name": "Gabriel Silva",
         "pipeline": "Comercial - Global Pro Pika",
-        "pendentes": 17,
-        "atrasadas": 6,
-        "proximas48h": 7,
+        "pendentes": 72,
+        "atrasadas": 63,
+        "proximas48h": 5,
         "concluidasJanela": 5
       },
       {
         "name": "Maicon Oliveira",
         "pipeline": "Comercial - Global Pro Pika",
-        "pendentes": 6,
-        "atrasadas": 2,
+        "pendentes": 134,
+        "atrasadas": 130,
         "proximas48h": 2,
-        "concluidasJanela": 0
+        "concluidasJanela": 1
       },
       {
         "name": "Gabriel Santos",
         "pipeline": "Comercial - PÓS SANGUINÁRIA",
-        "pendentes": 17,
-        "atrasadas": 2,
-        "proximas48h": 10,
+        "pendentes": 18,
+        "atrasadas": 9,
+        "proximas48h": 3,
         "concluidasJanela": 22
       },
       {
         "name": "Kaio Ikeda",
         "pipeline": "Comercial - PÓS SANGUINÁRIA",
-        "pendentes": 11,
-        "atrasadas": 11,
+        "pendentes": 14,
+        "atrasadas": 14,
         "proximas48h": 0,
         "concluidasJanela": 0
       },
       {
         "name": "Bruna Lenotti",
         "pipeline": "Comercial - PÓS SANGUINÁRIA",
-        "pendentes": 4,
-        "atrasadas": 4,
+        "pendentes": 10,
+        "atrasadas": 10,
         "proximas48h": 0,
         "concluidasJanela": 0
       },
       {
         "name": "João Lima",
         "pipeline": "Comercial - PÓS SANGUINÁRIA",
-        "pendentes": 62,
-        "atrasadas": 1,
-        "proximas48h": 61,
+        "pendentes": 68,
+        "atrasadas": 17,
+        "proximas48h": 48,
         "concluidasJanela": 1
       },
       {
@@ -2067,7 +2083,7 @@
         "pendentes": 2,
         "atrasadas": 2,
         "proximas48h": 0,
-        "concluidasJanela": 0
+        "concluidasJanela": 1
       }
     ],
     "atrasadasDetalhe": [
@@ -2163,21 +2179,12 @@
       },
       {
         "atendente": "João Lima",
-        "leadName": "Allyson",
+        "leadName": "Allyson Bruno de Freitas Fernandes",
         "titulo": "Ligação",
         "prazo": "2026-09-04T15:30:00.000Z",
         "etapa": "Entrada",
         "pipelineId": "fd9f44ff-05b1-401d-b94a-29dc56fe8ca5",
         "pipelineName": "Imersão Arquitetura de Software"
-      },
-      {
-        "atendente": "Maicon Oliveira",
-        "leadName": "Fernando",
-        "titulo": "retorno ",
-        "prazo": "2026-09-09T04:30:00.000Z",
-        "etapa": null,
-        "pipelineId": null,
-        "pipelineName": null
       },
       {
         "atendente": "João Vitor",
@@ -2369,24 +2376,6 @@
         "pipelineName": null
       },
       {
-        "atendente": "João Vitor",
-        "leadName": "Leonardo",
-        "titulo": "Retornar pra ele ",
-        "prazo": "2026-09-17T21:30:00.000Z",
-        "etapa": "Atendeu - Qualificado",
-        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
-        "pipelineName": "Comercial - Global Pro Pika"
-      },
-      {
-        "atendente": "João Vitor",
-        "leadName": "Leonardo",
-        "titulo": "Retornar pra ele ",
-        "prazo": "2026-09-17T21:45:00.000Z",
-        "etapa": "Atendeu - Qualificado",
-        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
-        "pipelineName": "Comercial - Global Pro Pika"
-      },
-      {
         "atendente": "Kaio Ikeda",
         "leadName": "Rodrigo",
         "titulo": "Retornar",
@@ -2433,15 +2422,6 @@
       },
       {
         "atendente": "João Vitor",
-        "leadName": "Victor",
-        "titulo": "Estou conversando pelo wpp ",
-        "prazo": "2026-09-18T14:30:00.000Z",
-        "etapa": "Em Cadência",
-        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
-        "pipelineName": "Comercial - Global Pro Pika"
-      },
-      {
-        "atendente": "João Vitor",
         "leadName": "João Vitor",
         "titulo": "Se falando pelo wpp ",
         "prazo": "2026-09-18T14:45:00.000Z",
@@ -2457,8 +2437,2611 @@
         "etapa": null,
         "pipelineId": null,
         "pipelineName": null
+      },
+      {
+        "atendente": "João Lima",
+        "leadName": "Alexandre Marques Ferreira",
+        "titulo": "Retornar",
+        "prazo": "2026-09-18T16:45:00.000Z",
+        "etapa": null,
+        "pipelineId": null,
+        "pipelineName": null
+      },
+      {
+        "atendente": "Gabriel Santos",
+        "leadName": "Felipe",
+        "titulo": "retornar",
+        "prazo": "2026-09-18T17:00:00.000Z",
+        "etapa": "Em Cadência",
+        "pipelineId": "31761c70-6405-44a7-9361-3c019ca685e1",
+        "pipelineName": "Comercial - PÓS SANGUINÁRIA"
+      },
+      {
+        "atendente": "Gabriel Santos",
+        "leadName": "Karine",
+        "titulo": "Reunião",
+        "prazo": "2026-09-18T17:00:00.000Z",
+        "etapa": "Reunião Marcada",
+        "pipelineId": "31761c70-6405-44a7-9361-3c019ca685e1",
+        "pipelineName": "Comercial - PÓS SANGUINÁRIA"
+      },
+      {
+        "atendente": "Gabriel Santos",
+        "leadName": "Allan safanelli Fonseca",
+        "titulo": "retornar",
+        "prazo": "2026-09-18T17:05:00.000Z",
+        "etapa": "Em Cadência",
+        "pipelineId": "31761c70-6405-44a7-9361-3c019ca685e1",
+        "pipelineName": "Comercial - PÓS SANGUINÁRIA"
+      },
+      {
+        "atendente": "Gabriel Santos",
+        "leadName": "George Moraes",
+        "titulo": "retornar",
+        "prazo": "2026-09-18T17:10:00.000Z",
+        "etapa": "Em Cadência",
+        "pipelineId": "31761c70-6405-44a7-9361-3c019ca685e1",
+        "pipelineName": "Comercial - PÓS SANGUINÁRIA"
+      },
+      {
+        "atendente": "Gabriel Santos",
+        "leadName": "Elissandro Santos de Oliveira",
+        "titulo": "retornar",
+        "prazo": "2026-09-18T17:20:00.000Z",
+        "etapa": "Em Cadência",
+        "pipelineId": "31761c70-6405-44a7-9361-3c019ca685e1",
+        "pipelineName": "Comercial - PÓS SANGUINÁRIA"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Wilson",
+        "titulo": "Follow de segundo contato",
+        "prazo": "2026-09-18T17:30:00.000Z",
+        "etapa": null,
+        "pipelineId": null,
+        "pipelineName": null
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Dhario Facundes Alves",
+        "titulo": "Tentar segundo contato",
+        "prazo": "2026-09-18T17:30:00.000Z",
+        "etapa": null,
+        "pipelineId": null,
+        "pipelineName": null
+      },
+      {
+        "atendente": "João Lima",
+        "leadName": "Thiago",
+        "titulo": "Agendado",
+        "prazo": "2026-09-18T17:30:00.000Z",
+        "etapa": "Reunião Marcada",
+        "pipelineId": "31761c70-6405-44a7-9361-3c019ca685e1",
+        "pipelineName": "Comercial - PÓS SANGUINÁRIA"
+      },
+      {
+        "atendente": "João Lima",
+        "leadName": "Hebert Luiz",
+        "titulo": "Retornar",
+        "prazo": "2026-09-18T17:30:00.000Z",
+        "etapa": "Em Cadência",
+        "pipelineId": "31761c70-6405-44a7-9361-3c019ca685e1",
+        "pipelineName": "Comercial - PÓS SANGUINÁRIA"
+      },
+      {
+        "atendente": "João Lima",
+        "leadName": "Igor Silva Lima",
+        "titulo": "Retornar",
+        "prazo": "2026-09-18T17:45:00.000Z",
+        "etapa": "Em Cadência",
+        "pipelineId": "31761c70-6405-44a7-9361-3c019ca685e1",
+        "pipelineName": "Comercial - PÓS SANGUINÁRIA"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Alexandre",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Alex",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Alexandre",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Alex",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Alex",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Alexandre",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Dalyson Borges da silva",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Yago",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Johannes",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Luis",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Yago",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Johannes",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Dalyson Borges da silva",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Luis",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Johannes",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Yago",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Luis",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Dalyson Borges da silva",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Vitor",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Genesis",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Daniel",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Genesis",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Vitor",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Daniel",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Daniel",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Genesis",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Vitor",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T17:48:07.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Pedro",
+        "titulo": "Follow D3 ",
+        "prazo": "2026-09-18T18:00:00.000Z",
+        "etapa": "Em Cadência",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Jessé Rosário",
+        "titulo": "Follow para agendar",
+        "prazo": "2026-09-18T18:00:00.000Z",
+        "etapa": null,
+        "pipelineId": null,
+        "pipelineName": null
+      },
+      {
+        "atendente": "Gabriel Santos",
+        "leadName": "Adriano Silva",
+        "titulo": "retorno",
+        "prazo": "2026-09-18T18:00:00.000Z",
+        "etapa": "Em Cadência",
+        "pipelineId": "31761c70-6405-44a7-9361-3c019ca685e1",
+        "pipelineName": "Comercial - PÓS SANGUINÁRIA"
+      },
+      {
+        "atendente": "Gabriel Santos",
+        "leadName": "Robson de Oliveira",
+        "titulo": "retorno",
+        "prazo": "2026-09-18T18:00:00.000Z",
+        "etapa": "Em Cadência",
+        "pipelineId": "31761c70-6405-44a7-9361-3c019ca685e1",
+        "pipelineName": "Comercial - PÓS SANGUINÁRIA"
+      },
+      {
+        "atendente": "João Lima",
+        "leadName": "Gizele",
+        "titulo": "Retornar",
+        "prazo": "2026-09-18T18:00:00.000Z",
+        "etapa": null,
+        "pipelineId": null,
+        "pipelineName": null
+      },
+      {
+        "atendente": "João Lima",
+        "leadName": "Angelo",
+        "titulo": "Retornar",
+        "prazo": "2026-09-18T18:00:00.000Z",
+        "etapa": "Em Cadência",
+        "pipelineId": "31761c70-6405-44a7-9361-3c019ca685e1",
+        "pipelineName": "Comercial - PÓS SANGUINÁRIA"
+      },
+      {
+        "atendente": "João Lima",
+        "leadName": "Fernanda Gabriel Dias Falcão",
+        "titulo": "Retornar",
+        "prazo": "2026-09-18T18:00:00.000Z",
+        "etapa": null,
+        "pipelineId": null,
+        "pipelineName": null
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Marcelo",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Guilherme",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Nicole",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Matheus",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "João Vitor",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Erika Calado",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Lygia",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "André",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Humt",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Thali",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Douglas",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Evandro",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Medllyn",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Amanda",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Carlos Leandro",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Ziraldo",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Henrique Jorge de Queiroz",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Carlos Gaona",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Ziraldo",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Marcelo",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "João Vitor",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Lygia",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Carlos Leandro",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Diógenes",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Evandro",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Guilherme",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Medllyn",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Douglas",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Carlos Gaona",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Matheus",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Humt",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "André",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Erika Calado",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Amanda",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Nicole",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Thali",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Henrique Jorge de Queiroz",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Douglas",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Guilherme",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Marcelo",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Medllyn",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Carlos Gaona",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Matheus",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "André",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Erika Calado",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Amanda",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Henrique Jorge de Queiroz",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "João Vitor",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Lygia",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Carlos Leandro",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Diógenes",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Humt",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Thali",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Ziraldo",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Nicole",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Vitor",
+        "leadName": "Evandro",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Alessandro Ferreira Pereira",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Jefferson",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Daniel",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "hhhh",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Danyel",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "APLICAÇÕES (Respondi)",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Suziane Silva",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Brunolqf",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Jessica",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Thiago Mendes",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "João Pedro",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Matheus",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Jaques",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Bruno de A.",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Luan",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Suziane Silva",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Luan",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Bruno de A.",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Jaques",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Danyel",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "APLICAÇÕES (Respondi)",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Jefferson",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Jessica",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Daniel",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Brunolqf",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "João Pedro",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Matheus",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Alessandro Ferreira Pereira",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "hhhh",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Thiago Mendes",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Alessandro Ferreira Pereira",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Suziane Silva",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Thiago Mendes",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "João Pedro",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Jessica",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Luan",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Jefferson",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Jaques",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "hhhh",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Brunolqf",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Danyel",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "APLICAÇÕES (Respondi)",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Daniel",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Bruno de A.",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Gabriel Silva",
+        "leadName": "Matheus",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "marcosanjos.js@gmail.com",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Ivanildo",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "André",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Pedro",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "rafaela cereser chagas",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Edgard Felix",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Ana Letícia",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Sandro",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Julia beatriz",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "kalsksk",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "T ",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Larissa",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "igoraalmeida96@gmail.com",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Roberto",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Dariel",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Luis Guilherme",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "João",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Caio",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Cauã",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Wellinton Rodrigo",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Matheus",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Richard",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Emiliano",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Jardel",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Maxmiller",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Max Lanio",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Joelson L",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Dave",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "montonidev@gmail.com",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Wilker",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Victor",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Lhara",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Matheus",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Anthony",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Israel",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Edson Carlos de Meira",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Leticia",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Victor",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Gabriel",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Brian",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Anthony",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "André",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Jardel",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "montonidev@gmail.com",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Wilker",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Edson Carlos de Meira",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "rafaela cereser chagas",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Sandro",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Max Lanio",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Julia beatriz",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Israel",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "marcosanjos.js@gmail.com",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Brian",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Caio",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "kalsksk",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Wellinton Rodrigo",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "T ",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Maxmiller",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Gabriel",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "igoraalmeida96@gmail.com",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Matheus",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Larissa",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Matheus",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "João",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Luis Guilherme",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Roberto",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Victor",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Richard",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Ivanildo",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Leticia",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Edgard Felix",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Dave",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Cauã",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Lhara",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Emiliano",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Joelson L",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Victor",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Pedro",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Dariel",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Ana Letícia",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Ivanildo",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "João",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Julia beatriz",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Joelson L",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Matheus",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "André",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "T ",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "montonidev@gmail.com",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "kalsksk",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "marcosanjos.js@gmail.com",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Roberto",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Wellinton Rodrigo",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Max Lanio",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Larissa",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Brian",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Maxmiller",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Anthony",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Wilker",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Lhara",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Dave",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Israel",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Leticia",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Edson Carlos de Meira",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Gabriel",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Ana Letícia",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Edgard Felix",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Pedro",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Victor",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Sandro",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Cauã",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "igoraalmeida96@gmail.com",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Jardel",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Matheus",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Dariel",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Luis Guilherme",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Caio",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Emiliano",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Richard",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "rafaela cereser chagas",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Maicon Oliveira",
+        "leadName": "Victor",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Kaio Ikeda",
+        "leadName": "Matheus",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Kaio Ikeda",
+        "leadName": "Matheus",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Kaio Ikeda",
+        "leadName": "Matheus",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Bruna Lenotti",
+        "leadName": "Rodrigo",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Bruna Lenotti",
+        "leadName": "Fábio",
+        "titulo": "[Cadência D0 imediato] Confirmação de cadastro",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Bruna Lenotti",
+        "leadName": "Fábio",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Bruna Lenotti",
+        "leadName": "Rodrigo",
+        "titulo": "[Cadência D0 imediato] Ligação",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Bruna Lenotti",
+        "leadName": "Fábio",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "Bruna Lenotti",
+        "leadName": "Rodrigo",
+        "titulo": "[Cadência D0 imediato] WhatsApp curto",
+        "prazo": "2026-09-18T18:01:11.000Z",
+        "etapa": "Acessou o Hotwebinar",
+        "pipelineId": "ce7b5b2f-19b9-43f1-b693-b11ab2f5c367",
+        "pipelineName": "Comercial - Global Pro Pika"
+      },
+      {
+        "atendente": "João Lima",
+        "leadName": "Matheus",
+        "titulo": "Retornar",
+        "prazo": "2026-09-18T18:15:00.000Z",
+        "etapa": "Em Cadência",
+        "pipelineId": "31761c70-6405-44a7-9361-3c019ca685e1",
+        "pipelineName": "Comercial - PÓS SANGUINÁRIA"
+      },
+      {
+        "atendente": "João Lima",
+        "leadName": "Boris Zaidan",
+        "titulo": "Retornar",
+        "prazo": "2026-09-18T18:15:00.000Z",
+        "etapa": "Em Cadência",
+        "pipelineId": "31761c70-6405-44a7-9361-3c019ca685e1",
+        "pipelineName": "Comercial - PÓS SANGUINÁRIA"
+      },
+      {
+        "atendente": "João Lima",
+        "leadName": "Ricardo",
+        "titulo": "Retornar",
+        "prazo": "2026-09-18T18:15:00.000Z",
+        "etapa": null,
+        "pipelineId": null,
+        "pipelineName": null
+      },
+      {
+        "atendente": "João Lima",
+        "leadName": "FELIPE PEREIRA BICALHO RAMOS",
+        "titulo": "Retornar",
+        "prazo": "2026-09-18T18:15:00.000Z",
+        "etapa": "Em Cadência",
+        "pipelineId": "31761c70-6405-44a7-9361-3c019ca685e1",
+        "pipelineName": "Comercial - PÓS SANGUINÁRIA"
+      },
+      {
+        "atendente": "João Lima",
+        "leadName": "Lucas Rodrigues ",
+        "titulo": "Retornar",
+        "prazo": "2026-09-18T18:15:00.000Z",
+        "etapa": "Em Cadência",
+        "pipelineId": "31761c70-6405-44a7-9361-3c019ca685e1",
+        "pipelineName": "Comercial - PÓS SANGUINÁRIA"
+      },
+      {
+        "atendente": "João Lima",
+        "leadName": "Márcio",
+        "titulo": "Retornar",
+        "prazo": "2026-09-18T18:15:00.000Z",
+        "etapa": "Em Cadência",
+        "pipelineId": "31761c70-6405-44a7-9361-3c019ca685e1",
+        "pipelineName": "Comercial - PÓS SANGUINÁRIA"
+      },
+      {
+        "atendente": "João Lima",
+        "leadName": "Pedro Elias Mendes Pedrosa ",
+        "titulo": "Retornar",
+        "prazo": "2026-09-18T18:15:00.000Z",
+        "etapa": null,
+        "pipelineId": null,
+        "pipelineName": null
+      },
+      {
+        "atendente": "João Lima",
+        "leadName": "Pedro",
+        "titulo": "Retornar",
+        "prazo": "2026-09-18T18:15:00.000Z",
+        "etapa": null,
+        "pipelineId": null,
+        "pipelineName": null
+      },
+      {
+        "atendente": "João Lima",
+        "leadName": "Arthur",
+        "titulo": "Retornar",
+        "prazo": "2026-09-18T18:15:00.000Z",
+        "etapa": null,
+        "pipelineId": null,
+        "pipelineName": null
       }
     ],
     "nota": "Atividades = tarefas do Calendario do DataCrazy (crm.datacrazy.io/calendar), vinculadas a negocio/lead. \"Atrasadas\" = pendentes com prazo (horario marcado) ja passado. \"Concluidas (7d)\" usa o horario marcado da atividade como proxy (a API nao expoe data real de conclusao). Cobre os 2 pipelines (Global Pro Pika e Pos Sanguinaria). \"atrasadasDetalhe\" lista cada tarefa atrasada individualmente (lead, atendente, titulo, prazo) -- o link \"abrir\" leva pro board do pipeline no DataCrazy (a API nao expoe um link direto pro card especifico, so pro pipeline inteiro)."
+  },
+  "cadenciaInbound": {
+    "generatedAt": "2026-09-18T18:36:45.514353Z",
+    "totalRastreados": 127,
+    "porStatus": {
+      "ativa": 126,
+      "encerrada_manual": 1
+    },
+    "ativosPorDia": [
+      {
+        "dia": 0,
+        "qtd": 126
+      }
+    ],
+    "porProduto": {
+      "PÓS": {
+        "total": 0,
+        "respondeu": 0,
+        "concluidaSemContato": 0,
+        "taxaContatoPct": null
+      },
+      "Global": {
+        "total": 127,
+        "respondeu": 0,
+        "concluidaSemContato": 0,
+        "taxaContatoPct": 0.0
+      }
+    },
+    "porOwner": [
+      {
+        "name": "Maicon Oliveira",
+        "ativos": 57,
+        "respondeu": 0,
+        "concluidaSemContato": 0,
+        "total": 57
+      },
+      {
+        "name": "João Vitor",
+        "ativos": 32,
+        "respondeu": 0,
+        "concluidaSemContato": 0,
+        "total": 33
+      },
+      {
+        "name": "Gabriel Silva",
+        "ativos": 33,
+        "respondeu": 0,
+        "concluidaSemContato": 0,
+        "total": 33
+      },
+      {
+        "name": "Bruna Lenotti",
+        "ativos": 2,
+        "respondeu": 0,
+        "concluidaSemContato": 0,
+        "total": 2
+      },
+      {
+        "name": "João Ávila",
+        "ativos": 1,
+        "respondeu": 0,
+        "concluidaSemContato": 0,
+        "total": 1
+      },
+      {
+        "name": "Kaio Ikeda",
+        "ativos": 1,
+        "respondeu": 0,
+        "concluidaSemContato": 0,
+        "total": 1
+      }
+    ],
+    "perdasAutomaticasUltimos7d": 0,
+    "nota": "Estado da cadência vive só no nosso banco (D1) -- o DataCrazy não tem campo customizado nem automação nativa pra isso (ver CADENCIA_INBOUND_DISCOVERY.md). As tarefas de cada toque, sim, são reais e aparecem no Calendário do SDR. \"Taxa de contato\" = % dos leads rastreados desse produto que já saíram da cadência por resposta real (ligação conectada, etapa avançou, ou mensagem). \"Perdas automáticas últimos 7d\" conta pelo horário do último toque, não é uma data de fechamento exata separada."
   }
 }
