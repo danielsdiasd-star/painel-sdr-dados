@@ -779,8 +779,44 @@ function sdrConversionHtml(sc) {
         </tfoot>
       </table>
     </div>
+    ${twoDayComparisonHtml(sc.comparacao2Dias)}
     ${monthCallsHtml(sc)}
   </section>`;
+}
+
+function twoDayComparisonHtml(cmp) {
+  if (!cmp || !cmp.porSdr || !cmp.porSdr.length) return "";
+  const rows = cmp.porSdr.map(r => {
+    const o = r.ontem || { ligacoesFeitas: 0, atendidas: 0, qualificados: 0 };
+    const h = r.hoje;
+    return `<tr class="${(o.ligacoesFeitas === 0 && h.ligacoesFeitas === 0) ? "zero" : ""}">
+      <td class="name">${r.name}</td>
+      <td class="n">${o.ligacoesFeitas}</td>
+      <td class="n">${o.atendidas}</td>
+      <td class="n">${o.qualificados}</td>
+      <td class="n">${h.ligacoesFeitas}</td>
+      <td class="n">${h.atendidas}</td>
+      <td class="n">${h.qualificados}</td>
+    </tr>`;
+  }).join("");
+
+  return `<div class="sales-col-title" style="margin-top:24px;">Comparação por SDR — dia ${cmp.diaOntem} × dia ${cmp.diaHoje}</div>
+    <div class="calls-table-wrap">
+      <table class="calls-table">
+        <thead>
+          <tr>
+            <th rowspan="2" style="vertical-align:bottom;">SDR</th>
+            <th colspan="3" style="text-align:center;">Dia ${cmp.diaOntem}</th>
+            <th colspan="3" style="text-align:center;">Dia ${cmp.diaHoje}</th>
+          </tr>
+          <tr>
+            <th>Ligações</th><th>Atendidas</th><th>Qualificados</th>
+            <th>Ligações</th><th>Atendidas</th><th>Qualificados</th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>`;
 }
 
 function fmtH(h) {
