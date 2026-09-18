@@ -1,24 +1,24 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-17T23:13:06Z",
+    "generatedAt": "2026-09-18T02:00:24Z",
     "items": [
       {
-        "titulo": "Aumento de leads parados no funil Global Pro Pika",
-        "detalhe": "Leads parados por mais de 3 dias subiram para 3.064, um aumento contínuo nas últimas 24h (2.882 anteriormente) e risco de perder vendas.",
+        "titulo": "Aumento no Total Aberto - Global Pro Pika",
+        "detalhe": "O total aberto de leads aumentou de 2024 para 2041 em 12 horas, marcando um crescimento diário de 222 leads nos últimos três dias, com uma tendência de aumento no número de leads parados há mais de 3 dias (1124).",
         "severidade": "alta",
         "atendente": "João Vitor"
       },
       {
-        "titulo": "Retenção de oportunidades perdidas aumenta",
-        "detalhe": "O número de leads 'em perdido mas ainda aberto' subiu para 31, com aumento constante desde a última medição em 23.",
-        "severidade": "media",
-        "atendente": "João Vitor"
+        "titulo": "Leads Parados - Global Pro Pika",
+        "detalhe": "O número de leads parados mais de 3 dias está alto, 1124 para João Vitor, 968 para Gabriel Silva e 1009 para Maicon Oliveira.",
+        "severidade": "alta",
+        "atendente": "todos"
       },
       {
-        "titulo": "Situação geral estável",
-        "detalhe": "Total de leads abertos está em 2.041, com fluxo de entradas ainda ativo, nenhuma ação imediata necessária.",
+        "titulo": "Tendência Geral - PÓS SANGUINÁRIA",
+        "detalhe": "Os números não indicam preocupações imediatas no funil de PÓS SANGUINÁRIA, com leads controlados.",
         "severidade": "baixa",
-        "atendente": null
+        "atendente": "null"
       }
     ]
   }
