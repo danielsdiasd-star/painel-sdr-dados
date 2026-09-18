@@ -1,14 +1,14 @@
 {
   "lossAnalysis": {
-    "generatedAt": "2026-09-17T14:27:24Z",
-    "totalAnalisado": 85,
+    "generatedAt": "2026-09-18T13:53:27Z",
+    "totalAnalisado": 89,
     "byPerson": [
       {
         "name": "João Vitor",
         "pipeline": "Comercial - Global Pro Pika",
-        "totalClassificado": 41,
-        "totalPerdidoNoFunil": 128,
-        "semTranscricao": 87,
+        "totalClassificado": 44,
+        "totalPerdidoNoFunil": 140,
+        "semTranscricao": 96,
         "porMotivo": [
           {
             "motivo": "ICP",
@@ -16,11 +16,11 @@
           },
           {
             "motivo": "Não tem Agenda",
-            "qtd": 12
+            "qtd": 14
           },
           {
             "motivo": "Não tem prioridade",
-            "qtd": 7
+            "qtd": 8
           },
           {
             "motivo": "Financeiro",
@@ -32,8 +32,8 @@
         "name": "Gabriel Silva",
         "pipeline": "Comercial - Global Pro Pika",
         "totalClassificado": 27,
-        "totalPerdidoNoFunil": 69,
-        "semTranscricao": 42,
+        "totalPerdidoNoFunil": 73,
+        "semTranscricao": 46,
         "porMotivo": [
           {
             "motivo": "Não tem Agenda",
@@ -53,8 +53,8 @@
         "name": "Maicon Oliveira",
         "pipeline": "Comercial - Global Pro Pika",
         "totalClassificado": 7,
-        "totalPerdidoNoFunil": 48,
-        "semTranscricao": 41,
+        "totalPerdidoNoFunil": 60,
+        "semTranscricao": 53,
         "porMotivo": [
           {
             "motivo": "ICP",
@@ -77,8 +77,8 @@
       {
         "name": "Kaio Ikeda",
         "pipeline": "Comercial - PÓS SANGUINÁRIA",
-        "totalClassificado": 7,
-        "totalPerdidoNoFunil": 19,
+        "totalClassificado": 8,
+        "totalPerdidoNoFunil": 20,
         "semTranscricao": 12,
         "porMotivo": [
           {
@@ -87,7 +87,7 @@
           },
           {
             "motivo": "Não é o decisor",
-            "qtd": 1
+            "qtd": 2
           },
           {
             "motivo": "Não tem prioridade",
@@ -111,20 +111,6 @@
     ],
     "samples": [
       {
-        "leadName": "Cristiano",
-        "attendantName": "Kaio Ikeda",
-        "role": "closer",
-        "motivoIA": "Não é o decisor",
-        "evidencia": "Cristiano mencionou que prefere permanecer em sua empresa atual, indicando que não tem autonomia para decidir mudar de emprego."
-      },
-      {
-        "leadName": "Felipe",
-        "attendantName": "Kaio Ikeda",
-        "role": "sdr",
-        "motivoIA": "ICP",
-        "evidencia": "Eu tô vendo aqui que hoje em dia você tá como um júnior, é isso mesmo?"
-      },
-      {
         "leadName": "Gabriel",
         "attendantName": "Kaio Ikeda",
         "role": "sdr",
@@ -139,11 +125,25 @@
         "evidencia": "Não há informações que indiquem que o interlocutor possui o perfil ou interesse um desenvolvimento relacionado."
       },
       {
+        "leadName": "Felipe",
+        "attendantName": "Kaio Ikeda",
+        "role": "sdr",
+        "motivoIA": "ICP",
+        "evidencia": "Eu tô vendo aqui que hoje em dia você tá como um júnior, é isso mesmo?"
+      },
+      {
         "leadName": "Joao",
         "attendantName": "Kaio Ikeda",
         "role": "sdr",
         "motivoIA": "ICP",
         "evidencia": "O cliente parece não ter o perfil técnico necessário para o produto."
+      },
+      {
+        "leadName": "Murilo Gama Costa Neto ",
+        "attendantName": "Kaio Ikeda",
+        "role": "closer",
+        "motivoIA": "Não é o decisor",
+        "evidencia": "Murilo menciona que não está procurando ativamente e recebeu uma vaga por indicação."
       },
       {
         "leadName": "Kaio",
