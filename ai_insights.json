@@ -1,24 +1,24 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-18T13:14:02Z",
+    "generatedAt": "2026-09-18T18:09:38Z",
     "items": [
       {
-        "titulo": "Aumento de leads parados na Global Pro Pika",
-        "detalhe": "Total agora é 3663 leads parados (+60 em relação ao último registro), tendência crescente nas últimas 3 leituras com alta de 128 em 24h.",
+        "titulo": "Atenção ao aumento de leads parados mais de 3 dias no funil Global Pro Pika",
+        "detalhe": "Atualmente, há 4 leads parados mais de 3 dias em cada um dos atendentes, totalizando 4. Este número tem piorado constantemente, subindo de 1064 para 1133 em 9 horas, um aumento significativo e preocupante.",
         "severidade": "alta",
         "atendente": "João Vitor"
       },
       {
-        "titulo": "Perdas potenciais na Global Pro Pika",
-        "detalhe": "Risco de perda com 38 negócios em aberto na coluna 'Perdido' e 3 novos em processo, total 41 potenciais perdas.",
+        "titulo": "Necessidade de follow-up nas vendas perdidas",
+        "detalhe": "João Vitor tem 3 negócios em 'perdido' ainda abertos, com risco de serem negligenciados. Essa situação está se repetindo entre os atendentes.",
         "severidade": "media",
         "atendente": "João Vitor"
       },
       {
-        "titulo": "Situação estável na PÓS SANGUINÁRIA",
-        "detalhe": "Os números na PÓS SANGUINÁRIA estão estáveis, sem aumentos preocupantes, apenas ajuste de prioridades na comunicação.",
+        "titulo": "Embora haja algumas pendências, nenhuma situação é classificada como crítica no momento.",
+        "detalhe": "",
         "severidade": "baixa",
-        "atendente": "null"
+        "atendente": null
       }
     ]
   }
