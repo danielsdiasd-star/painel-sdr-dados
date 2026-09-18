@@ -1,24 +1,24 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-18T07:41:48Z",
+    "generatedAt": "2026-09-18T13:14:02Z",
     "items": [
       {
-        "titulo": "Aumentar taxa de follow-up dos leads parados",
-        "detalhe": "O total de leads parados mais de 3 dias está em 3.905, com uma tendência de aumento nos últimos dias (3.153, 3.305, 3.457)",
+        "titulo": "Aumento de leads parados na Global Pro Pika",
+        "detalhe": "Total agora é 3663 leads parados (+60 em relação ao último registro), tendência crescente nas últimas 3 leituras com alta de 128 em 24h.",
         "severidade": "alta",
         "atendente": "João Vitor"
       },
       {
-        "titulo": "Revisar leads perdidos sem confirmação",
-        "detalhe": "O time tem 31 leads perdidos ainda abertos, que requerem verificação do status, acumulando 4 leads perdidos desde o dia 16.",
+        "titulo": "Perdas potenciais na Global Pro Pika",
+        "detalhe": "Risco de perda com 38 negócios em aberto na coluna 'Perdido' e 3 novos em processo, total 41 potenciais perdas.",
         "severidade": "media",
         "atendente": "João Vitor"
       },
       {
-        "titulo": "Volume de novos leads estagnado",
-        "detalhe": "Entradas de ontem totalizaram 120 leads, mantendo-se estável sem crescimento significativo nas últimas horas.",
+        "titulo": "Situação estável na PÓS SANGUINÁRIA",
+        "detalhe": "Os números na PÓS SANGUINÁRIA estão estáveis, sem aumentos preocupantes, apenas ajuste de prioridades na comunicação.",
         "severidade": "baixa",
-        "atendente": null
+        "atendente": "null"
       }
     ]
   }
