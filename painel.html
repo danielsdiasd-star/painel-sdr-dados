@@ -734,6 +734,39 @@ function toggleAtrasadasPanel() {
   if (!panel.hidden) panel.scrollIntoView({ behavior: "smooth", block: "nearest" });
 }
 
+function businessDetailPanelHtml(panelId, title, items, totalReal) {
+  if (!items || !items.length) return "";
+  const rows = items.map(t => {
+    const pipelineLink = t.pipelineId
+      ? `<a class="abrir" href="https://crm.datacrazy.io/pipelines/${t.pipelineId}" target="_blank" rel="noopener">abrir pipeline →</a>`
+      : "";
+    const detalhe = [t.pipeline, t.etapa].filter(Boolean).join(" · ");
+    return `<div class="atrasadas-row">
+      <span class="lead">${t.leadName || "—"}</span>
+      <span class="titulo">${detalhe}</span>
+      <span class="att">${t.attendantName}</span>
+      <span class="dias">${t.diasParado}d parado</span>
+      ${pipelineLink}
+    </div>`;
+  }).join("");
+  const countLabel = totalReal && totalReal > items.length
+    ? `mostrando os ${items.length} mais parados de ${totalReal}`
+    : `${items.length}`;
+  return `<div class="atrasadas-panel" id="${panelId}" hidden>
+    <h3>${title} (${countLabel}) — mais parado primeiro</h3>
+    <div class="atrasadas-list">${rows}</div>
+  </div>`;
+}
+
+function toggleDetailPanel(panelId, tileId) {
+  const panel = document.getElementById(panelId);
+  const tile = document.getElementById(tileId);
+  if (!panel) return;
+  panel.hidden = !panel.hidden;
+  if (tile) tile.classList.toggle("open", !panel.hidden);
+  if (!panel.hidden) panel.scrollIntoView({ behavior: "smooth", block: "nearest" });
+}
+
 function noteToggle(short, full) {
   if (!full) return `<div class="note-line">${short}</div>`;
   return `<details class="note-toggle">
@@ -1160,12 +1193,15 @@ function render(data) {
   html += `<div class="kpi-row">
     <div class="kpi"><div class="label">Negócios em aberto</div><div class="value">${data.openTotal}</div><div class="sub">nos 2 funis rastreados</div></div>
     <div class="kpi"><div class="label">Entraram ontem</div><div class="value">${data.yesterdayTotal}</div><div class="sub">novos negócios criados</div></div>
-    <div class="kpi flag"><div class="label">Parados +3 dias sem mover</div><div class="value">${totalParados}</div><div class="sub">sem movimentação de etapa</div></div>
-    <div class="kpi flag critical"><div class="label">Em Ganho sem fechar</div><div class="value">${totalEmGanho}</div><div class="sub">venda parece feita, ninguém confirmou</div></div>
-    <div class="kpi flag warn"><div class="label">Em Perdido sem fechar</div><div class="value">${totalEmPerdido}</div><div class="sub">parece perdido, ninguém confirmou</div></div>
+    <div id="kpi-parados" class="kpi flag ${totalParados > 0 ? "clickable" : ""}" ${totalParados > 0 ? 'onclick="toggleDetailPanel(\'parados-panel\',\'kpi-parados\')"' : ""}><div class="label">Parados +3 dias sem mover</div><div class="value">${totalParados}</div><div class="sub">sem movimentação de etapa</div>${totalParados > 0 ? '<div class="hint">ver quais</div>' : ""}</div>
+    <div id="kpi-ganho" class="kpi flag critical ${totalEmGanho > 0 ? "clickable" : ""}" ${totalEmGanho > 0 ? 'onclick="toggleDetailPanel(\'ganho-panel\',\'kpi-ganho\')"' : ""}><div class="label">Em Ganho sem fechar</div><div class="value">${totalEmGanho}</div><div class="sub">venda parece feita, ninguém confirmou</div>${totalEmGanho > 0 ? '<div class="hint">ver quais</div>' : ""}</div>
+    <div id="kpi-perdido" class="kpi flag warn ${totalEmPerdido > 0 ? "clickable" : ""}" ${totalEmPerdido > 0 ? 'onclick="toggleDetailPanel(\'perdido-panel\',\'kpi-perdido\')"' : ""}><div class="label">Em Perdido sem fechar</div><div class="value">${totalEmPerdido}</div><div class="sub">parece perdido, ninguém confirmou</div>${totalEmPerdido > 0 ? '<div class="hint">ver quais</div>' : ""}</div>
     ${totalAtrasadas !== null ? `<div id="kpi-atrasadas" class="kpi flag ${totalAtrasadas > 0 ? "critical" : "good"} ${totalAtrasadas > 0 ? "clickable" : ""}" ${totalAtrasadas > 0 ? 'onclick="toggleAtrasadasPanel()"' : ""}><div class="label">Tarefas atrasadas</div><div class="value">${totalAtrasadas}</div><div class="sub">no Calendário, prazo já passou</div>${totalAtrasadas > 0 ? '<div class="hint">ver quais</div>' : ""}</div>` : ""}
   </div>`;
 
+  html += businessDetailPanelHtml("parados-panel", "Negócios parados +3 dias", data.paradosDetalhe, data.paradosDetalheTotal);
+  html += businessDetailPanelHtml("ganho-panel", "Em Ganho sem fechar", data.ganhoSemFecharDetalhe);
+  html += businessDetailPanelHtml("perdido-panel", "Em Perdido sem fechar", data.perdidoSemFecharDetalhe);
   html += atrasadasPanelHtml(atividades && atividades.atrasadasDetalhe);
 
   html += filaDiscadorHtml(data.filaDiscador3c);
