@@ -248,6 +248,15 @@
   table.calls-table tfoot td { padding: 12px 16px; font-family: "IBM Plex Mono", monospace; font-weight: 700; border-top: 2px solid var(--line); }
   table.calls-table tfoot td.name { font-family: "Bricolage Grotesque", sans-serif; }
 
+  .note-line { font-size: 13.5px; color: var(--muted); margin-bottom: 14px; max-width: 90ch; }
+  .note-toggle { margin-bottom: 14px; }
+  .note-toggle summary { cursor: pointer; font-size: 13px; color: var(--muted); list-style: none; display: flex; align-items: center; gap: 6px; }
+  .note-toggle summary::-webkit-details-marker { display: none; }
+  .note-toggle summary::before { content: "ⓘ"; font-size: 11px; color: var(--accent); }
+  .note-toggle summary .label { text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 3px; }
+  .note-toggle[open] summary { color: var(--ink); margin-bottom: 6px; }
+  .note-toggle-body { font-size: 12.5px; color: var(--muted-2); max-width: 85ch; padding-left: 17px; }
+
   .glossary { margin-bottom: 20px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); overflow: hidden; }
   .glossary summary { cursor: pointer; padding: 12px 18px; font-family: "Bricolage Grotesque", sans-serif; font-weight: 700; font-size: 13.5px; color: var(--accent); list-style: none; display: flex; align-items: center; gap: 8px; }
   .glossary summary::-webkit-details-marker { display: none; }
@@ -488,7 +497,7 @@ function funnelHtml(funnel) {
   }).join("");
   return `<div class="funnel-box">
     <div class="funnel-title">Funil de conversão (snapshot atual, ${funnel.conversaoTotalPct !== null ? funnel.conversaoTotalPct + "% do topo até GANHO" : "sem dados"})</div>
-    <div class="funnel-note">${funnel.nota || ""} Os % são "quem está nesta etapa ou à frente ÷ quem está na anterior ou à frente" — mede acúmulo/gargalo agora, não taxa histórica de conversão por coorte.</div>
+    ${noteToggle("Retrato de agora — não é taxa histórica de conversão.", `${funnel.nota || ""} Os % são "quem está nesta etapa ou à frente ÷ quem está na anterior ou à frente" — mede acúmulo/gargalo agora, não taxa histórica de conversão por coorte.`)}
     <div class="funnel-chart">
       ${funnelSvg(funnel)}
       <div class="funnel-cols">${cols}</div>
@@ -544,7 +553,7 @@ function vendasFechadasHtml(vf) {
 
   return `<section class="sales">
     <h2>Vendas fechadas</h2>
-    <div class="sub">Busca direto pela etapa GANHO com status confirmado ("won") no CRM — independente de atendente e sem o limite de requisições das outras métricas, então pega a venda mesmo que ninguém tenha vinculado atendente ainda.</div>
+    ${noteToggle("Vendas confirmadas (GANHO) no CRM.", 'Busca direto pela etapa GANHO com status confirmado ("won") no CRM — independente de atendente e sem o limite de requisições das outras métricas, então pega a venda mesmo que ninguém tenha vinculado atendente ainda.')}
     <div class="sales-hero">
       <div class="hero-label">Total confirmado</div>
       <div class="hero-row">
@@ -642,7 +651,7 @@ function metaMensalHtml(mm) {
 
   return `<section class="sales">
     <h2>Meta do mês</h2>
-    <div class="sub">${mm.nota || ""}</div>
+    ${noteToggle("Baseado em vendas confirmadas (GANHO) fechadas este mês, fuso Brasília.", mm.nota)}
     <div class="sales-hero">
       <div class="hero-label">Vendido este mês (dia ${mm.diaAtualDoMes} de ${mm.diasNoMes})</div>
       <div class="hero-row">
@@ -673,6 +682,14 @@ function metaMensalHtml(mm) {
 
 function pct(v) { return v === null || v === undefined ? "—" : v + "%"; }
 
+function noteToggle(short, full) {
+  if (!full) return `<div class="note-line">${short}</div>`;
+  return `<details class="note-toggle">
+    <summary><span class="label">${short}</span></summary>
+    <div class="note-toggle-body">${full}</div>
+  </details>`;
+}
+
 function monthCallsSvg(serie) {
   if (!serie || !serie.length) return "";
   const W = 1000, H = 150;
@@ -688,7 +705,7 @@ function monthCallsSvg(serie) {
     const marcador = d.reunioesMarcadas > 0
       ? `<circle cx="${x + barW / 2}" cy="${Math.max(y - 10, 10)}" r="5" class="month-dot"></circle>`
       : "";
-    const showLabel = d.dia === 1 || d.dia === n || d.dia % 5 === 0;
+    const showLabel = i === 0 || i === n - 1 || d.dia % 5 === 0;
     const label = showLabel ? `<text x="${x + barW / 2}" y="${H - 4}" class="month-day-label" text-anchor="middle">${d.dia}</text>` : "";
     const title = d.semDado ? `Dia ${d.dia}: sem dado (painel não rodou)` : `Dia ${d.dia}: ${d.ligacoesFeitas} ligações, ${d.reunioesMarcadas} reunião(ões) marcada(s)`;
     return `<rect x="${x}" y="${y}" width="${barW}" height="${Math.max(h, 2)}" rx="2" class="${cls}"><title>${title}</title></rect>${marcador}${label}`;
@@ -697,11 +714,16 @@ function monthCallsSvg(serie) {
 }
 
 function monthCallsHtml(sc) {
-  const serie = sc && sc.serieDiariaMes;
-  if (!serie || !serie.length) return "";
+  const serieCompleta = sc && sc.serieDiariaMes;
+  if (!serieCompleta || !serieCompleta.length) return "";
+  // Corta os dias iniciais sem dado nenhum (painel ainda nao rodava) -- mostrar
+  // so a partir do 1o dia com dado real evita um grafico com metade vazia.
+  const primeiroComDado = serieCompleta.findIndex(d => !d.semDado);
+  const serie = primeiroComDado > 0 ? serieCompleta.slice(primeiroComDado) : serieCompleta;
+  if (!serie.length) return "";
   return `<div class="funnel-box" style="margin-top:16px;">
-    <div class="funnel-title">Ligações e reuniões por dia (mês atual)</div>
-    <div class="funnel-note">Barra = ligações feitas no dia (time todo). Bolinha verde = quantas reuniões foram marcadas naquele dia. Barra cinza clara = dia em que o painel não rodou nenhuma vez (sem dado, não é zero de verdade).</div>
+    <div class="funnel-title">Ligações e reuniões por dia</div>
+    ${noteToggle("Barra = ligações no dia. Bolinha verde = reunião marcada.", "Barra = ligações feitas no dia (time todo). Bolinha verde = quantas reuniões foram marcadas naquele dia. Barra cinza clara = dia em que o painel não rodou nenhuma vez (sem dado, não é zero de verdade). Dias anteriores sem nenhum dado ficam ocultos.")}
     ${monthCallsSvg(serie)}
     <div class="stage-legend">
       <span><span class="sw" style="background:var(--accent-soft)"></span>Ligações feitas</span>
@@ -750,7 +772,7 @@ function sdrConversionHtml(sc) {
 
   return `<section class="calls">
     <h2>Conversão por SDR (hoje, ${sc.data ? sc.data.split("-").reverse().join("/") : ""})</h2>
-    <div class="sub">${sc.nota || ""}</div>
+    ${noteToggle("Ligações feitas hoje pela 3C Plus, fuso Brasília.", sc.nota)}
     ${trendHtml}
     <div class="calls-table-wrap">
       <table class="calls-table">
@@ -856,7 +878,7 @@ function funnelConversionHtml(fc) {
 
   return `<section class="calls">
     <h2>Funil SDR → Closer (janela de ${fc.janelaDias} dias + acumulado)</h2>
-    <div class="sub">${fc.nota || ""}</div>
+    ${noteToggle("Esforço e resultado por SDR — últimos 7 dias + reuniões acumuladas desde que o rastreamento começou.", fc.nota)}
 
     <div class="sales-col-title" style="margin-top:8px;">Esforço x resultado por SDR</div>
     <div class="calls-table-wrap" style="margin-bottom:24px;">
@@ -974,7 +996,7 @@ function filaDiscadorHtml(fd) {
 
   return `${alertBox}<section class="calls">
     <h2>Fila de discagem ao vivo (3C)</h2>
-    <div class="sub">${fd.nota || ""}</div>
+    ${noteToggle("Fila de discagem ao vivo na 3C Plus — só campanhas do Global Pro Pika.", fd.nota)}
     <div class="calls-table-wrap">
       <table class="calls-table">
         <thead>
@@ -1012,7 +1034,7 @@ function activitiesTrackingHtml(at) {
 
   return `<section class="calls">
     <h2>Atividades (tarefas do Calendário) por atendente</h2>
-    <div class="sub">${at.nota || ""} Veja em <span class="mono">crm.datacrazy.io/calendar</span>, aba "Pendentes", filtrando por atendente.</div>
+    ${noteToggle('Tarefas do Calendário do DataCrazy, por atendente. Veja em crm.datacrazy.io/calendar, aba "Pendentes".', at.nota)}
     <div class="calls-table-wrap">
       <table class="calls-table">
         <thead>
