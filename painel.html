@@ -713,7 +713,7 @@ function crmLink(pipelineId, leadName) {
   return `<a class="abrir" href="https://crm.datacrazy.io/pipelines/${pipelineId}${q}" target="_blank" rel="noopener" title="Abre o funil já filtrado nesse cliente">abrir no CRM →</a>`;
 }
 
-function atrasadasPanelHtml(lista) {
+function atrasadasPanelHtml(lista, totalReal) {
   if (!lista || !lista.length) return "";
   const rows = lista.map(t => {
     const pipelineLink = crmLink(t.pipelineId, t.leadName);
@@ -726,7 +726,7 @@ function atrasadasPanelHtml(lista) {
     </div>`;
   }).join("");
   return `<div class="atrasadas-panel" id="atrasadas-panel" hidden>
-    <h3>Tarefas atrasadas (${lista.length}) — mais antiga primeiro</h3>
+    <h3>Tarefas atrasadas (${totalReal && totalReal > lista.length ? `mostrando as ${lista.length} mais antigas de ${totalReal}` : lista.length}) — mais antiga primeiro</h3>
     <div class="atrasadas-list">${rows}</div>
   </div>`;
 }
@@ -1224,7 +1224,7 @@ function render(data) {
   html += businessDetailPanelHtml("parados-panel", "Negócios parados +3 dias", data.paradosDetalhe, data.paradosDetalheTotal);
   html += businessDetailPanelHtml("ganho-panel", "Em Ganho sem fechar", data.ganhoSemFecharDetalhe);
   html += businessDetailPanelHtml("perdido-panel", "Em Perdido sem fechar", data.perdidoSemFecharDetalhe);
-  html += atrasadasPanelHtml(atividades && atividades.atrasadasDetalhe);
+  html += atrasadasPanelHtml(atividades && atividades.atrasadasDetalhe, atividades && atividades.atrasadasDetalheTotal);
 
   html += filaDiscadorHtml(data.filaDiscador3c);
 
