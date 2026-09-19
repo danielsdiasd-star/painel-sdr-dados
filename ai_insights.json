@@ -1,24 +1,24 @@
 {
   "aiInsights": {
-    "generatedAt": "2026-09-19T14:03:38Z",
+    "generatedAt": "2026-09-19T17:56:44Z",
     "items": [
       {
-        "titulo": "Aumento significativo de leads parados no pipeline Global Pro Pika",
-        "detalhe": "Total de leads parados por mais de 3 dias subiu para 1331, um aumento de 107 casos em relação à última leitura, indicando um agravamento da situação.",
+        "titulo": "Aumento significativo de leads parados",
+        "detalhe": "Total parados há mais de 3 dias subiu para 3893, um aumento contínuo nas últimas 5 leituras, sendo 1332 apenas no último acompanhamento.",
         "severidade": "alta",
-        "atendente": "João Vitor"
+        "atendente": "null"
       },
       {
-        "titulo": "Seguimento de leads perdidos e em risco de fechamento",
-        "detalhe": "Total de leads marcados como perdidos aumentou para 4, sendo 1 deles no funil Pós Sanguinária. É crítico verificar esses casos.",
+        "titulo": "Total de leads abertos em Global Pro Pika",
+        "detalhe": "Total aberto chegou a 6565, com tendência de crescimento das 5 últimas leituras consecutivas.",
         "severidade": "media",
-        "atendente": "Maicon Oliveira"
+        "atendente": "null"
       },
       {
-        "titulo": "Nada de realmente preocupante em outros aspectos",
-        "detalhe": "",
-        "severidade": "baixa",
-        "atendente": null
+        "titulo": "Leads perdidos na última etapa",
+        "detalhe": "Leads ainda com status de perdidos cresceram para 47, sendo alerta para follow-ups.",
+        "severidade": "media",
+        "atendente": "null"
       }
     ]
   }
